@@ -1,0 +1,18 @@
+<root>
+    <item
+        name='android.arch.core.internal.SafeIterableMap java.util.Iterator&lt;java.util.Map.Entry&lt;K,V&gt;&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.core.internal.SafeIterableMap android.arch.core.internal.SafeIterableMap&lt;K,V&gt;.IteratorWithAdditions iteratorWithAdditions()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.core.internal.SafeIterableMap java.util.Iterator&lt;java.util.Map.Entry&lt;K,V&gt;&gt; descendingIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.core.internal.SafeIterableMap android.arch.core.internal.SafeIterableMap.Entry&lt;K,V&gt; put(K, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

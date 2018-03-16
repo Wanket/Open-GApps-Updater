@@ -1,0 +1,63 @@
+<root>
+    <item
+        name='org.hamcrest.beans.HasPropertyWithValue void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.HasProperty org.hamcrest.Matcher&lt;T&gt; hasProperty(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.HasPropertyWithValue boolean matchesSafely(T, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.SamePropertyValuesAs.PropertyMatcher void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.beans.HasProperty void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.HasPropertyWithValue org.hamcrest.Matcher&lt;T&gt; hasProperty(java.lang.String, org.hamcrest.Matcher&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.beans.PropertyUtil NO_ARGUMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.PropertyUtil java.beans.PropertyDescriptor[] propertyDescriptorsFor(java.lang.Object, java.lang.Class&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.HasProperty void describeMismatchSafely(T, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.SamePropertyValuesAs boolean matchesSafely(T, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.SamePropertyValuesAs.PropertyMatcher PropertyMatcher(java.beans.PropertyDescriptor, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.SamePropertyValuesAs org.hamcrest.Matcher&lt;T&gt; samePropertyValuesAs(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.SamePropertyValuesAs void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.SamePropertyValuesAs org.hamcrest.Matcher&lt;T&gt; samePropertyValuesAs(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.beans.SamePropertyValuesAs SamePropertyValuesAs(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.beans.PropertyUtil java.beans.PropertyDescriptor getPropertyDescriptor(java.lang.String, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -1,0 +1,52 @@
+<root>
+    <item
+        name='org.hamcrest.object.IsCompatibleType void describeMismatchSafely(java.lang.Class&lt;?&gt;, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsCompatibleType void describeMismatchSafely(java.lang.Class&lt;?&gt;, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsEventFrom boolean matchesSafely(java.util.EventObject, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.object.IsCompatibleType void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsCompatibleType void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsCompatibleType void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.HasToString org.hamcrest.Matcher&lt;T&gt; hasToString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsEventFrom org.hamcrest.Matcher&lt;java.util.EventObject&gt; eventFrom(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.object.IsEventFrom void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsEventFrom org.hamcrest.Matcher&lt;java.util.EventObject&gt; eventFrom(java.lang.Class&lt;? extends java.util.EventObject&gt;, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.HasToString org.hamcrest.Matcher&lt;T&gt; hasToString(org.hamcrest.Matcher&lt;? super java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsCompatibleType org.hamcrest.Matcher&lt;java.lang.Class&lt;?&gt;&gt; typeCompatibleWith(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.object.IsEventFrom boolean matchesSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

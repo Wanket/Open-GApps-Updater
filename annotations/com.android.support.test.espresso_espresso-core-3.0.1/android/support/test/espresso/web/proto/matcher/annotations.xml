@@ -1,0 +1,554 @@
+<root>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder setXpath(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder mergeElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder clearElementMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setXpath(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setBodyMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setElementId(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setBodyMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setElementId(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder clearTextContentMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setBodyMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setBodyMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder mergeTextContentMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setXpath(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder clearElementId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder clearElementId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder setXpath(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder clearBodyMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder mergeBodyMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder clearXpath()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder clearElementMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setTextContentMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setTextContentMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder setElementId(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setTextContentMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder setElementId(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto.Builder setTextContentMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder mergeElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder setElementMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithIdMatcherProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByIdMatcherProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.ElementByXPathMatcherProto.Builder clearXpath()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithTextContentMatcherProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.HasElementWithXPathMatcherProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto android.support.test.espresso.web.proto.matcher.RemoteWebMatchers.WithBodyMatcherProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

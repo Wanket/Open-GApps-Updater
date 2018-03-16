@@ -1,0 +1,314 @@
+<root>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void sendCustomAction(java.lang.Object, java.lang.String, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder addCustomAction(android.support.v4.media.session.PlaybackStateCompat.CustomAction)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat void registerCallback(android.support.v4.media.session.MediaControllerCompat.Callback, android.os.Handler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setBufferedPosition(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat MediaControllerCompat(android.content.Context, android.support.v4.media.session.MediaSessionCompat.Token) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.ParcelableVolumeInfo void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.IMediaSession void playFromUri(android.net.Uri, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.media.session.IMediaControllerCallback.Stub android.os.IBinder asBinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat android.support.v4.media.session.MediaControllerCompat getController()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.PlaybackInfo int getMaxVolume(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void play(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi24.TransportControls void prepareFromMediaId(java.lang.Object, java.lang.String, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat void removeOnActiveChangeListener(android.support.v4.media.session.MediaSessionCompat.OnActiveChangeListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setActiveQueueItemId(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void setRating(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat void registerCallback(android.support.v4.media.session.MediaControllerCompat.Callback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat ARGUMENT_MEDIA_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder addCustomAction(android.support.v4.media.session.PlaybackStateCompat.CustomAction) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat void setPlaybackToRemote(android.support.v4.media.VolumeProviderCompat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void stop(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaButtonReceiver android.app.PendingIntent buildMediaButtonPendingIntent(android.content.Context, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.PlaybackInfo int getVolumeControl(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void seekTo(java.lang.Object, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat.TransportControls EXTRA_LEGACY_STREAM_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi23.TransportControls void playFromUri(java.lang.Object, android.net.Uri, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat.QueueItem QueueItem(android.support.v4.media.MediaDescriptionCompat, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void playFromMediaId(java.lang.Object, java.lang.String, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.PlaybackInfo int getCurrentVolume(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setErrorMessage(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.ParcelableVolumeInfo ParcelableVolumeInfo(android.os.Parcel) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.PlaybackStateCompat CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat.TransportControls void playFromUri(android.net.Uri, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.v4.media.session.IMediaSession.Stub android.os.IBinder asBinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat MediaSessionCompat(android.content.Context, java.lang.String, android.content.ComponentName, android.app.PendingIntent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.PlaybackInfo int getPlaybackType(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void skipToPrevious(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat MediaSessionCompat(android.content.Context, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder addCustomAction(java.lang.String, java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi24.TransportControls void prepareFromSearch(java.lang.Object, java.lang.String, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi24.TransportControls void prepareFromUri(java.lang.Object, android.net.Uri, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setExtras(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat.TransportControls void sendCustomAction(android.support.v4.media.session.PlaybackStateCompat.CustomAction, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.v4.media.session.PlaybackStateCompat.CustomAction CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void pause(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat ACTION_FOLLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void playFromSearch(java.lang.Object, java.lang.String, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.CustomAction.Builder android.support.v4.media.session.PlaybackStateCompat.CustomAction build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void fastForward(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat.QueueItem void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat ACTION_UNFOLLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat.Token void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat void unregisterCallback(android.support.v4.media.session.MediaControllerCompat.Callback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder Builder(android.support.v4.media.session.PlaybackStateCompat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void skipToNext(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat boolean dispatchMediaButtonEvent(android.view.KeyEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setState(int, long, float, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.CustomAction void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.PlaybackInfo int getLegacyAudioStream(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.ParcelableVolumeInfo CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setErrorMessage(int, java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompat MediaControllerCompat(android.content.Context, android.support.v4.media.session.MediaSessionCompat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi24.TransportControls void prepare(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void skipToQueueItem(java.lang.Object, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setActions(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat.QueueItem CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.Builder android.support.v4.media.session.PlaybackStateCompat.Builder setState(int, long, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat ARGUMENT_MEDIA_ATTRIBUTE_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.TransportControls void rewind(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.PlaybackStateCompat.CustomAction.Builder android.support.v4.media.session.PlaybackStateCompat.CustomAction.Builder setExtras(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.IMediaSession void sendCommand(java.lang.String, android.os.Bundle, android.support.v4.media.session.MediaSessionCompat.ResultReceiverWrapper) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaSessionCompat void addOnActiveChangeListener(android.support.v4.media.session.MediaSessionCompat.OnActiveChangeListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.media.session.MediaControllerCompatApi21.PlaybackInfo android.media.AudioAttributes getAudioAttributes(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat ACTION_FLAG_AS_INAPPROPRIATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat ACTION_SKIP_AD'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.media.session.MediaSessionCompat.Token CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

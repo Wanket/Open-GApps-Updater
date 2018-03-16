@@ -1,0 +1,30 @@
+<root>
+    <item
+        name='kotlin.internal.PlatformImplementations void addSuppressed(java.lang.Throwable, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.internal.PlatformImplementations void addSuppressed(java.lang.Throwable, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.internal.RequireKotlinVersionKind LANGUAGE_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.internal.PlatformImplementations kotlin.text.MatchGroup getMatchResultNamedGroup(java.util.regex.MatchResult, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.internal.PlatformImplementationsKt IMPLEMENTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.internal.PlatformImplementations kotlin.text.MatchGroup getMatchResultNamedGroup(java.util.regex.MatchResult, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.internal.RequireKotlinVersionKind COMPILER_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.internal.RequireKotlinVersionKind API_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

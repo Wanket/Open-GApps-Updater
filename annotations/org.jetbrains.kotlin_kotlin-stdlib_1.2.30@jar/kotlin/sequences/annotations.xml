@@ -1,0 +1,464 @@
+<root>
+    <item name='kotlin.sequences.DistinctSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropSequence kotlin.sequences.Sequence&lt;T&gt; take(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.TakeSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence kotlin.sequences.Sequence access$getSequence1$p(kotlin.sequences.MergingSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence TransformingSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropTakeSequence kotlin.sequences.Sequence&lt;T&gt; take(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropWhileSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.IndexingSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TakeWhileSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence kotlin.jvm.functions.Function1 access$getTransformer$p(kotlin.sequences.FlatteningSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TransformingIndexedSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence TakeWhileSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.IndexingSequence IndexingSequence(kotlin.sequences.Sequence&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence kotlin.jvm.functions.Function1 access$getPredicate$p(kotlin.sequences.FilteringSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence kotlin.jvm.functions.Function2 access$getTransformer$p(kotlin.sequences.TransformingIndexedSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence.iterator.1 java.util.Iterator&lt;T1&gt; getIterator1()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence kotlin.jvm.functions.Function1 access$getPredicate$p(kotlin.sequences.TakeWhileSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence FilteringSequence(kotlin.sequences.Sequence, boolean, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TransformingSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence FlatteningSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends R&gt;, kotlin.jvm.functions.Function1&lt;? super R,? extends java.util.Iterator&lt;? extends E&gt;&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.FlatteningSequence java.util.Iterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.SubSequence kotlin.sequences.Sequence&lt;T&gt; take(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.FilteringSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence TakeWhileSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.filterIsInstance.1 java.lang.Object invoke(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.sequences.IndexingSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.IndexingSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeSequence TakeSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.FlatteningSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TakeSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence FlatteningSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends R&gt;, kotlin.jvm.functions.Function1&lt;? super R,? extends java.util.Iterator&lt;? extends E&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence kotlin.sequences.Sequence access$getSequence2$p(kotlin.sequences.MergingSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt__SequencesKt.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.asIterable..inlined.Iterable.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence TransformingSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.FlatteningSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.DropSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.TakeSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence kotlin.jvm.functions.Function2 access$getTransformer$p(kotlin.sequences.TransformingIndexedSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TransformingIndexedSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TransformingSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.minus.3 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.IndexingSequence.iterator.1 java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SubSequence int access$getStartIndex$p(kotlin.sequences.SubSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence FilteringSequence(kotlin.sequences.Sequence, boolean, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TakeWhileSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropSequence kotlin.sequences.Sequence&lt;T&gt; drop(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.SequencesKt___SequencesKt.groupingBy.1 K keyOf(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.minus.2 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence FlatteningSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends R&gt;, kotlin.jvm.functions.Function1&lt;? super R,? extends java.util.Iterator&lt;? extends E&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence MergingSequence(kotlin.sequences.Sequence&lt;? extends T1&gt;, kotlin.sequences.Sequence&lt;? extends T2&gt;, kotlin.jvm.functions.Function2&lt;? super T1,? super T2,? extends V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.IndexingSequence.iterator.1 kotlin.collections.IndexedValue&lt;T&gt; next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence kotlin.jvm.functions.Function1 access$getTransformer$p(kotlin.sequences.TransformingSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence kotlin.jvm.functions.Function1 access$getTransformer$p(kotlin.sequences.FlatteningSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence DropWhileSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.SubSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.sortedWith.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DistinctSequence DistinctSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.IndexingSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.IndexingSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.TransformingSequence java.util.Iterator&lt;R&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence FilteringSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, boolean, kotlin.jvm.functions.Function1&lt;? super T,java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.TakeWhileSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.TakeSequence kotlin.sequences.Sequence&lt;T&gt; take(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.FilteringSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.SubSequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence.iterator.1 java.util.Iterator&lt;T2&gt; getIterator2()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence MergingSequence(kotlin.sequences.Sequence&lt;? extends T1&gt;, kotlin.sequences.Sequence&lt;? extends T2&gt;, kotlin.jvm.functions.Function2&lt;? super T1,? super T2,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.MergingSequence java.util.Iterator&lt;V&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SubSequence SubSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropSequence int access$getCount$p(kotlin.sequences.DropSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.TakeSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.minus.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.DropWhileSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.minus.4 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence DropWhileSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence TransformingIndexedSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function2&lt;? super java.lang.Integer,? super T,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence kotlin.jvm.functions.Function2 access$getTransform$p(kotlin.sequences.MergingSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SubSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.SubSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropSequence DropSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.DropSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.SubSequence kotlin.sequences.Sequence&lt;T&gt; drop(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence kotlin.jvm.functions.Function1 access$getPredicate$p(kotlin.sequences.DropWhileSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence kotlin.sequences.Sequence access$getSequence2$p(kotlin.sequences.MergingSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DistinctSequence DistinctSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,? extends K&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.SequencesKt___SequencesKt.filterIsInstance.1 INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.IndexingSequence java.util.Iterator&lt;kotlin.collections.IndexedValue&lt;T&gt;&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence java.util.Iterator&lt;R&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence kotlin.jvm.functions.Function1 access$getIterator$p(kotlin.sequences.FlatteningSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.groupingBy.1 java.util.Iterator&lt;T&gt; sourceIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeSequence int access$getCount$p(kotlin.sequences.TakeSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence kotlin.sequences.Sequence access$getSequence1$p(kotlin.sequences.MergingSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence TransformingIndexedSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.jvm.functions.Function2&lt;? super java.lang.Integer,? super T,? extends R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence kotlin.sequences.Sequence&lt;E&gt; flatten$kotlin_stdlib(kotlin.jvm.functions.Function1&lt;? super R,? extends java.util.Iterator&lt;? extends E&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.GeneratorSequence.iterator.1 T next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence FilteringSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, boolean, kotlin.jvm.functions.Function1&lt;? super T,java.lang.Boolean&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SubSequence int access$getEndIndex$p(kotlin.sequences.SubSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.TakeSequence kotlin.sequences.Sequence&lt;T&gt; drop(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence kotlin.jvm.functions.Function1 access$getTransformer$p(kotlin.sequences.TransformingSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.Sequence java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence boolean access$getSendWhen$p(kotlin.sequences.FilteringSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence MergingSequence(kotlin.sequences.Sequence&lt;? extends T1&gt;, kotlin.sequences.Sequence&lt;? extends T2&gt;, kotlin.jvm.functions.Function2&lt;? super T1,? super T2,? extends V&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingIndexedSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.DropWhileSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SubSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.SubSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.DropWhileSequence kotlin.jvm.functions.Function1 access$getPredicate$p(kotlin.sequences.DropWhileSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence kotlin.jvm.functions.Function1 access$getPredicate$p(kotlin.sequences.TakeWhileSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.sequences.DropTakeSequence kotlin.sequences.Sequence&lt;T&gt; drop(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence kotlin.jvm.functions.Function1 access$getPredicate$p(kotlin.sequences.FilteringSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt__SequencesKt.asSequence..inlined.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.MergingSequence kotlin.jvm.functions.Function2 access$getTransform$p(kotlin.sequences.MergingSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TakeWhileSequence.iterator.1 java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FlatteningSequence kotlin.jvm.functions.Function1 access$getIterator$p(kotlin.sequences.FlatteningSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.FilteringSequence kotlin.sequences.Sequence access$getSequence$p(kotlin.sequences.FilteringSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.SequencesKt___SequencesKt.sorted.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.sequences.TransformingSequence kotlin.sequences.Sequence&lt;E&gt; flatten$kotlin_stdlib(kotlin.jvm.functions.Function1&lt;? super R,? extends java.util.Iterator&lt;? extends E&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

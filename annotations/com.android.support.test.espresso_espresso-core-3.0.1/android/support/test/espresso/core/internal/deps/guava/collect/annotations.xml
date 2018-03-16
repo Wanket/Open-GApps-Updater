@@ -1,0 +1,530 @@
+<root>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.List&lt;T&gt; transform(java.util.List&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap&lt;K,V&gt; copyOf(java.util.Map&lt;? extends K,? extends V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Maps java.util.Map.Entry&lt;K,V&gt; immutableEntry(K, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables T getOnlyElement(java.lang.Iterable&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection T[] toArray(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder&lt;E&gt; add(E) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; of()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.Iterable&lt;T&gt; transform(java.lang.Iterable&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;T&gt; singletonIterator(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; of(E, E, E, E, E, E, E, E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.AbstractSequentialIterator T computeNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Ordering android.support.test.espresso.core.internal.deps.guava.collect.Ordering&lt;T&gt; from(java.util.Comparator&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList(java.util.Iterator&lt;? extends E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.Iterable&lt;T&gt; filter(java.lang.Iterable&lt;T&gt;, android.support.test.espresso.core.internal.deps.guava.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList(java.lang.Iterable&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range android.support.test.espresso.core.internal.deps.guava.collect.Range&lt;C&gt; closed(C, C)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators T getOnlyElement(java.util.Iterator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators T[] toArray(java.util.Iterator&lt;? extends T&gt;, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder&lt;E&gt; add(E) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.Iterable&lt;T&gt; transform(java.lang.Iterable&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; putAll(java.lang.Iterable&lt;? extends java.util.Map.Entry&lt;? extends K,? extends V&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range boolean contains(C) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList java.util.ListIterator listIterator(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableListIterator&lt;E&gt; listIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap&lt;K,V&gt; copyOf(java.lang.Iterable&lt;? extends java.util.Map.Entry&lt;? extends K,? extends V&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; of(E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;T&gt; filter(java.util.Iterator&lt;T&gt;, android.support.test.espresso.core.internal.deps.guava.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range boolean apply(C) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range android.support.test.espresso.core.internal.deps.guava.collect.Range&lt;C&gt; closed(C, C) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList java.util.ListIterator listIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet&lt;E&gt; of()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Ordering android.support.test.espresso.core.internal.deps.guava.collect.Ordering&lt;T&gt; from(java.util.Comparator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder&lt;E&gt; add(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.List&lt;T&gt; transform(java.util.List&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; subList(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder&lt;E&gt; add(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder&lt;E&gt; add(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayListWithCapacity(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ForwardingObject java.lang.Object delegate()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.ArrayBasedBuilder add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;T&gt; filter(java.util.Iterator&lt;T&gt;, android.support.test.espresso.core.internal.deps.guava.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder&lt;E&gt; builder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range android.support.test.espresso.core.internal.deps.guava.collect.Range&lt;C&gt; all()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder&lt;E&gt; add(E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.List&lt;T&gt; transform(java.util.List&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators java.util.Iterator&lt;T&gt; transform(java.util.Iterator&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder&lt;E&gt; add(E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap&lt;K,V&gt; build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableListIterator&lt;E&gt; listIterator(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; copyOf(E[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder&lt;E&gt; add(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; copyOf(java.util.Collection&lt;? extends E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables T[] toArray(java.lang.Iterable&lt;? extends T&gt;, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder&lt;E&gt; add(E) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;T&gt; filter(java.util.Iterator&lt;T&gt;, android.support.test.espresso.core.internal.deps.guava.base.Predicate&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators java.util.Iterator&lt;T&gt; transform(java.util.Iterator&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.String toString(java.lang.Iterable&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap&lt;K,V&gt; copyOf(java.lang.Iterable&lt;? extends java.util.Map.Entry&lt;? extends K,? extends V&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder&lt;E&gt; builder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; of(E, E, E, E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; copyOf(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList java.util.List subList(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet&lt;E&gt; of(E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.Iterable&lt;T&gt; filter(java.lang.Iterable&lt;T&gt;, android.support.test.espresso.core.internal.deps.guava.base.Predicate&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.UnmodifiableIterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators boolean elementsEqual(java.util.Iterator&lt;?&gt;, java.util.Iterator&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.Iterable&lt;T&gt; transform(java.lang.Iterable&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators boolean addAll(java.util.Collection&lt;T&gt;, java.util.Iterator&lt;? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range android.support.test.espresso.core.internal.deps.guava.collect.Range&lt;C&gt; closed(C, C) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; asList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators java.util.Iterator&lt;T&gt; transform(java.util.Iterator&lt;F&gt;, android.support.test.espresso.core.internal.deps.guava.base.Function&lt;? super F,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; put(java.util.Map.Entry&lt;? extends K,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayListWithExpectedSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.ArrayBasedBuilder add(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; copyOf(E[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; putAll(java.lang.Iterable&lt;? extends java.util.Map.Entry&lt;? extends K,? extends V&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; asList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap&lt;K,V&gt; copyOf(java.util.Map&lt;? extends K,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet&lt;E&gt; copyOf(E[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators boolean elementsEqual(java.util.Iterator&lt;?&gt;, java.util.Iterator&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Ordering android.support.test.espresso.core.internal.deps.guava.collect.Ordering&lt;F&gt; onResultOf(android.support.test.espresso.core.internal.deps.guava.base.Function&lt;F,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder&lt;E&gt; add(E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators boolean addAll(java.util.Collection&lt;T&gt;, java.util.Iterator&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; put(java.util.Map.Entry&lt;? extends K,? extends V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.ArrayBasedBuilder add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder&lt;E&gt; add(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.LinkedList&lt;E&gt; newLinkedList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet&lt;E&gt; build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Maps java.util.HashMap&lt;K,V&gt; newHashMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Ordering android.support.test.espresso.core.internal.deps.guava.collect.Ordering&lt;F&gt; onResultOf(android.support.test.espresso.core.internal.deps.guava.base.Function&lt;F,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList(java.lang.Iterable&lt;? extends E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ObjectArrays T[] newArray(T[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterators java.lang.String toString(java.util.Iterator&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.ArrayBasedBuilder add(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Range boolean apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection java.lang.Object[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Lists java.util.ArrayList&lt;E&gt; newArrayList(java.util.Iterator&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; put(K, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; of(E, E, E, E, E, E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder&lt;E&gt; add(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; asList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet&lt;E&gt; of(E, E, E, E, E, E, E...) 6'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList&lt;E&gt; of(E, E, E, E, E, E, E, E, E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableList.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableCollection.Builder add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.Iterables java.lang.Iterable&lt;T&gt; filter(java.lang.Iterable&lt;T&gt;, android.support.test.espresso.core.internal.deps.guava.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet android.support.test.espresso.core.internal.deps.guava.collect.ImmutableSet&lt;E&gt; of(E) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder android.support.test.espresso.core.internal.deps.guava.collect.ImmutableMap.Builder&lt;K,V&gt; put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

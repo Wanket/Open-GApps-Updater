@@ -1,0 +1,79 @@
+<root>
+    <item
+        name='android.support.constraint.ConstraintLayout void onViewRemoved(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintSet void clone(android.support.constraint.ConstraintSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout.LayoutParams LayoutParams(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintSet void createVerticalChain(int, int, int, int, int[], float[], int) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.BuildConfig FLAVOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.ConstraintLayout VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.view.ViewGroup.LayoutParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.ConstraintSet void load(android.content.Context, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintSet void applyTo(android.support.constraint.ConstraintLayout) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.BuildConfig BUILD_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout.LayoutParams LayoutParams(android.support.constraint.ConstraintLayout.LayoutParams) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout android.view.ViewGroup.LayoutParams generateDefaultLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintSet void clone(android.support.constraint.ConstraintLayout) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.util.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.BuildConfig VERSION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintSet void createHorizontalChain(int, int, int, int, int[], float[], int) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.ConstraintLayout void onViewAdded(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.BuildConfig APPLICATION_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout android.support.constraint.ConstraintLayout.LayoutParams generateDefaultLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintLayout android.support.constraint.ConstraintLayout.LayoutParams generateLayoutParams(android.util.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.ConstraintSet void createHorizontalChainRtl(int, int, int, int, int[], float[], int) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

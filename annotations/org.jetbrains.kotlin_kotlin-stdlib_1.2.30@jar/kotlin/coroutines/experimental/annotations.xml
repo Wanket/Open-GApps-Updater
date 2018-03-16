@@ -1,0 +1,371 @@
+<root>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext CombinedContext(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.CoroutineContext.Element) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation SafeContinuation(kotlin.coroutines.experimental.Continuation&lt;? super T&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext kotlin.coroutines.experimental.CoroutineContext getLeft()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt void startCoroutine(kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, R, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.Continuation void resume(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element E get(kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.Continuation void resumeWithException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext E get(kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.EmptyCoroutineContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls E get(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yieldAll(java.util.Iterator&lt;? extends T&gt;, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.DefaultImpls kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.CoroutineContext) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation.Companion java.util.concurrent.atomic.AtomicReferenceFieldUpdater access$getRESULT$p(kotlin.coroutines.experimental.SafeContinuation.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation.Companion java.lang.Object access$getRESUMED$p(kotlin.coroutines.experimental.SafeContinuation.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls E get(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilderKt__SequenceBuilderKt.buildSequence..inlined.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext R fold(R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yield(T, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element R fold(R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yieldAll(java.lang.Iterable&lt;? extends T&gt;, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; createCoroutine(kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, R, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.SafeContinuation Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; createCoroutine(kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, R, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls E get(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext E get(kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.DefaultImpls kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation kotlin.coroutines.experimental.CoroutineContext getContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement E get(kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation.Companion java.lang.Object access$getUNDECIDED$p(kotlin.coroutines.experimental.SafeContinuation.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.CombinedContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls E get(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yieldAll(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.EmptyCoroutineContext kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; createCoroutine(kotlin.jvm.functions.Function1&lt;? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.EmptyCoroutineContext R fold(R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext kotlin.coroutines.experimental.CoroutineContext.Element getElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls R fold(kotlin.coroutines.experimental.CoroutineContext.Element, R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls R fold(kotlin.coroutines.experimental.ContinuationInterceptor, R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt void startCoroutine(kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, R, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation java.lang.Object access$getUNDECIDED$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor.DefaultImpls kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.ContinuationInterceptor, kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; createCoroutine(kotlin.jvm.functions.Function1&lt;? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation void resumeWithException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt; getKey()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.EmptyCoroutineContext INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation java.lang.Object access$getRESUMED$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; createCoroutine(kotlin.jvm.functions.Function1&lt;? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement R fold(R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.ContinuationInterceptor Key'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element.DefaultImpls kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Element, kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.EmptyCoroutineContext kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.EmptyCoroutineContext kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext.Element kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.EmptyCoroutineContext E get(kotlin.coroutines.experimental.CoroutineContext.Key&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yieldAll(kotlin.sequences.Sequence&lt;? extends T&gt;, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.coroutines.experimental.SafeContinuation void resume(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext R fold(R, kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.CoroutineContext.Element,? extends R&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt void startCoroutine(kotlin.jvm.functions.Function1&lt;? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor kotlin.coroutines.experimental.Continuation&lt;T&gt; interceptContinuation(kotlin.coroutines.experimental.Continuation&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement AbstractCoroutineContextElement(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext CombinedContext(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.CoroutineContext.Element) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation.Companion java.lang.Object access$getUNDECIDED$p(kotlin.coroutines.experimental.SafeContinuation.Companion)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation.Companion java.lang.Object access$getRESUMED$p(kotlin.coroutines.experimental.SafeContinuation.Companion)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt; getKey()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yieldAll(java.util.Iterator&lt;? extends T&gt;, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; createCoroutine(kotlin.jvm.functions.Function2&lt;? super R,? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, R, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.ContinuationInterceptor kotlin.coroutines.experimental.Continuation&lt;T&gt; interceptContinuation(kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.AbstractCoroutineContextElement kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutineContext kotlin.coroutines.experimental.CoroutineContext minusKey(kotlin.coroutines.experimental.CoroutineContext.Key&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SafeContinuation SafeContinuation(kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CombinedContext kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.CoroutinesKt void startCoroutine(kotlin.jvm.functions.Function1&lt;? super kotlin.coroutines.experimental.Continuation&lt;? super T&gt;,? extends java.lang.Object&gt;, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.SequenceBuilder java.lang.Object yieldAll(java.lang.Iterable&lt;? extends T&gt;, kotlin.coroutines.experimental.Continuation&lt;? super kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.EmptyCoroutineContext kotlin.coroutines.experimental.CoroutineContext plus(kotlin.coroutines.experimental.CoroutineContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

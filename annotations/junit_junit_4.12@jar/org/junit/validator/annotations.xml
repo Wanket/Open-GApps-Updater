@@ -1,0 +1,42 @@
+<root>
+    <item
+        name='org.junit.validator.AnnotationsValidator java.util.List&lt;java.lang.Exception&gt; validateTestClass(org.junit.runners.model.TestClass)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.validator.TestClassValidator java.util.List&lt;java.lang.Exception&gt; validateTestClass(org.junit.runners.model.TestClass)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='org.junit.validator.AnnotationValidator java.util.List&lt;java.lang.Exception&gt; validateAnnotatedMethod(org.junit.runners.model.FrameworkMethod) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='org.junit.validator.TestClassValidator java.util.List&lt;java.lang.Exception&gt; validateTestClass(org.junit.runners.model.TestClass) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='org.junit.validator.PublicClassValidator java.util.List&lt;java.lang.Exception&gt; validateTestClass(org.junit.runners.model.TestClass) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.validator.AnnotationsValidator java.util.List&lt;java.lang.Exception&gt; validateTestClass(org.junit.runners.model.TestClass) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+</root>

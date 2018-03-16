@@ -1,0 +1,158 @@
+<root>
+    <item name='kotlin._Assertions INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Pair java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.UnsafeLazyImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.UnsafeLazyImpl UnsafeLazyImpl(kotlin.jvm.functions.Function0&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.KotlinVersion int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.KotlinVersion java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Experimental.Impact COMPILATION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(kotlin.LazyThreadSafetyMode, kotlin.jvm.functions.Function0&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.NotImplementedError NotImplementedError(java.lang.String, int, kotlin.jvm.internal.DefaultConstructorMarker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Triple kotlin.Triple&lt;A,B,C&gt; copy(A, B, C)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Experimental.Level WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.LazyKt.WhenMappings $EnumSwitchMapping$0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Pair kotlin.Pair&lt;A,B&gt; copy(A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(java.lang.Object, kotlin.jvm.functions.Function0&lt;? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Triple java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.KotlinVersion Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.TuplesKt java.util.List&lt;T&gt; toList(kotlin.Triple&lt;? extends T,? extends T,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.Pair kotlin.Pair copy$default(kotlin.Pair, java.lang.Object, java.lang.Object, int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Unit java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Experimental.Impact LINKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.DeprecationLevel WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.DeprecationLevel ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.LazyThreadSafetyMode NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Unit INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.LazyThreadSafetyMode PUBLICATION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.SafePublicationLazyImpl.Companion java.util.concurrent.atomic.AtomicReferenceFieldUpdater access$getValueUpdater$p(kotlin.SafePublicationLazyImpl.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.DeprecationLevel HIDDEN'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.Pair kotlin.Pair copy$default(kotlin.Pair, java.lang.Object, java.lang.Object, int, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.NotImplementedError NotImplementedError(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.TuplesKt java.util.List&lt;T&gt; toList(kotlin.Triple&lt;? extends T,? extends T,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.LazyThreadSafetyMode SYNCHRONIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.TuplesKt kotlin.Pair&lt;A,B&gt; to(A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.KotlinVersion int compareTo(kotlin.KotlinVersion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(kotlin.LazyThreadSafetyMode, kotlin.jvm.functions.Function0&lt;? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(kotlin.jvm.functions.Function0&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.TuplesKt java.util.List&lt;T&gt; toList(kotlin.Pair&lt;? extends T,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(kotlin.jvm.functions.Function0&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(java.lang.Object, kotlin.jvm.functions.Function0&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.KotlinVersion CURRENT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.Triple kotlin.Triple copy$default(kotlin.Triple, java.lang.Object, java.lang.Object, java.lang.Object, int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazy(kotlin.LazyThreadSafetyMode, kotlin.jvm.functions.Function0&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.Triple kotlin.Triple copy$default(kotlin.Triple, java.lang.Object, java.lang.Object, java.lang.Object, int, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.TuplesKt java.util.List&lt;T&gt; toList(kotlin.Pair&lt;? extends T,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Experimental.Level ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.Experimental.Impact RUNTIME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.LazyKt kotlin.Lazy&lt;T&gt; lazyOf(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -1,0 +1,61 @@
+<root>
+    <item
+        name='org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.ParametersRunnerFactory org.junit.runner.Runner createRunnerForTestWithParameters(org.junit.runners.parameterized.TestWithParameters) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters BlockJUnit4ClassRunnerWithParameters(org.junit.runners.parameterized.TestWithParameters) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters java.lang.annotation.Annotation[] getRunnerAnnotations()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory org.junit.runner.Runner createRunnerForTestWithParameters(org.junit.runners.parameterized.TestWithParameters)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.ParametersRunnerFactory org.junit.runner.Runner createRunnerForTestWithParameters(org.junit.runners.parameterized.TestWithParameters)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='org.junit.runners.parameterized.TestWithParameters org.junit.runners.model.TestClass getTestClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.TestWithParameters TestWithParameters(java.lang.String, org.junit.runners.model.TestClass, java.util.List&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.TestWithParameters TestWithParameters(java.lang.String, org.junit.runners.model.TestClass, java.util.List&lt;java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.TestWithParameters TestWithParameters(java.lang.String, org.junit.runners.model.TestClass, java.util.List&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters java.lang.String testName(org.junit.runners.model.FrameworkMethod) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory org.junit.runner.Runner createRunnerForTestWithParameters(org.junit.runners.parameterized.TestWithParameters) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.junit.runners.parameterized.TestWithParameters java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

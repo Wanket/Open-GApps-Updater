@@ -1,0 +1,88 @@
+<root>
+    <item
+        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor void addLifecycleCallback(android.support.test.runner.lifecycle.ActivityLifecycleCallback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage STARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage PAUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor void removeLifecycleCallback(android.support.test.runner.lifecycle.ActivityLifecycleCallback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage RESUMED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor java.util.Collection&lt;android.app.Activity&gt; getActivitiesInStage(android.support.test.runner.lifecycle.Stage)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage RESTARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor android.support.test.runner.lifecycle.Stage getLifecycleStageOf(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.runner.lifecycle.ApplicationStage CREATED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage PRE_ON_CREATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage DESTROYED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage STOPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.lifecycle.ApplicationLifecycleMonitor void addLifecycleCallback(android.support.test.runner.lifecycle.ApplicationLifecycleCallback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.runner.lifecycle.Stage CREATED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor java.util.Collection&lt;android.app.Activity&gt; getActivitiesInStage(android.support.test.runner.lifecycle.Stage) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.runner.lifecycle.ApplicationStage PRE_ON_CREATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.lifecycle.ApplicationLifecycleMonitor void removeLifecycleCallback(android.support.test.runner.lifecycle.ApplicationLifecycleCallback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+</root>

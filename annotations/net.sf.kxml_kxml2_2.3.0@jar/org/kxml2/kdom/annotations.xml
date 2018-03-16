@@ -1,0 +1,43 @@
+<root>
+    <item
+        name='org.kxml2.kdom.Node org.kxml2.kdom.Element createElement(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Node void parse(org.xmlpull.v1.XmlPullParser) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Element void parse(org.xmlpull.v1.XmlPullParser) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.kxml2.kdom.Element org.kxml2.kdom.Element createElement(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Node void write(org.xmlpull.v1.XmlSerializer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Node void addChild(int, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Document void write(org.xmlpull.v1.XmlSerializer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Document void addChild(int, int, java.lang.Object) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Node void addChild(int, int, java.lang.Object) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Document void parse(org.xmlpull.v1.XmlPullParser) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Element void write(org.xmlpull.v1.XmlSerializer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Document java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.kdom.Element void setNamespace(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

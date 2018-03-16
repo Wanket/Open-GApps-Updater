@@ -1,0 +1,177 @@
+<root>
+    <item
+        name='kotlin.reflect.KType java.util.List&lt;kotlin.reflect.KTypeProjection&gt; getArguments()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KTypeProjection Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KMutableProperty1 kotlin.reflect.KMutableProperty1.Setter&lt;T,R&gt; getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KParameter.Kind EXTENSION_RECEIVER'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KMutableProperty2 kotlin.reflect.KMutableProperty2.Setter&lt;D,E,R&gt; getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KClass java.util.Collection&lt;kotlin.reflect.KCallable&lt;?&gt;&gt; getMembers()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVisibility PROTECTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeParameter java.util.List&lt;kotlin.reflect.KType&gt; getUpperBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection covariant(kotlin.reflect.KType)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection kotlin.reflect.KTypeProjection copy(kotlin.reflect.KVariance, kotlin.reflect.KType)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection getSTAR()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KTypeParameter java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KClass java.util.List&lt;kotlin.reflect.KTypeParameter&gt; getTypeParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KTypeParameter kotlin.reflect.KVariance getVariance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KCallable java.util.List&lt;kotlin.reflect.KParameter&gt; getParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVisibility INTERNAL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVariance INVARIANT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVariance OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KProperty.Accessor kotlin.reflect.KProperty&lt;R&gt; getProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection covariant(kotlin.reflect.KType) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KParameter kotlin.reflect.KType getType()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KParameter kotlin.reflect.KParameter.Kind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KCallable R call(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KClass java.util.Collection&lt;kotlin.reflect.KFunction&lt;T&gt;&gt; getConstructors()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVariance IN'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KClass java.util.Collection&lt;kotlin.reflect.KClass&lt;?&gt;&gt; getNestedClasses()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection contravariant(kotlin.reflect.KType)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVisibility PRIVATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection invariant(kotlin.reflect.KType) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KParameter.Kind VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KDeclarationContainer java.util.Collection&lt;kotlin.reflect.KCallable&lt;?&gt;&gt; getMembers()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection kotlin.reflect.KTypeProjection copy$default(kotlin.reflect.KTypeProjection, kotlin.reflect.KVariance, kotlin.reflect.KType, int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection contravariant(kotlin.reflect.KType) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection.Companion kotlin.reflect.KTypeProjection invariant(kotlin.reflect.KType)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KTypeProjection kotlin.reflect.KTypeProjection access$getSTAR$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KParameter.Kind INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KProperty0 kotlin.reflect.KProperty0.Getter&lt;R&gt; getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KCallable kotlin.reflect.KType getReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KVisibility PUBLIC'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KClass java.util.List&lt;kotlin.reflect.KType&gt; getSupertypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KCallable R callBy(java.util.Map&lt;kotlin.reflect.KParameter,? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KProperty2 kotlin.reflect.KProperty2.Getter&lt;D,E,R&gt; getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KProperty1 kotlin.reflect.KProperty1.Getter&lt;T,R&gt; getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KCallable java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KAnnotatedElement java.util.List&lt;java.lang.annotation.Annotation&gt; getAnnotations()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KMutableProperty0 kotlin.reflect.KMutableProperty0.Setter&lt;R&gt; getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.reflect.KProperty kotlin.reflect.KProperty.Getter&lt;R&gt; getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KCallable java.util.List&lt;kotlin.reflect.KTypeParameter&gt; getTypeParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KTypeProjection kotlin.reflect.KTypeProjection copy$default(kotlin.reflect.KTypeProjection, kotlin.reflect.KVariance, kotlin.reflect.KType, int, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.reflect.KMutableProperty kotlin.reflect.KMutableProperty.Setter&lt;R&gt; getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

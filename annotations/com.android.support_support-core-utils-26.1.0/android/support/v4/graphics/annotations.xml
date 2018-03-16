@@ -1,0 +1,63 @@
+<root>
+    <item
+        name='android.support.v4.graphics.ColorUtils void blendHSL(float[], float[], float, float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils double distanceEuclidean(double[], double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils double distanceEuclidean(double[], double[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils void RGBToXYZ(int, int, int, double[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void blendHSL(float[], float[], float, float[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void LABToXYZ(double, double, double, double[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void blendHSL(float[], float[], float, float[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils void colorToHSL(int, float[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils int HSLToColor(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils void colorToXYZ(int, double[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void blendLAB(double[], double[], double, double[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void XYZToLAB(double, double, double, double[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void blendLAB(double[], double[], double, double[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils void colorToLAB(int, double[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.graphics.ColorUtils void blendLAB(double[], double[], double, double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils void RGBToHSL(int, int, int, float[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.ColorUtils void RGBToLAB(int, int, int, double[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -1,0 +1,146 @@
+<root>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.ForwardingCache void put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.Cache V getIfPresent(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalNotification android.support.test.espresso.core.internal.deps.guava.cache.RemovalNotification&lt;K,V&gt; create(K, V, android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; maximumWeight(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheLoader android.support.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFuture&lt;V&gt; reload(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; expireAfterAccess(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.ForwardingCache V getIfPresent(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; expireAfterWrite(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalNotification android.support.test.espresso.core.internal.deps.guava.cache.RemovalNotification&lt;K,V&gt; create(K, V, android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.Cache void put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; ticker(android.support.test.espresso.core.internal.deps.guava.base.Ticker)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; expireAfterAccess(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K1,V1&gt; removalListener(android.support.test.espresso.core.internal.deps.guava.cache.RemovalListener&lt;? super K1,? super V1&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; expireAfterWrite(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K1,V1&gt; weigher(android.support.test.espresso.core.internal.deps.guava.cache.Weigher&lt;? super K1,? super V1&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; maximumSize(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause COLLECTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause EXPIRED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.ForwardingCache void put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause REPLACED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K1,V1&gt; removalListener(android.support.test.espresso.core.internal.deps.guava.cache.RemovalListener&lt;? super K1,? super V1&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; ticker(android.support.test.espresso.core.internal.deps.guava.base.Ticker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;java.lang.Object,java.lang.Object&gt; newBuilder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.Cache&lt;K1,V1&gt; build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheLoader android.support.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFuture&lt;V&gt; reload(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K,V&gt; concurrencyLevel(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder android.support.test.espresso.core.internal.deps.guava.cache.CacheBuilder&lt;K1,V1&gt; weigher(android.support.test.espresso.core.internal.deps.guava.cache.Weigher&lt;? super K1,? super V1&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.Cache void put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.cache.CacheLoader android.support.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFuture&lt;V&gt; reload(K, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.espresso.core.internal.deps.guava.cache.RemovalCause EXPLICIT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

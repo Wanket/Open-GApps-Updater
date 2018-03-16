@@ -1,0 +1,82 @@
+<root>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder clearError()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder setError(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder setError(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder android.support.test.espresso.web.proto.sugar.WebSugar.ExceptionPropagatorProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

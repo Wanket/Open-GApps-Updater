@@ -1,0 +1,50 @@
+<root>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withModel(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withAnalyticsUri(android.net.Uri)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withTrackingId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withTargetPackage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withAnalyticsUri(android.net.Uri) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder Builder(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.UsageTrackerRegistry.AtslVersions ESPRESSO_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.UsageTrackerRegistry.AtslVersions RUNNER_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withApiLevel(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.UsageTrackerRegistry void registerInstance(android.support.test.internal.runner.tracker.UsageTracker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withUserId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder android.support.test.internal.runner.tracker.AnalyticsBasedUsageTracker.Builder withScreenResolution(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

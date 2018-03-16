@@ -1,0 +1,91 @@
+<root>
+    <item name='org.hamcrest.text.IsEmptyString void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringCase void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace java.lang.String stripSpace(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.StringContainsInOrder void describeMismatchSafely(java.lang.String, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace org.hamcrest.Matcher&lt;java.lang.String&gt; equalToIgnoringWhiteSpace(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.text.IsEqualIgnoringCase IsEqualIgnoringCase(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringCase org.hamcrest.Matcher&lt;java.lang.String&gt; equalToIgnoringCase(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace void describeMismatchSafely(java.lang.String, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace void describeMismatchSafely(java.lang.String, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.StringContainsInOrder void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace boolean matchesSafely(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace boolean matchesSafely(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.StringContainsInOrder void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringCase void describeMismatchSafely(java.lang.String, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringCase org.hamcrest.Matcher&lt;java.lang.String&gt; equalToIgnoringCase(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.StringContainsInOrder org.hamcrest.Matcher&lt;java.lang.String&gt; stringContainsInOrder(java.lang.Iterable&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEmptyString org.hamcrest.Matcher&lt;java.lang.String&gt; isEmptyString()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace IsEqualIgnoringWhiteSpace(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace org.hamcrest.Matcher&lt;java.lang.String&gt; equalToIgnoringWhiteSpace(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.text.IsEqualIgnoringCase void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.text.IsEqualIgnoringWhiteSpace void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

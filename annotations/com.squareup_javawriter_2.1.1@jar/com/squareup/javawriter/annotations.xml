@@ -1,0 +1,228 @@
+<root>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter endControlFlow()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;, java.util.Map&lt;java.lang.String,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginControlFlow(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitImports(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.String, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter endInitializer()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;, java.util.Map&lt;java.lang.String,?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginMethod(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitSingleLineComment(java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginMethod(java.lang.String, java.lang.String, int, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitStatement(java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String, int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitEmptyLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter endType()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;, java.util.Map&lt;java.lang.String,?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitPackage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginMethod(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String, java.lang.String...) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitImports(java.util.Collection&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter endMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginInitializer(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String...) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter endControlFlow(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginMethod(java.lang.String, java.lang.String, int, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitStaticImports(java.util.Collection&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitStaticImports(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter java.lang.String type(java.lang.Class&lt;?&gt;, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitEnumValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter nextControlFlow(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginMethod(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.util.List&lt;java.lang.String&gt;, java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter java.lang.String stringLiteral(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitPackage(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.Class&lt;? extends java.lang.annotation.Annotation&gt;, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.String, java.util.Map&lt;java.lang.String,?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitAnnotation(java.lang.String, java.util.Map&lt;java.lang.String,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter java.lang.String type(java.lang.Class&lt;?&gt;, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitField(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginMethod(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter emitJavadoc(java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='com.squareup.javawriter.JavaWriter com.squareup.javawriter.JavaWriter beginType(java.lang.String, java.lang.String, java.util.Set&lt;javax.lang.model.element.Modifier&gt;, java.lang.String, java.lang.String...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

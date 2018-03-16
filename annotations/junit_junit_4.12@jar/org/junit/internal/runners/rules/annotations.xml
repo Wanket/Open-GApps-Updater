@@ -1,0 +1,18 @@
+<root>
+    <item name='org.junit.internal.runners.rules.RuleMemberValidator RULE_VALIDATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.junit.internal.runners.rules.RuleMemberValidator CLASS_RULE_VALIDATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.internal.runners.rules.RuleMemberValidator void validate(org.junit.runners.model.TestClass, java.util.List&lt;java.lang.Throwable&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.junit.internal.runners.rules.RuleMemberValidator RULE_METHOD_VALIDATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.junit.internal.runners.rules.RuleMemberValidator CLASS_RULE_METHOD_VALIDATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

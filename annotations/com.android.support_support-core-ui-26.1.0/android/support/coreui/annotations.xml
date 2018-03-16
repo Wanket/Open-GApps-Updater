@@ -1,0 +1,14 @@
+<root>
+    <item name='android.support.coreui.BuildConfig VERSION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.coreui.BuildConfig FLAVOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.coreui.BuildConfig APPLICATION_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.coreui.BuildConfig BUILD_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

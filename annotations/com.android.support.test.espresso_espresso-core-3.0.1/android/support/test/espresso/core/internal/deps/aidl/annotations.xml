@@ -1,0 +1,42 @@
+<root>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.Codecs void writeParcelable(android.os.Parcel, android.os.Parcelable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.BaseProxy android.os.Parcel transactAndReadException(int, android.os.Parcel) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.BaseProxy void transactAndReadExceptionReturnVoid(int, android.os.Parcel) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.BaseProxy void transactOneway(int, android.os.Parcel) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.Codecs boolean createBoolean(android.os.Parcel) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.BaseStub android.os.IBinder asBinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.BaseProxy android.os.Parcel obtainAndWriteInterfaceToken()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.Codecs T createParcelable(android.os.Parcel, android.os.Parcelable.Creator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.BaseProxy android.os.Parcel transactAndReadException(int, android.os.Parcel)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.aidl.Codecs void writeBoolean(android.os.Parcel, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

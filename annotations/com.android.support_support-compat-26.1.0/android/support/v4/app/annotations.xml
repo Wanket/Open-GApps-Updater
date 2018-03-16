@@ -1,0 +1,1091 @@
+<root>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender setConfirmLabel(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setProgress(int, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder Builder(android.support.v4.app.NotificationCompat.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_AUDIO_CONTENTS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setHintContentIntentLaunchesActivity(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_EVENT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi24.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, boolean, int, java.lang.CharSequence, boolean, java.lang.String, java.util.ArrayList&lt;java.lang.String&gt;, android.os.Bundle, int, int, android.app.Notification, java.lang.String, boolean, java.lang.String, java.lang.CharSequence[], android.widget.RemoteViews, android.widget.RemoteViews, android.widget.RemoteViews, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder setLatestTimestamp(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Extender)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_SUB_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.ActivityOptionsCompat EXTRA_USAGE_TIME_REPORT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat void configureMenuItem(android.view.Menu, int, android.support.v4.app.ShareCompat.IntentBuilder) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setCustomSizePreset(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatExtras EXTRA_ACTION_EXTRAS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailTo(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setChooserTitle(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setChooserTitle(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setDisplayIntent(android.app.PendingIntent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailTo(java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat.Action android.os.Bundle getExtras()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setCustomContentView(android.widget.RemoteViews)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setLargeIcon(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setStyle(android.support.v4.app.NotificationCompat.Style)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.ActivityOptionsCompat EXTRA_USAGE_TIME_REPORT_PACKAGES'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationManagerCompat EXTRA_USE_SIDE_CHANNEL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setSound(android.net.Uri)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigTextStyle android.support.v4.app.NotificationCompat.BigTextStyle bigText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setContentText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setPublicVersion(android.app.Notification)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setEmailCc(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_SHOW_CHRONOMETER'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender setHintLaunchesActivity(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_PROGRESS_MAX'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigPictureStyle android.support.v4.app.NotificationCompat.BigPictureStyle setSummaryText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigTextStyle android.support.v4.app.NotificationCompat.BigTextStyle setBigContentTitle(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigTextStyle android.support.v4.app.NotificationCompat.BigTextStyle setSummaryText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigPictureStyle android.support.v4.app.NotificationCompat.BigPictureStyle setBigContentTitle(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentReader android.support.v4.app.ShareCompat.IntentReader from(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_REMINDER'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.SharedElementCallback void onSharedElementsArrived(java.util.List&lt;java.lang.String&gt;, java.util.List&lt;android.view.View&gt;, android.support.v4.app.SharedElementCallback.OnSharedElementsReadyListener) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.RemoteInput.Builder Builder(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInputCompatBase.RemoteInput.Factory android.support.v4.app.RemoteInputCompatBase.RemoteInput build(java.lang.String, java.lang.CharSequence, java.lang.CharSequence[], boolean, android.os.Bundle, java.util.Set&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder from(android.app.Activity)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setSmallIcon(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInput.Builder android.support.v4.app.RemoteInput.Builder setAllowFreeFormInput(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi24.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, boolean, int, java.lang.CharSequence, boolean, java.lang.String, java.util.ArrayList&lt;java.lang.String&gt;, android.os.Bundle, int, int, android.app.Notification, java.lang.String, boolean, java.lang.String, java.lang.CharSequence[], android.widget.RemoteViews, android.widget.RemoteViews, android.widget.RemoteViews, int) 19'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setContentIntent(android.app.PendingIntent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailCc(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi24.Builder void addAction(android.support.v4.app.NotificationCompatBase.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Extender android.support.v4.app.NotificationCompat.Action.Builder extend(android.support.v4.app.NotificationCompat.Action.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.InboxStyle android.support.v4.app.NotificationCompat.InboxStyle setSummaryText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setContentIntentAvailableOffline(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setColorized(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender setInProgressLabel(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_SHOW_WHEN'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationManagerCompat android.support.v4.app.NotificationManagerCompat from(android.content.Context)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setHintHideIcon(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityCompat android.net.Uri getReferrer(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setRemoteInputHistory(java.lang.CharSequence[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Extender android.support.v4.app.NotificationCompat.Action.Builder extend(android.support.v4.app.NotificationCompat.Action.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setContentIconGravity(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_ALARM'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setLocalOnly(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeThumbnailScaleUpAnimation(android.view.View, android.graphics.Bitmap, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi20.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, boolean, int, java.lang.CharSequence, boolean, java.util.ArrayList&lt;java.lang.String&gt;, android.os.Bundle, java.lang.String, boolean, java.lang.String, android.widget.RemoteViews, android.widget.RemoteViews, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInput.Builder android.support.v4.app.RemoteInput.Builder setAllowDataType(java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.JobIntentService void enqueueWork(android.content.Context, java.lang.Class, int, android.content.Intent) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatJellybean.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, int, java.lang.CharSequence, boolean, android.os.Bundle, java.lang.String, boolean, java.lang.String, android.widget.RemoteViews, android.widget.RemoteViews) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatExtras EXTRA_GROUP_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setPriority(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailBcc(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentReader android.support.v4.app.ShareCompat.IntentReader from(android.app.Activity)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender addActions(java.util.List&lt;android.support.v4.app.NotificationCompat.Action&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Extender) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setGroupAlertBehavior(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigPictureStyle android.support.v4.app.NotificationCompat.BigPictureStyle bigPicture(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ServiceCompat void stopForeground(android.app.Service, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setContentIcon(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInputCompatBase.RemoteInput.Factory android.support.v4.app.RemoteInputCompatBase.RemoteInput[] newArray(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInput.Builder android.support.v4.app.RemoteInput.Builder addExtras(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setWhen(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat java.lang.String getCallingPackage(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender setCancelLabel(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatSideChannelService android.os.IBinder onBind(android.content.Intent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInput.Builder android.support.v4.app.RemoteInput.Builder setChoices(java.lang.CharSequence[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender setHintDisplayActionInline(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.ShareCompat EXTRA_CALLING_ACTIVITY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setHintAmbientBigPicture(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setTicker(java.lang.CharSequence, android.widget.RemoteViews)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.RemoteInput EXTRA_RESULTS_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setBadgeIconType(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatKitKat.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, boolean, int, java.lang.CharSequence, boolean, java.util.ArrayList&lt;java.lang.String&gt;, android.os.Bundle, java.lang.String, boolean, java.lang.String, android.widget.RemoteViews, android.widget.RemoteViews) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setHintAvoidBackgroundClipping(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_SOCIAL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender addPages(java.util.List&lt;android.app.Notification&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatExtras EXTRA_REMOTE_INPUTS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_TRANSPORT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatBase.UnreadConversation.Factory android.support.v4.app.NotificationCompatBase.UnreadConversation build(java.lang.String[], android.support.v4.app.RemoteInputCompatBase.RemoteInput, android.app.PendingIntent, android.app.PendingIntent, java.lang.String[], long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.v4.app.ShareCompat EXTRA_CALLING_PACKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setAutoCancel(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_MESSAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat.Action FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setDeleteIntent(android.app.PendingIntent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_LARGE_ICON'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailBcc(java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setChannelId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_PROGRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder setReplyAction(android.app.PendingIntent, android.support.v4.app.RemoteInput)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender android.support.v4.app.NotificationCompat.CarExtender setColor(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender WearableExtender(android.support.v4.app.NotificationCompat.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setUsesChronometer(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setEmailBcc(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setShowWhen(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setDismissalId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatExtras EXTRA_GROUP_SUMMARY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_INFO_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityCompat void startIntentSenderForResult(android.app.Activity, android.content.IntentSender, int, android.content.Intent, int, int, int, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.Builder extend(android.support.v4.app.NotificationCompat.Action.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setColor(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.MessagingStyle android.support.v4.app.NotificationCompat.MessagingStyle addMessage(java.lang.CharSequence, long, java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.JobIntentService void enqueueWork(android.content.Context, android.content.ComponentName, int, android.content.Intent) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat android.content.ComponentName getCallingActivity(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender android.support.v4.app.NotificationCompat.CarExtender setLargeIcon(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.Builder extend(android.support.v4.app.NotificationCompat.Action.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BigPictureStyle android.support.v4.app.NotificationCompat.BigPictureStyle bigLargeIcon(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setShortcutId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_BIG_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.RemoteInput FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.MessagingStyle android.support.v4.app.NotificationCompat.MessagingStyle addMessage(android.support.v4.app.NotificationCompat.MessagingStyle.Message)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setSubText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationManagerCompat ACTION_BIND_SIDE_CHANNEL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityCompat void finishAfterTransition(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender addPage(android.app.Notification)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.InboxStyle android.support.v4.app.NotificationCompat.InboxStyle addLine(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setOnlyAlertOnce(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatBase.Action.Factory android.support.v4.app.NotificationCompatBase.Action build(int, java.lang.CharSequence, android.app.PendingIntent, android.os.Bundle, android.support.v4.app.RemoteInputCompatBase.RemoteInput[], android.support.v4.app.RemoteInputCompatBase.RemoteInput[], boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeSceneTransitionAnimation(android.app.Activity, android.support.v4.util.Pair&lt;android.view.View,java.lang.String&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder android.support.v4.app.NotificationCompat.Action.Builder addExtras(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeClipRevealAnimation(android.view.View, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.AlarmManagerCompat void setExactAndAllowWhileIdle(android.app.AlarmManager, int, long, android.app.PendingIntent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_CALL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeTaskLaunchBehind()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setVisibility(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailTo(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder android.support.v4.app.NotificationCompat.Action.Builder extend(android.support.v4.app.NotificationCompat.Action.Extender)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setOngoing(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setGravity(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Extender android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setBackground(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder addExtras(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender clearActions()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder from(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_SUMMARY_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_PROGRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_PROGRESS_INDETERMINATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder android.support.v4.app.NotificationCompat.Action build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setTimeoutAfter(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_SMALL_ICON'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setSound(android.net.Uri, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityCompat void startActivityForResult(android.app.Activity, android.content.Intent, int, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.AlarmManagerCompat void setExact(android.app.AlarmManager, int, long, android.app.PendingIntent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BuilderExtender android.app.Notification build(android.support.v4.app.NotificationCompat.Builder, android.support.v4.app.NotificationBuilderWithBuilderAccessor) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setVibrate(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setLights(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender addAction(android.support.v4.app.NotificationCompat.Action)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder setReadPendingIntent(android.app.PendingIntent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setSmallIcon(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_SYSTEM'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_CONVERSATION_TITLE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.InboxStyle android.support.v4.app.NotificationCompat.InboxStyle setBigContentTitle(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.ActivityCompat void finishAffinity(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_TITLE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatBase.Action.Factory android.support.v4.app.NotificationCompatBase.Action[] newArray(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation.Builder addMessage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatKitKat.Builder void addAction(android.support.v4.app.NotificationCompatBase.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setEmailTo(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.CarExtender android.support.v4.app.NotificationCompat.CarExtender setUnreadConversation(android.support.v4.app.NotificationCompat.CarExtender.UnreadConversation)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInput.Builder android.support.v4.app.RemoteInput build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder android.support.v4.app.NotificationCompat.Action.Builder addRemoteInput(android.support.v4.app.RemoteInput)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setGroupSummary(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailCc(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_MEDIA_SESSION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setNumber(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.RemoteInput.Builder android.support.v4.app.RemoteInput.Builder setLabel(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_MESSAGES'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi26.Builder void addAction(android.support.v4.app.NotificationCompatBase.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setText(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setContentAction(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailCc(java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setContent(android.widget.RemoteViews)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi20.Builder void addAction(android.support.v4.app.NotificationCompatBase.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setSubject(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatJellybean.Builder void addAction(android.support.v4.app.NotificationCompatBase.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_STATUS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityCompat boolean invalidateOptionsMenu(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder addAction(int, java.lang.CharSequence, android.app.PendingIntent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_SERVICE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addStream(android.net.Uri)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.AlarmManagerCompat void setAlarmClock(android.app.AlarmManager, long, android.app.PendingIntent, android.app.PendingIntent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.MessagingStyle.Message android.support.v4.app.NotificationCompat.MessagingStyle.Message setData(java.lang.String, android.net.Uri)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setSortKey(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_RECOMMENDATION'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat void configureMenuItem(android.view.MenuItem, android.support.v4.app.ShareCompat.IntentBuilder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setCustomBigContentView(android.widget.RemoteViews)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_PICTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeScaleUpAnimation(android.view.View, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setFullScreenIntent(android.app.PendingIntent, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setContentInfo(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_PROMO'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setCategory(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setTicker(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.BuilderExtender android.app.Notification build(android.support.v4.app.NotificationCompat.Builder, android.support.v4.app.NotificationBuilderWithBuilderAccessor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatExtras EXTRA_SORT_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender clearPages()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.SupportActivity void putExtraData(android.support.v4.app.SupportActivity.ExtraData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.MessagingStyle void restoreFromCompatExtras(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setBridgeTag(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_BACKGROUND_IMAGE_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationManagerCompat java.util.Set&lt;java.lang.String&gt; getEnabledListenerPackages(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.WearableExtender android.support.v4.app.NotificationCompat.Action.WearableExtender setAvailableOffline(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.AlarmManagerCompat void setAndAllowWhileIdle(android.app.AlarmManager, int, long, android.app.PendingIntent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeSceneTransitionAnimation(android.app.Activity, android.view.View, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Extender android.support.v4.app.NotificationCompat.Builder extend(android.support.v4.app.NotificationCompat.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder android.support.v4.app.NotificationCompat.Action.Builder extend(android.support.v4.app.NotificationCompat.Action.Extender) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setCustomHeadsUpContentView(android.widget.RemoteViews)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_COMPACT_ACTIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.RemoteInput RESULTS_CLIP_LABEL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Style void buildIntoRemoteViews(android.widget.RemoteViews, android.widget.RemoteViews) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_TEXT_LINES'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeCustomAnimation(android.content.Context, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setHintShowBackgroundOnly(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.INotificationSideChannel.Stub android.os.IBinder asBinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_LARGE_ICON_BIG'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_PEOPLE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ActivityOptionsCompat android.support.v4.app.ActivityOptionsCompat makeBasic()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi21.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, boolean, int, java.lang.CharSequence, boolean, java.lang.String, java.util.ArrayList&lt;java.lang.String&gt;, android.os.Bundle, int, int, android.app.Notification, java.lang.String, boolean, java.lang.String, android.widget.RemoteViews, android.widget.RemoteViews, android.widget.RemoteViews, int) 19'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Action.Builder android.support.v4.app.NotificationCompat.Action.Builder setAllowGeneratedReplies(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder addAction(android.support.v4.app.NotificationCompat.Action)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_TEMPLATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatBase.Action android.os.Bundle getExtras()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Style void buildIntoRemoteViews(android.widget.RemoteViews, android.widget.RemoteViews) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setContentTitle(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompatExtras EXTRA_LOCAL_ONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.BuilderExtender getExtender()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setCustomContentHeight(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setStartScrollBottom(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setGroup(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Style android.widget.RemoteViews applyStandardTemplate(boolean, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat CATEGORY_EMAIL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder addEmailBcc(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_TITLE_BIG'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setExtras(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat void configureMenuItem(android.view.Menu, int, android.support.v4.app.ShareCompat.IntentBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_REMOTE_INPUT_HISTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder setDefaults(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender android.support.v4.app.NotificationCompat.WearableExtender setHintScreenTimeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NotificationCompat EXTRA_SELF_DISPLAY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi21.Builder Builder(android.content.Context, android.app.Notification, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, android.widget.RemoteViews, int, android.app.PendingIntent, android.app.PendingIntent, android.graphics.Bitmap, int, int, boolean, boolean, boolean, int, java.lang.CharSequence, boolean, java.lang.String, java.util.ArrayList&lt;java.lang.String&gt;, android.os.Bundle, int, int, android.app.Notification, java.lang.String, boolean, java.lang.String, android.widget.RemoteViews, android.widget.RemoteViews, android.widget.RemoteViews, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.MessagingStyle android.support.v4.app.NotificationCompat.MessagingStyle setConversationTitle(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setHtmlText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Style void restoreFromCompatExtras(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat void configureMenuItem(android.view.MenuItem, android.support.v4.app.ShareCompat.IntentBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.WearableExtender java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompatApi21.Builder void addAction(android.support.v4.app.NotificationCompatBase.Action) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NotificationCompat.Builder android.support.v4.app.NotificationCompat.Builder addPerson(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.ShareCompat.IntentBuilder android.support.v4.app.ShareCompat.IntentBuilder setStream(android.net.Uri)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

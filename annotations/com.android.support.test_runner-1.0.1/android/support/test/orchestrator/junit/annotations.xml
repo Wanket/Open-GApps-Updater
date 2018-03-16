@@ -1,0 +1,95 @@
+<root>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableDescription ParcelableDescription(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromResult(org.junit.runner.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.orchestrator.junit.ParcelableDescription CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableResult void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromDescription(org.junit.runner.Description)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableResult ParcelableResult(org.junit.runner.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.orchestrator.junit.ParcelableResult CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableDescription void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromResult(org.junit.runner.Result)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromThrowable(org.junit.runner.Description, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.support.test.orchestrator.junit.ParcelableFailure getFailure(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromDescription(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromFailure(org.junit.runner.notification.Failure)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.support.test.orchestrator.junit.ParcelableDescription getDescription(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableFailure void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableFailure ParcelableFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromThrowable(org.junit.runner.Description, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableDescription ParcelableDescription(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromThrowable(org.junit.runner.Description, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.support.test.orchestrator.junit.ParcelableResult getResult(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableResult java.util.List&lt;android.support.test.orchestrator.junit.ParcelableFailure&gt; getFailures()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.ParcelableFailure ParcelableFailure(android.support.test.orchestrator.junit.ParcelableDescription, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.orchestrator.junit.ParcelableFailure CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

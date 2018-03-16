@@ -1,0 +1,110 @@
+<root>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter REPORT_KEY_NAME_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.ActivityFinisherRunListener ActivityFinisherRunListener(android.app.Instrumentation, android.support.test.runner.MonitoringInstrumentation.ActivityFinisher, java.lang.Runnable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testAssumptionFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter REPORT_KEY_STACK'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter REPORT_VALUE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testIgnored(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter void testAssumptionFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testFinished(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testRunStarted(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.SuiteAssignmentPrinter void testFinished(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.ActivityFinisherRunListener ActivityFinisherRunListener(android.app.Instrumentation, android.support.test.runner.MonitoringInstrumentation.ActivityFinisher, java.lang.Runnable) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter REPORT_KEY_NUM_TOTAL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter void testFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter void testStarted(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter REPORT_KEY_NUM_CURRENT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationRunListener void instrumentationRunFinished(java.io.PrintStream, android.os.Bundle, org.junit.runner.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testStarted(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.ActivityFinisherRunListener ActivityFinisherRunListener(android.app.Instrumentation, android.support.test.runner.MonitoringInstrumentation.ActivityFinisher, java.lang.Runnable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter void testRunStarted(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.LogRunListener void testRunFinished(org.junit.runner.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter void instrumentationRunFinished(java.io.PrintStream, android.os.Bundle, org.junit.runner.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter void testIgnored(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.CoverageListener void instrumentationRunFinished(java.io.PrintStream, android.os.Bundle, org.junit.runner.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.listener.InstrumentationResultPrinter REPORT_KEY_NAME_TEST'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

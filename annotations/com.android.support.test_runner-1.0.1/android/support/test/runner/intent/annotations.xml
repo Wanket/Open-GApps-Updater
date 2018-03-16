@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.support.test.runner.intent.IntentStubberRegistry void load(android.support.test.runner.intent.IntentStubber) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

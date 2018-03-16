@@ -1,0 +1,80 @@
+<root>
+    <item
+        name='android.support.v4.app.NavUtils android.content.Intent getParentActivityIntent(android.content.Context, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils void navigateUpTo(android.app.Activity, android.content.Intent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils android.content.Intent getParentActivityIntent(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.AppLaunchChecker void onActivityCreate(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.NavUtils PARENT_ACTIVITY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils boolean shouldUpRecreateTask(android.app.Activity, android.content.Intent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder addNextIntent(android.content.Intent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils android.content.Intent getParentActivityIntent(android.content.Context, android.content.ComponentName) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder addParentStack(android.content.ComponentName)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder create(android.content.Context)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder addNextIntentWithParentStack(android.content.Intent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.AppLaunchChecker boolean hasStartedFromLauncher(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils java.lang.String getParentActivityName(android.content.Context, android.content.ComponentName) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder addParentStack(android.app.Activity)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.app.TaskStackBuilder android.content.Intent[] getIntents()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder addNextIntentWithParentStack(android.content.Intent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder addParentStack(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.TaskStackBuilder android.support.v4.app.TaskStackBuilder from(android.content.Context)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils void navigateUpFromSameTask(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.NavUtils java.lang.String getParentActivityName(android.app.Activity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

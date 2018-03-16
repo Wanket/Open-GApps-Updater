@@ -1,0 +1,238 @@
+<root>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_IGNORED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.lang.String getTestName(android.support.test.orchestrator.listeners.result.TestIdentifier)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void printFooter(android.support.test.orchestrator.listeners.OrchestrationResult) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager void addListener(android.support.test.orchestrator.listeners.OrchestrationRunListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationRunListener void testFinished(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void testStarted(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_KEY_NAME_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_STARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void testFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationRunListener void testAssumptionFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationRunListener void testStarted(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.io.File getResultFile(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_FAILURE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener REPORT_DIRECTORY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void printFailures(android.support.test.orchestrator.listeners.OrchestrationResult) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void testFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener void testAssumptionFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_KEY_NAME_TEST'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener void testFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationRunListener void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_ASSUMPTION_FAILURE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_FINISHED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void orchestrationRunFinished(java.io.PrintStream, android.support.test.orchestrator.listeners.OrchestrationResult) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void printFailure(android.support.test.orchestrator.junit.ParcelableFailure, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager KEY_TEST_EVENT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_KEY_NUM_TOTAL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager void handleNotification(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void testFinished(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResult.Builder void testFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void testAssumptionFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationRunListener void testFailure(android.support.test.orchestrator.junit.ParcelableFailure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.lang.String getTestName(android.support.test.orchestrator.listeners.result.TestIdentifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResult.Builder void testStarted(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_RUN_STARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void testStarted(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResult.Builder android.support.test.orchestrator.listeners.OrchestrationResult build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener void testFinished(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_KEY_STACK'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.TextListener void testRunFinished(android.support.test.orchestrator.listeners.OrchestrationResult) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_VALUE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResult.Builder void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_KEY_NUM_CURRENT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener void testStarted(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_RUN_FINISHED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -1,0 +1,26 @@
+<root>
+    <item
+        name='android.support.test.orchestrator.instrumentationlistener.OrchestratedInstrumentationListener void testAssumptionFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.instrumentationlistener.OrchestratedInstrumentationListener void connect(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.instrumentationlistener.OrchestratedInstrumentationListener void sendTestNotification(android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.instrumentationlistener.OrchestratedInstrumentationListener void addTests(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.instrumentationlistener.OrchestratedInstrumentationListener void sendTestNotification(android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent, android.os.Bundle) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.instrumentationlistener.OrchestratedInstrumentationListener void testFailure(org.junit.runner.notification.Failure) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

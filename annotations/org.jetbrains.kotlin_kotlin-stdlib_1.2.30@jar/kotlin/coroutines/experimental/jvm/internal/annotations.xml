@@ -1,0 +1,58 @@
+<root>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineIntrinsics kotlin.coroutines.experimental.Continuation&lt;T&gt; normalizeContinuation(kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; create(java.lang.Object, kotlin.coroutines.experimental.Continuation&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineIntrinsics kotlin.coroutines.experimental.Continuation&lt;T&gt; interceptContinuationIfNeeded(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; create(java.lang.Object, kotlin.coroutines.experimental.Continuation&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; create(kotlin.coroutines.experimental.Continuation&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl void resume(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl void resumeWithException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineIntrinsics kotlin.coroutines.experimental.Continuation&lt;T&gt; normalizeContinuation(kotlin.coroutines.experimental.Continuation&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineIntrinsics kotlin.coroutines.experimental.Continuation&lt;T&gt; interceptContinuationIfNeeded(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; create(kotlin.coroutines.experimental.Continuation&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineImpl kotlin.coroutines.experimental.Continuation&lt;kotlin.Unit&gt; create(java.lang.Object, kotlin.coroutines.experimental.Continuation&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.coroutines.experimental.jvm.internal.CoroutineIntrinsics kotlin.coroutines.experimental.Continuation&lt;T&gt; interceptContinuationIfNeeded(kotlin.coroutines.experimental.CoroutineContext, kotlin.coroutines.experimental.Continuation&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

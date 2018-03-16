@@ -1,0 +1,18 @@
+<root>
+    <item
+        name='android.support.test.internal.runner.junit4.AndroidAnnotatedBuilder org.junit.runner.Runner buildAndroidRunner(java.lang.Class&lt;? extends org.junit.runner.Runner&gt;, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.junit4.AndroidJUnit4ClassRunner org.junit.runners.model.Statement withPotentialTimeout(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.junit4.AndroidAnnotatedBuilder org.junit.runner.Runner runnerForClass(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.junit4.AndroidJUnit4ClassRunner org.junit.runners.model.Statement methodInvoker(org.junit.runners.model.FrameworkMethod, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

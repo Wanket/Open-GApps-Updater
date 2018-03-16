@@ -1,0 +1,328 @@
+<root>
+    <item
+        name='org.hamcrest.collection.IsMapContaining org.hamcrest.Matcher&lt;java.util.Map&lt;?,? extends V&gt;&gt; hasValue(org.hamcrest.Matcher&lt;? super V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; contains(org.hamcrest.Matcher&lt;? super E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInAnyOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContainingInAnyOrder(java.util.Collection&lt;org.hamcrest.Matcher&lt;? super E&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining void describeMismatchSafely(java.util.Map&lt;? extends K,? extends V&gt;, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableWithSize org.hamcrest.Matcher&lt;java.lang.Iterable&lt;E&gt;&gt; iterableWithSize(org.hamcrest.Matcher&lt;? super java.lang.Integer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection org.hamcrest.Matcher&lt;java.util.Collection&lt;? extends E&gt;&gt; empty()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray boolean matchesSafely(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray IsArray(org.hamcrest.Matcher&lt;? super T&gt;[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContaining(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyIterable org.hamcrest.Matcher&lt;java.lang.Iterable&lt;E&gt;&gt; emptyIterableOf(java.lang.Class&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder boolean matchesSafely(java.lang.Iterable&lt;? extends T&gt;, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsIn org.hamcrest.Matcher&lt;T&gt; isIn(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray java.lang.String descriptionSeparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends T&gt;&gt; containsInAnyOrder(java.util.Collection&lt;org.hamcrest.Matcher&lt;? super T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayWithSize org.hamcrest.Matcher&lt;E[]&gt; arrayWithSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArray org.hamcrest.collection.IsArray&lt;T&gt; array(org.hamcrest.Matcher&lt;? super T&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder boolean matchesSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArray void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInAnyOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContainingInAnyOrder(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsCollectionWithSize org.hamcrest.Matcher&lt;java.util.Collection&lt;? extends E&gt;&gt; hasSize(org.hamcrest.Matcher&lt;? super java.lang.Integer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyIterable boolean matchesSafely(java.lang.Iterable&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; containsInAnyOrder(org.hamcrest.Matcher&lt;? super E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsCollectionWithSize java.lang.Object featureValueOf(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsIn void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection org.hamcrest.Matcher&lt;java.util.Collection&lt;E&gt;&gt; emptyCollectionOf(java.lang.Class&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArrayContaining boolean matchesSafely(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArray void describeMismatchSafely(T[], org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsMapContaining boolean matchesSafely(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayWithSize org.hamcrest.Matcher&lt;E[]&gt; arrayWithSize(org.hamcrest.Matcher&lt;? super java.lang.Integer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableWithSize java.lang.Object featureValueOf(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining org.hamcrest.Matcher&lt;java.util.Map&lt;? extends K,? extends V&gt;&gt; hasEntry(org.hamcrest.Matcher&lt;? super K&gt;, org.hamcrest.Matcher&lt;? super V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray boolean matchesSafely(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection boolean matchesSafely(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContaining(org.hamcrest.Matcher&lt;? super E&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIn org.hamcrest.Matcher&lt;T&gt; isIn(java.util.Collection&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection boolean matchesSafely(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends T&gt;&gt; containsInAnyOrder(T...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder boolean matchesSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; contains(E...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayWithSize java.lang.Object featureValueOf(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArrayWithSize java.lang.Integer featureValueOf(E[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining org.hamcrest.Matcher&lt;java.util.Map&lt;?,? extends V&gt;&gt; hasValue(V)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray java.lang.String descriptionStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray java.lang.String descriptionEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContaining boolean matchesSafely(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsIn org.hamcrest.Matcher&lt;T&gt; isOneOf(T...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; contains(java.util.List&lt;org.hamcrest.Matcher&lt;? super E&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContaining org.hamcrest.Matcher&lt;T[]&gt; hasItemInArray(org.hamcrest.Matcher&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining org.hamcrest.Matcher&lt;java.util.Map&lt;? extends K,?&gt;&gt; hasKey(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContaining org.hamcrest.Matcher&lt;T[]&gt; hasItemInArray(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyIterable void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableWithSize java.lang.Integer featureValueOf(java.lang.Iterable&lt;E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableWithSize org.hamcrest.Matcher&lt;java.lang.Iterable&lt;E&gt;&gt; iterableWithSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyIterable void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyCollection void describeMismatchSafely(java.util.Collection&lt;? extends E&gt;, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArray org.hamcrest.collection.IsArray&lt;T&gt; array(org.hamcrest.Matcher&lt;? super T&gt;...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining void describeMismatchSafely(java.util.Map&lt;? extends K,? extends V&gt;, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContaining void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContaining(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyIterable void describeMismatchSafely(java.lang.Iterable&lt;? extends E&gt;, org.hamcrest.Description) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; contains(org.hamcrest.Matcher&lt;? super E&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining org.hamcrest.Matcher&lt;java.util.Map&lt;? extends K,? extends V&gt;&gt; hasEntry(K, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining org.hamcrest.Matcher&lt;java.util.Map&lt;? extends K,?&gt;&gt; hasKey(org.hamcrest.Matcher&lt;? super K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInAnyOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContainingInAnyOrder(org.hamcrest.Matcher&lt;? super E&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInAnyOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContainingInAnyOrder(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsCollectionWithSize java.lang.Integer featureValueOf(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsEmptyIterable boolean matchesSafely(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends T&gt;&gt; containsInAnyOrder(org.hamcrest.Matcher&lt;? super T&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.collection.IsArray void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; contains(E...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInAnyOrder void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsEmptyIterable org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends E&gt;&gt; emptyIterable()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInOrder void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsArrayContainingInOrder org.hamcrest.Matcher&lt;E[]&gt; arrayContaining(java.util.List&lt;org.hamcrest.Matcher&lt;? super E&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsCollectionWithSize org.hamcrest.Matcher&lt;java.util.Collection&lt;? extends E&gt;&gt; hasSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInAnyOrder org.hamcrest.Matcher&lt;java.lang.Iterable&lt;? extends T&gt;&gt; containsInAnyOrder(T...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsMapContaining boolean matchesSafely(java.util.Map&lt;? extends K,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.collection.IsIterableContainingInOrder boolean matchesSafely(java.lang.Iterable&lt;? extends E&gt;, org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

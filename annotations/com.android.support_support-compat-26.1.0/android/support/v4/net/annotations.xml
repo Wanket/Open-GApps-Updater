@@ -1,0 +1,14 @@
+<root>
+    <item
+        name='android.support.v4.net.TrafficStatsCompat void untagDatagramSocket(java.net.DatagramSocket) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.net.TrafficStatsCompat void tagDatagramSocket(java.net.DatagramSocket) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.net.ConnectivityManagerCompat android.net.NetworkInfo getNetworkInfoFromBroadcast(android.net.ConnectivityManager, android.content.Intent) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

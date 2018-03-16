@@ -1,0 +1,74 @@
+<root>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt; withTextContent(org.hamcrest.Matcher&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; containingTextInBody(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; withBody(org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; elementByXPath(java.lang.String, org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; elementByXPath(java.lang.String, org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt; withTextContent(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; elementById(java.lang.String, org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; hasElementWithId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; elementById(java.lang.String, org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; containingTextInBody(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt; withTextContent(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; hasElementWithXpath(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; hasElementWithXpath(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; withBody(org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; elementById(java.lang.String, org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; hasElementWithId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.RemoteWebMatchers void init(android.support.test.espresso.remote.RemoteDescriptorRegistry) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.matcher.DomMatchers org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt; elementByXPath(java.lang.String, org.hamcrest.Matcher&lt;org.w3c.dom.Element&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

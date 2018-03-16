@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.internal.Finalizer void startFinalizer(java.lang.Class&lt;?&gt;, java.lang.ref.ReferenceQueue&lt;java.lang.Object&gt;, java.lang.ref.PhantomReference&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

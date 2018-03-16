@@ -1,0 +1,38 @@
+<root>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_CREATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_DESTROY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State STARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_RESUME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_STOP'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_ANY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State RESUMED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_PAUSE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State DESTROYED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_START'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State CREATED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State INITIALIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

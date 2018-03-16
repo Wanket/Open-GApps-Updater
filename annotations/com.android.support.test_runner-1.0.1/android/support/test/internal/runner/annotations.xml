@@ -1,0 +1,201 @@
+<root>
+    <item
+        name='android.support.test.internal.runner.RunnerArgs.Builder android.support.test.internal.runner.RunnerArgs build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder removeTestPackage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder setSkipExecution(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder TestRequestBuilder(android.app.Instrumentation, android.os.Bundle) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addAnnotationExclusionFilter(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addFilter(org.junit.runner.manipulation.Filter)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner.ExcludePackageNameFilter boolean accept(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder org.junit.runner.Request build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestSize android.support.test.internal.runner.TestSize getTestSizeForRunTime(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder setPerTestTimeout(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addTestMethod(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.runner.TestSize MEDIUM'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addTestPackage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.RunnerArgs.Builder android.support.test.internal.runner.RunnerArgs.Builder fromManifest(android.app.Instrumentation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addTestClass(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner.ClassNameFilter boolean accept(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestSize boolean testMethodIsAnnotatedWithTestSize(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner.ExternalClassNameFilter boolean accept(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestExecutor.Builder android.support.test.internal.runner.TestExecutor build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestExecutor android.os.Bundle execute(org.junit.runner.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner.InclusivePackageNameFilter boolean accept(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestSize android.support.test.internal.runner.TestSize fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addCustomRunnerBuilderClass(java.lang.Class&lt;? extends org.junit.runners.model.RunnerBuilder&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addApkToScan(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder removeTestMethod(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.RunnerArgs.Builder android.support.test.internal.runner.RunnerArgs.Builder fromBundle(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addFromRunnerArgs(android.support.test.internal.runner.RunnerArgs) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder TestRequestBuilder(android.app.Instrumentation, android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.InstrumentationConnection android.support.test.internal.runner.InstrumentationConnection getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder ignoreSuiteMethods(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestExecutor.Builder android.support.test.internal.runner.TestExecutor.Builder addRunListener(org.junit.runner.notification.RunListener)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addFromRunnerArgs(android.support.test.internal.runner.RunnerArgs)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner.ChainedClassNameFilter boolean accept(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner java.util.Set&lt;java.lang.String&gt; getClassPathEntries(android.support.test.internal.runner.ClassPathScanner.ClassNameFilter)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder removeTestClass(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder setClassLoader(java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestSize boolean testClassIsAnnotatedWithTestSize(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.ClassPathScanner.AcceptAllFilter boolean accept(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.internal.runner.RunnerArgs.Builder android.support.test.internal.runner.RunnerArgs.Builder fromBundle(android.os.Bundle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.runner.InstrumentationConnection BROADCAST_FILTER'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.runner.TestSize LARGE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.runner.TestSize NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addTestSizeFilter(android.support.test.internal.runner.TestSize)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addAnnotationInclusionFilter(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.RunnerArgs.Builder android.support.test.internal.runner.RunnerArgs.Builder fromManifest(android.app.Instrumentation)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestRequestBuilder android.support.test.internal.runner.TestRequestBuilder addShardingFilter(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.TestSize android.support.test.internal.runner.TestSize fromDescription(org.junit.runner.Description)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.runner.TestSize SMALL'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>
