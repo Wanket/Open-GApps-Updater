@@ -1,0 +1,10 @@
+<root>
+    <item
+        name='android.arch.core.executor.ArchTaskExecutor java.util.concurrent.Executor getMainThreadExecutor()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.core.executor.ArchTaskExecutor java.util.concurrent.Executor getIOThreadExecutor()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

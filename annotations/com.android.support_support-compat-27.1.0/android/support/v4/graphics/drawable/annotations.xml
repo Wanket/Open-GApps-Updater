@@ -1,0 +1,61 @@
+<root>
+    <item name='android.support.v4.graphics.drawable.WrappedDrawableApi14.DrawableWrapperState android.graphics.drawable.Drawable newDrawable(android.content.res.Resources)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val
+                name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.support.v4.graphics.drawable.DrawableCompat void jumpToCurrentState(android.graphics.drawable.Drawable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithContentUri(android.net.Uri) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithBitmap(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat void addToShortcutIntent(android.content.Intent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithContentUri(android.net.Uri)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithResource(android.content.Context, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.DrawableCompat void clearColorFilter(android.graphics.drawable.Drawable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithAdaptiveBitmap(android.graphics.Bitmap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithData(byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat void addToShortcutIntent(android.content.Intent, android.graphics.drawable.Drawable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithResource(android.content.Context, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithBitmap(android.graphics.Bitmap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithContentUri(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithData(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.DrawableCompat void inflate(android.graphics.drawable.Drawable, android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources.Theme) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithAdaptiveBitmap(android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.IconCompat android.support.v4.graphics.drawable.IconCompat createWithContentUri(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -1,6 +1,6 @@
 <root>
     <item
-        name='org.junit.experimental.theories.internal.EnumSupplier java.util.List&lt;org.junit.experimental.theories.PotentialAssignment&gt; getValueSources(org.junit.experimental.theories.ParameterSignature)'>
+        name='org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments allUnassigned(java.lang.reflect.Method, org.junit.runners.model.TestClass)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -8,12 +8,8 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getDataPointsMethods(org.junit.experimental.theories.ParameterSignature)'>
+        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getDataPointsFields(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getDataPointsMethods(org.junit.experimental.theories.ParameterSignature) 0'>
@@ -24,7 +20,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getSingleDataPointFields(org.junit.experimental.theories.ParameterSignature)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getDataPointsFields(org.junit.experimental.theories.ParameterSignature) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getDataPointsMethods(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -36,10 +40,6 @@
         </annotation>
     </item>
     <item
-        name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getSingleDataPointFields(org.junit.experimental.theories.ParameterSignature)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.List&lt;org.junit.experimental.theories.PotentialAssignment&gt; getValueSources(org.junit.experimental.theories.ParameterSignature) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -48,11 +48,19 @@
         </annotation>
     </item>
     <item
-        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getArgumentStrings(boolean)'>
+        name='org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments assignNext(org.junit.experimental.theories.PotentialAssignment)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getMethodArguments()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getDataPointsFields(org.junit.experimental.theories.ParameterSignature)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.List&lt;org.junit.experimental.theories.PotentialAssignment&gt; getValueSources(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -64,7 +72,7 @@
         </annotation>
     </item>
     <item
-        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getMethodArguments()'>
+        name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getSingleDataPointFields(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -76,27 +84,19 @@
         </annotation>
     </item>
     <item
-        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getSingleDataPointFields(org.junit.experimental.theories.ParameterSignature)'>
+        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getSingleDataPointMethods(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments assignNext(org.junit.experimental.theories.PotentialAssignment)'>
+        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getConstructorArguments()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments allUnassigned(java.lang.reflect.Method, org.junit.runners.model.TestClass)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getDataPointsMethods(org.junit.experimental.theories.ParameterSignature)'>
+        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getActualValues(int, int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getSingleDataPointMethods(org.junit.experimental.theories.ParameterSignature) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.List&lt;org.junit.experimental.theories.PotentialAssignment&gt; getValueSources(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -108,15 +108,19 @@
         </annotation>
     </item>
     <item
-        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;java.lang.reflect.Field&gt; getDataPointsFields(org.junit.experimental.theories.ParameterSignature)'>
+        name='org.junit.experimental.theories.internal.AllMembersSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getDataPointsMethods(org.junit.experimental.theories.ParameterSignature)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments allUnassigned(java.lang.reflect.Method, org.junit.runners.model.TestClass) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getConstructorArguments()'>
+        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getAllArguments()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -128,24 +132,12 @@
         </annotation>
     </item>
     <item
-        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getActualValues(int, int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.experimental.theories.internal.SpecificDataPointsSupplier java.util.Collection&lt;org.junit.runners.model.FrameworkMethod&gt; getSingleDataPointMethods(org.junit.experimental.theories.ParameterSignature)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='org.junit.experimental.theories.internal.EnumSupplier java.util.List&lt;org.junit.experimental.theories.PotentialAssignment&gt; getValueSources(org.junit.experimental.theories.ParameterSignature) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
-    </item>
-    <item
-        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getAllArguments()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='org.junit.experimental.theories.internal.ParameterizedAssertionError java.lang.String join(java.lang.String, java.util.Collection&lt;java.lang.Object&gt;) 1'>
@@ -158,5 +150,13 @@
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
+    </item>
+    <item
+        name='org.junit.experimental.theories.internal.EnumSupplier java.util.List&lt;org.junit.experimental.theories.PotentialAssignment&gt; getValueSources(org.junit.experimental.theories.ParameterSignature)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.theories.internal.Assignments java.lang.Object[] getArgumentStrings(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

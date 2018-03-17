@@ -1,6 +1,10 @@
 <root>
     <item
-        name='org.junit.internal.builders.JUnit4Builder org.junit.runner.Runner runnerForClass(java.lang.Class&lt;?&gt;)'>
+        name='org.junit.internal.builders.IgnoredClassRunner org.junit.runner.Description getDescription()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.JUnit3Builder junit3Builder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -24,10 +28,6 @@
         </annotation>
     </item>
     <item
-        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.runners.model.RunnerBuilder suiteMethodBuilder()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='org.junit.internal.builders.JUnit4Builder org.junit.runner.Runner runnerForClass(java.lang.Class&lt;?&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -44,15 +44,7 @@
         </annotation>
     </item>
     <item
-        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.JUnit3Builder junit3Builder()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='org.junit.internal.builders.IgnoredClassRunner void run(org.junit.runner.notification.RunNotifier) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.JUnit4Builder junit4Builder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -60,7 +52,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.IgnoredBuilder ignoredBuilder()'>
+        name='org.junit.internal.builders.JUnit4Builder org.junit.runner.Runner runnerForClass(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.AnnotatedBuilder annotatedBuilder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -72,11 +68,15 @@
         </annotation>
     </item>
     <item
-        name='org.junit.internal.builders.IgnoredClassRunner org.junit.runner.Description getDescription()'>
+        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.runners.model.RunnerBuilder suiteMethodBuilder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.AnnotatedBuilder annotatedBuilder()'>
+        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.JUnit4Builder junit4Builder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.internal.builders.AllDefaultPossibilitiesBuilder org.junit.internal.builders.IgnoredBuilder ignoredBuilder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

@@ -12,11 +12,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.runner.internal.deps.aidl.Codecs java.util.HashMap createMap(android.os.Parcel) 0'>
+        name='android.support.test.runner.internal.deps.aidl.BaseStub android.os.IBinder asBinder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.runner.internal.deps.aidl.BaseProxy android.os.Parcel obtainAndWriteInterfaceToken()'>
+        name='android.support.test.runner.internal.deps.aidl.Codecs java.util.HashMap createMap(android.os.Parcel) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -32,15 +32,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.runner.internal.deps.aidl.BaseProxy android.os.Parcel obtainAndWriteInterfaceToken()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.runner.internal.deps.aidl.BaseProxy android.os.Parcel transactAndReadException(int, android.os.Parcel) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.runner.internal.deps.aidl.Codecs void writeParcelableAsReturnValue(android.os.Parcel, android.os.Parcelable) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.runner.internal.deps.aidl.BaseStub android.os.IBinder asBinder()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

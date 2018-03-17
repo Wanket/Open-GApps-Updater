@@ -32,13 +32,13 @@
     <item name='org.kxml2.wap.wv.WV tagTablePage0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='org.kxml2.wap.wv.WV org.kxml2.wap.WbxmlParser createParser()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='org.kxml2.wap.wv.WV attrValueTable'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.wv.WV tagTablePageA'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.wap.wv.WV org.kxml2.wap.WbxmlParser createParser()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

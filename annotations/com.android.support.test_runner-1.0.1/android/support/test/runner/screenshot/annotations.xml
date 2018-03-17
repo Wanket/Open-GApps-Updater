@@ -1,6 +1,6 @@
 <root>
     <item
-        name='android.support.test.runner.screenshot.Screenshot android.support.test.runner.screenshot.ScreenCapture capture(android.view.View)'>
+        name='android.support.test.runner.screenshot.Screenshot android.support.test.runner.screenshot.ScreenCapture capture(android.app.Activity)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -12,10 +12,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.runner.screenshot.ScreenCapture android.support.test.runner.screenshot.ScreenCapture setName(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.runner.screenshot.ScreenCaptureProcessor java.lang.String process(android.support.test.runner.screenshot.ScreenCapture) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -24,11 +20,15 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.runner.screenshot.ScreenCapture android.support.test.runner.screenshot.ScreenCapture setFormat(android.graphics.Bitmap.CompressFormat)'>
+        name='android.support.test.runner.screenshot.ScreenCapture android.support.test.runner.screenshot.ScreenCapture setName(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.runner.screenshot.Screenshot android.support.test.runner.screenshot.ScreenCapture capture()'>
+        name='android.support.test.runner.screenshot.Screenshot android.support.test.runner.screenshot.ScreenCapture capture(android.view.View)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.runner.screenshot.ScreenCapture android.support.test.runner.screenshot.ScreenCapture setFormat(android.graphics.Bitmap.CompressFormat)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -36,11 +36,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.runner.screenshot.Screenshot android.support.test.runner.screenshot.ScreenCapture capture(android.app.Activity)'>
+        name='android.support.test.runner.screenshot.BasicScreenCaptureProcessor java.lang.String process(android.support.test.runner.screenshot.ScreenCapture) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.runner.screenshot.BasicScreenCaptureProcessor java.lang.String process(android.support.test.runner.screenshot.ScreenCapture) 0'>
+        name='android.support.test.runner.screenshot.Screenshot android.support.test.runner.screenshot.ScreenCapture capture()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

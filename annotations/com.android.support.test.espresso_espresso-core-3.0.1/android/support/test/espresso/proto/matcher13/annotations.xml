@@ -1,118 +1,10 @@
 <root>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setId(java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addAllMatchers(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.Any&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto parseFrom(byte[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder clearMatcher()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setExpectedValue(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setId(java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder clearSubstring()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder setExpectedClass(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto parseFrom(java.nio.ByteBuffer) 0'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -124,7 +16,115 @@
         </annotation>
     </item>
     <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder clearExpectedValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder setExpectedClass(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder clearMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder clearMatchers()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto parseFrom(java.nio.ByteBuffer) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -132,11 +132,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder removeMatchers(int)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addAllMatchers(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.Any&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -152,35 +164,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto parseFrom(byte[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder clearMatchers()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addAllMatchers(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.Any&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -188,15 +184,43 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto parseFrom(byte[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setExpectedValue(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder removeMatchers(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder removeMatchers(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder mergeMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder clearSubstring()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -216,10 +240,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder clearExpectedClass()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -236,11 +256,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -248,12 +264,12 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder clearMatchers()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
@@ -261,14 +277,6 @@
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto parseFrom(byte[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -280,7 +288,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -288,7 +296,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -300,27 +312,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder mergeMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder clearExpectedValue()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -336,19 +336,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -360,20 +364,20 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addAllMatchers(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.Any&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setId(java.lang.String) 0'>
@@ -384,67 +388,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder setSubstring(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addAllMatchers(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.Any&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto parseFrom(byte[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder mergeMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder mergeMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -452,12 +404,88 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addAllMatchers(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.Any&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto parseFrom(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto parseFrom(byte[]) 0'>
@@ -468,11 +496,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder clearExpectedClass()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -484,11 +508,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder clearMatcher()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -496,19 +524,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -516,7 +532,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -524,7 +544,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -532,15 +552,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -556,15 +572,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder clearMatchers()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder clearMatcher()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -576,19 +588,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto parseFrom(byte[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder removeMatchers(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -605,6 +613,14 @@
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -632,6 +648,10 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -644,39 +664,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder setSubstring(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsInstanceOfProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -696,11 +692,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsEqualProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder setMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -708,12 +704,12 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
@@ -724,7 +720,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto.Builder addMatchers(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -736,12 +732,8 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AllOfProto.Builder addMatchers(int, android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto parseFrom(java.nio.ByteBuffer) 0'>
@@ -752,7 +744,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.AnyOfProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNotProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.IsNullProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder android.support.test.espresso.proto.matcher13.HamcrestMatchersv13.StringContainsProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

@@ -1,10 +1,10 @@
 <root>
     <item
-        name='org.hamcrest.integration.EasyMock2Adapter org.easymock.IArgumentMatcher adapt(org.hamcrest.Matcher&lt;?&gt;)'>
+        name='org.hamcrest.integration.JMock1Adapter org.jmock.core.Constraint adapt(org.hamcrest.Matcher&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.hamcrest.integration.JMock1Adapter org.jmock.core.Constraint adapt(org.hamcrest.Matcher&lt;?&gt;)'>
+        name='org.hamcrest.integration.EasyMock2Adapter org.easymock.IArgumentMatcher adapt(org.hamcrest.Matcher&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

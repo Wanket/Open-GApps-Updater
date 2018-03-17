@@ -1,0 +1,38 @@
+<root>
+    <item
+        name='android.support.v13.view.inputmethod.InputConnectionCompat android.view.inputmethod.InputConnection createWrapper(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo, android.support.v13.view.inputmethod.InputConnectionCompat.OnCommitContentListener) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.InputConnectionCompat android.view.inputmethod.InputConnection createWrapper(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo, android.support.v13.view.inputmethod.InputConnectionCompat.OnCommitContentListener)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.EditorInfoCompat void setContentMimeTypes(android.view.inputmethod.EditorInfo, java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.InputConnectionCompat boolean commitContent(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo, android.support.v13.view.inputmethod.InputContentInfoCompat, int, android.os.Bundle) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.InputConnectionCompat boolean commitContent(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo, android.support.v13.view.inputmethod.InputContentInfoCompat, int, android.os.Bundle) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.EditorInfoCompat java.lang.String[] getContentMimeTypes(android.view.inputmethod.EditorInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.InputConnectionCompat android.view.inputmethod.InputConnection createWrapper(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo, android.support.v13.view.inputmethod.InputConnectionCompat.OnCommitContentListener) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.EditorInfoCompat java.lang.String[] getContentMimeTypes(android.view.inputmethod.EditorInfo) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v13.view.inputmethod.InputConnectionCompat android.view.inputmethod.InputConnection createWrapper(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo, android.support.v13.view.inputmethod.InputConnectionCompat.OnCommitContentListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

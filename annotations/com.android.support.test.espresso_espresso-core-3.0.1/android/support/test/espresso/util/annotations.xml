@@ -8,15 +8,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.util.TreeIterables java.lang.Iterable&lt;android.view.View&gt; depthFirstViewTraversal(android.view.View)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.util.TreeIterables java.lang.Iterable&lt;android.support.test.espresso.util.TreeIterables.ViewAndDistance&gt; depthFirstViewTraversalWithDistance(android.view.View)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.util.TreeIterables java.lang.Iterable&lt;android.view.View&gt; breadthFirstViewTraversal(android.view.View)'>
+        name='android.support.test.espresso.util.TreeIterables java.lang.Iterable&lt;android.view.View&gt; depthFirstViewTraversal(android.view.View)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -37,6 +33,10 @@
     </item>
     <item
         name='android.support.test.espresso.util.ActivityLifecycles boolean hasTransitioningActivities(android.support.test.runner.lifecycle.ActivityLifecycleMonitor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.util.TreeIterables java.lang.Iterable&lt;android.view.View&gt; breadthFirstViewTraversal(android.view.View)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

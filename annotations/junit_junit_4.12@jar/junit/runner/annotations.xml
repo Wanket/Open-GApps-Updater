@@ -13,9 +13,6 @@
     <item name='junit.runner.BaseTestRunner void endTest(junit.framework.Test) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='junit.runner.Version java.lang.String id()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='junit.runner.BaseTestRunner java.lang.String processArguments(java.lang.String[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -37,6 +34,9 @@
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
+    </item>
+    <item name='junit.runner.Version java.lang.String id()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='junit.runner.BaseTestRunner java.lang.String extractClassName(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />

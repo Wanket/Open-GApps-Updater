@@ -1,6 +1,10 @@
 <root>
     <item
-        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter include(java.lang.Class&lt;?&gt;)'>
+        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter exclude(java.lang.Class&lt;?&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter exclude(java.lang.Class&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -8,15 +12,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter categoryFilter(boolean, java.util.Set&lt;java.lang.Class&lt;?&gt;&gt;, boolean, java.util.Set&lt;java.lang.Class&lt;?&gt;&gt;)'>
+        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter include(java.lang.Class&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.categories.ExcludeCategories org.junit.runner.manipulation.Filter createFilter(java.util.List&lt;java.lang.Class&lt;?&gt;&gt;)'>
+        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter include(java.lang.Class&lt;?&gt;...)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='org.junit.experimental.categories.Categories.CategoryFilter boolean shouldRun(org.junit.runner.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.categories.ExcludeCategories org.junit.runner.manipulation.Filter createFilter(java.util.List&lt;java.lang.Class&lt;?&gt;&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -28,11 +36,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter exclude(java.lang.Class&lt;?&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter include(java.lang.Class&lt;?&gt;...)'>
+        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter categoryFilter(boolean, java.util.Set&lt;java.lang.Class&lt;?&gt;&gt;, boolean, java.util.Set&lt;java.lang.Class&lt;?&gt;&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -41,10 +45,6 @@
     </item>
     <item
         name='org.junit.experimental.categories.CategoryValidator java.util.List&lt;java.lang.Exception&gt; validateAnnotatedMethod(org.junit.runners.model.FrameworkMethod) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter exclude(java.lang.Class&lt;?&gt;...)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

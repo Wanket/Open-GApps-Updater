@@ -14,21 +14,25 @@
     <item name='android.support.test.internal.util.ParcelableIBinder CREATOR'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.Object)'>
+    <item
+        name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.String, java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.internal.util.ProcessUtil java.lang.String getCurrentProcessName(android.content.Context)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.String, java.lang.Object...) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.Object) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='android.support.test.internal.util.Checks T checkNotNull(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='android.support.test.internal.util.Checks T checkNotNull(T) 0'>
@@ -36,10 +40,6 @@
     </item>
     <item
         name='android.support.test.internal.util.LogUtil void logDebugWithProcess(java.lang.String, java.lang.String, java.lang.Object...) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.internal.util.Checks T checkNotNull(T, java.lang.String, java.lang.Object...)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

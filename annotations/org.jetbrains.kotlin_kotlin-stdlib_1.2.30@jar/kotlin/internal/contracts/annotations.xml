@@ -7,15 +7,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='kotlin.internal.contracts.SimpleEffect kotlin.internal.contracts.ConditionalEffect implies(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='kotlin.internal.contracts.ContractBuilder kotlin.internal.contracts.CallsInPlace callsInPlace(kotlin.Function&lt;? extends R&gt;, kotlin.internal.contracts.InvocationKind)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.internal.contracts.ContractBuilder kotlin.internal.contracts.Returns returns()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.internal.contracts.ContractBuilder kotlin.internal.contracts.Returns returns(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -25,11 +25,11 @@
     <item name='kotlin.internal.contracts.InvocationKind AT_MOST_ONCE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.internal.contracts.InvocationKind UNKNOWN'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='kotlin.internal.contracts.ContractBuilder.DefaultImpls kotlin.internal.contracts.CallsInPlace callsInPlace$default(kotlin.internal.contracts.ContractBuilder, kotlin.Function, kotlin.internal.contracts.InvocationKind, int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.internal.contracts.InvocationKind UNKNOWN'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -38,10 +38,6 @@
     </item>
     <item
         name='kotlin.internal.contracts.ContractBuilder.DefaultImpls kotlin.internal.contracts.CallsInPlace callsInPlace$default(kotlin.internal.contracts.ContractBuilder, kotlin.Function, kotlin.internal.contracts.InvocationKind, int, java.lang.Object) 2'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.internal.contracts.SimpleEffect kotlin.internal.contracts.ConditionalEffect implies(boolean)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.internal.contracts.InvocationKind EXACTLY_ONCE'>
@@ -53,6 +49,10 @@
     </item>
     <item
         name='kotlin.internal.contracts.ContractBuilder kotlin.internal.contracts.CallsInPlace callsInPlace(kotlin.Function&lt;? extends R&gt;, kotlin.internal.contracts.InvocationKind) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.internal.contracts.ContractBuilder kotlin.internal.contracts.Returns returns(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

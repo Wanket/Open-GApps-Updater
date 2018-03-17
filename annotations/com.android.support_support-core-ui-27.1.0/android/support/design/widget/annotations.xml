@@ -1,0 +1,109 @@
+<root>
+    <item
+        name='android.support.design.widget.CoordinatorLayout CoordinatorLayout(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.support.design.widget.CoordinatorLayout.LayoutParams generateLayoutParams(android.view.ViewGroup.LayoutParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout.Behavior void setTag(android.view.View, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout boolean isPointInChildBounds(android.view.View, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout.SavedState SavedState(android.os.Parcel, java.lang.ClassLoader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout void onNestedPreScroll(android.view.View, int, int, int[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout boolean drawChild(android.graphics.Canvas, android.view.View, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout boolean onInterceptTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout java.util.List&lt;android.view.View&gt; getDependencies(android.view.View)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.view.ViewGroup.LayoutParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.support.design.widget.CoordinatorLayout.LayoutParams generateDefaultLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout.SavedState void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.view.ViewGroup.LayoutParams generateDefaultLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout java.util.List&lt;android.view.View&gt; getDependents(android.view.View)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout CoordinatorLayout(android.content.Context, android.util.AttributeSet, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.util.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout void onLayoutChild(android.view.View, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout.SavedState SavedState(android.os.Parcelable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.design.widget.CoordinatorLayout.SavedState CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout void onNestedPreScroll(android.view.View, int, int, int[], int) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.support.design.widget.CoordinatorLayout.LayoutParams generateLayoutParams(android.util.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout.Behavior java.lang.Object getTag(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout android.os.Parcelable onSaveInstanceState()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout CoordinatorLayout(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout boolean onTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout boolean requestChildRectangleOnScreen(android.view.View, android.graphics.Rect, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.design.widget.CoordinatorLayout boolean doViewsOverlap(android.view.View, android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

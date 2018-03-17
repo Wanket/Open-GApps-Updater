@@ -1,0 +1,50 @@
+<root>
+    <item
+        name='android.support.v4.os.LocaleListCompat android.support.v4.os.LocaleListCompat getDefault()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.ConfigurationCompat android.support.v4.os.LocaleListCompat getLocales(android.content.res.Configuration)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.LocaleListCompat android.support.v4.os.LocaleListCompat getAdjustedDefault()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.os.ResultReceiver CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.ConfigurationCompat android.support.v4.os.LocaleListCompat getLocales(android.content.res.Configuration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.LocaleListCompat android.support.v4.os.LocaleListCompat create(java.util.Locale...)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.LocaleListCompat android.support.v4.os.LocaleListCompat forLanguageTags(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.ParcelableCompat android.os.Parcelable.Creator&lt;T&gt; newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.LocaleListCompat android.support.v4.os.LocaleListCompat getEmptyLocaleList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.os.ResultReceiver void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.os.EnvironmentCompat MEDIA_UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.os.IResultReceiver.Stub android.os.IBinder asBinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.os.LocaleListCompat android.support.v4.os.LocaleListCompat wrap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

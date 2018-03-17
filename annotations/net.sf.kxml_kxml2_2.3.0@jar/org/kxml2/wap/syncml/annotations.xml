@@ -1,20 +1,20 @@
 <root>
+    <item name='org.kxml2.wap.syncml.SyncML org.kxml2.wap.WbxmlSerializer createDMSerializer()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.wap.syncml.SyncML org.kxml2.wap.WbxmlParser createDMParser()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='org.kxml2.wap.syncml.SyncML TAG_TABLE_0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.syncml.SyncML TAG_TABLE_1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='org.kxml2.wap.syncml.SyncML org.kxml2.wap.WbxmlParser createDMParser()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='org.kxml2.wap.syncml.SyncML org.kxml2.wap.WbxmlSerializer createSerializer()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.syncml.SyncML TAG_TABLE_2_DM'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.kxml2.wap.syncml.SyncML org.kxml2.wap.WbxmlSerializer createDMSerializer()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.syncml.SyncML org.kxml2.wap.WbxmlParser createParser()'>

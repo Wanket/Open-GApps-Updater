@@ -1,8 +1,4 @@
 <root>
-    <item
-        name='javax.annotation.meta.TypeQualifierValidator javax.annotation.meta.When forConstantValue(A, java.lang.Object)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='javax.annotation.meta.When UNKNOWN'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -13,6 +9,10 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='javax.annotation.meta.When NEVER'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='javax.annotation.meta.TypeQualifierValidator javax.annotation.meta.When forConstantValue(A, java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

@@ -4,11 +4,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; greaterThanOrEqualTo(T)'>
+        name='org.hamcrest.number.BigDecimalCloseTo org.hamcrest.Matcher&lt;java.math.BigDecimal&gt; closeTo(java.math.BigDecimal, java.math.BigDecimal)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; lessThanOrEqualTo(T)'>
+        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; greaterThan(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.hamcrest.number.OrderingComparison boolean matchesSafely(T) 0'>
@@ -38,7 +38,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; greaterThan(T)'>
+        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; comparesEqualTo(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.hamcrest.number.BigDecimalCloseTo void describeTo(org.hamcrest.Description) 0'>
@@ -48,7 +48,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.hamcrest.number.IsCloseTo org.hamcrest.Matcher&lt;java.lang.Double&gt; closeTo(double, double)'>
+        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; greaterThanOrEqualTo(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; lessThanOrEqualTo(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -56,13 +60,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.hamcrest.number.IsCloseTo void describeTo(org.hamcrest.Description) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.hamcrest.number.BigDecimalCloseTo org.hamcrest.Matcher&lt;java.math.BigDecimal&gt; closeTo(java.math.BigDecimal, java.math.BigDecimal)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; lessThan(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -74,14 +71,17 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='org.hamcrest.number.IsCloseTo org.hamcrest.Matcher&lt;java.lang.Double&gt; closeTo(double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='org.hamcrest.number.IsCloseTo void describeMismatchSafely(java.lang.Object, org.hamcrest.Description) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.hamcrest.number.IsCloseTo boolean matchesSafely(java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; comparesEqualTo(T)'>
+    <item name='org.hamcrest.number.OrderingComparison org.hamcrest.Matcher&lt;T&gt; lessThan(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

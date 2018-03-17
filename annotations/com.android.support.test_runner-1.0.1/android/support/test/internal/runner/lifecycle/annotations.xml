@@ -1,9 +1,5 @@
 <root>
     <item
-        name='android.support.test.internal.runner.lifecycle.ActivityLifecycleMonitorImpl java.util.Collection&lt;android.app.Activity&gt; getActivitiesInStage(android.support.test.runner.lifecycle.Stage)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.internal.runner.lifecycle.ApplicationLifecycleMonitorImpl void removeLifecycleCallback(android.support.test.runner.lifecycle.ApplicationLifecycleCallback) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -17,6 +13,10 @@
     </item>
     <item
         name='android.support.test.internal.runner.lifecycle.ActivityLifecycleMonitorImpl void addLifecycleCallback(android.support.test.runner.lifecycle.ActivityLifecycleCallback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.internal.runner.lifecycle.ActivityLifecycleMonitorImpl java.util.Collection&lt;android.app.Activity&gt; getActivitiesInStage(android.support.test.runner.lifecycle.Stage)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

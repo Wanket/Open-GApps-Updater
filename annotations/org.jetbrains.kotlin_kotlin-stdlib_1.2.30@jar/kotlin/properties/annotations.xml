@@ -20,10 +20,6 @@
         </annotation>
     </item>
     <item
-        name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; vetoable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,java.lang.Boolean&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='kotlin.properties.ReadWriteProperty void setValue(R, kotlin.reflect.KProperty&lt;?&gt;, T) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -39,7 +35,23 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
+    <item
+        name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; observable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,kotlin.Unit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='kotlin.properties.Delegates INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.properties.ReadWriteProperty T getValue(R, kotlin.reflect.KProperty&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; notNull()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -55,27 +67,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; vetoable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='kotlin.properties.ObservableProperty boolean beforeChange(kotlin.reflect.KProperty&lt;?&gt;, T, T) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; observable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,kotlin.Unit&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='kotlin.properties.ObservableProperty void afterChange(kotlin.reflect.KProperty&lt;?&gt;, T, T) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.properties.ReadWriteProperty T getValue(R, kotlin.reflect.KProperty&lt;?&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; notNull()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

@@ -1,0 +1,14 @@
+<root>
+    <item
+        name='android.support.v4.provider.DocumentFile android.support.v4.provider.DocumentFile fromFile(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.provider.DocumentFile android.support.v4.provider.DocumentFile[] listFiles()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+</root>

@@ -4,10 +4,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder mergeParent(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -16,15 +12,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder mergeTransformer(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -33,6 +21,10 @@
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addAllArgs(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.ByteString&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -52,11 +44,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addArgs(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setArgs(int, android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addArgs(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -64,7 +60,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -72,7 +68,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setParent(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setTransformer(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -80,15 +76,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setOpaque(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder setClazz(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -96,24 +84,32 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getScriptBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setScript(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder clearId()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setArgs(int, android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder clearTransformer()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getScriptBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
@@ -124,11 +120,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder clearClazz()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -140,15 +132,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setScriptBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -156,11 +140,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setOpaque(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setScriptBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addAllArgs(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.ByteString&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -172,24 +172,16 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addArgs(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setScript(java.lang.String)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setId(java.lang.String) 0'>
@@ -200,11 +192,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder clearArgs()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder clearClazz()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setScript(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -220,11 +216,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder clearId()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setOpaque(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setTransformer(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder mergeParent(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setOpaque(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -232,11 +236,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setTransformer(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addArgs(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -252,10 +256,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto parseFrom(java.nio.ByteBuffer) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -268,10 +268,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setTransformer(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setArgs(int, android.support.test.espresso.core.internal.deps.protobuf.ByteString) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -280,16 +276,16 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getScriptBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setParent(android.support.test.espresso.core.internal.deps.protobuf.Any) 0'>
@@ -304,7 +300,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder clearScript()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder clearParent()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -312,23 +320,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder clearArgs()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder clearOpaque()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -340,11 +344,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder addAllArgs(java.lang.Iterable&lt;? extends android.support.test.espresso.core.internal.deps.protobuf.ByteString&gt;)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -352,11 +352,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder clearParent()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getScriptBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder clearId()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -368,7 +372,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -380,7 +388,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getScriptBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -392,23 +408,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder clearTransformer()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setParent(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder clearOpaque()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder clearOpaque()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder setClazz(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -420,32 +436,24 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setParent(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto parseFrom(java.nio.ByteBuffer) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder mergeTransformer(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto getDefaultInstance()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
@@ -456,35 +464,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.TransformingAtomProto.Builder setParent(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.ElementReferenceProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.CastOrDieAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.ScriptWithArgsSimpleAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getScriptBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder clearOpaque()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder android.support.test.espresso.web.proto.model.WebModelAtoms.WindowReferenceProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

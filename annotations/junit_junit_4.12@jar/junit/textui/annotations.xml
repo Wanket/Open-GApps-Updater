@@ -8,6 +8,13 @@
         </annotation>
     </item>
     <item
+        name='junit.textui.TestRunner junit.framework.TestResult runSingleMethod(java.lang.String, java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='junit.textui.TestRunner junit.framework.TestResult createTestResult()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='junit.textui.ResultPrinter void printDefectHeader(junit.framework.TestFailure, int) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -28,9 +35,6 @@
     <item name='junit.textui.TestRunner void runAndWait(junit.framework.Test) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='junit.textui.TestRunner junit.framework.TestResult createTestResult()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='junit.textui.TestRunner junit.framework.TestResult doRun(junit.framework.Test, boolean) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -39,16 +43,13 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='junit.textui.TestRunner junit.framework.TestResult runSingleMethod(java.lang.String, java.lang.String, boolean)'>
+        name='junit.textui.TestRunner junit.framework.TestResult doRun(junit.framework.Test, boolean)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='junit.textui.TestRunner junit.framework.TestResult run(junit.framework.Test) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='junit.textui.TestRunner junit.framework.TestResult start(java.lang.String[])'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='junit.textui.TestRunner junit.framework.TestResult doRun(junit.framework.Test)'>
+    <item name='junit.textui.TestRunner junit.framework.TestResult run(junit.framework.Test)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='junit.textui.ResultPrinter void printDefectTrace(junit.framework.TestFailure) 0'>
@@ -61,6 +62,9 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
+    <item name='junit.textui.TestRunner junit.framework.TestResult doRun(junit.framework.Test)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item
         name='junit.textui.ResultPrinter void addError(junit.framework.Test, java.lang.Throwable) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -72,7 +76,7 @@
     <item name='junit.textui.ResultPrinter void printFooter(junit.framework.TestResult) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='junit.textui.TestRunner junit.framework.TestResult run(junit.framework.Test)'>
+    <item name='junit.textui.TestRunner junit.framework.TestResult start(java.lang.String[])'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='junit.textui.TestRunner junit.framework.TestResult doRun(junit.framework.Test) 0'>
@@ -82,10 +86,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='junit.textui.ResultPrinter void printFailures(junit.framework.TestResult) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='junit.textui.TestRunner junit.framework.TestResult doRun(junit.framework.Test, boolean)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

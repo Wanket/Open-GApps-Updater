@@ -1,7 +1,4 @@
 <root>
-    <item name='org.junit.runner.notification.Failure java.lang.String getTestHeader()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='org.junit.runner.notification.RunNotifier void removeListener(org.junit.runner.notification.RunListener) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -44,6 +41,9 @@
     </item>
     <item
         name='org.junit.runner.notification.RunNotifier void addListener(org.junit.runner.notification.RunListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.junit.runner.notification.Failure java.lang.String getTestHeader()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

@@ -1,0 +1,413 @@
+<root>
+    <item
+        name='android.support.v4.widget.ViewDragHelper android.support.v4.widget.ViewDragHelper create(android.view.ViewGroup, android.support.v4.widget.ViewDragHelper.Callback) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SwipeRefreshLayout boolean onInterceptTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper android.support.v4.widget.ViewDragHelper create(android.view.ViewGroup, float, android.support.v4.widget.ViewDragHelper.Callback)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setExclusive(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SimpleCursorAdapter SimpleCursorAdapter(android.content.Context, int, android.database.Cursor, java.lang.String[], int[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout void setDrawerLockMode(int, android.view.View) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout.SavedState SavedState(android.os.Parcel, java.lang.ClassLoader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SimpleCursorAdapter SimpleCursorAdapter(android.content.Context, int, android.database.Cursor, java.lang.String[], int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback int getViewHorizontalDragRange(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback void onViewPositionChanged(android.view.View, int, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.ResourceCursorAdapter ResourceCursorAdapter(android.content.Context, int, android.database.Cursor, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView NestedScrollView(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper boolean shouldInterceptTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SwipeRefreshLayout SwipeRefreshLayout(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout android.view.ViewGroup.LayoutParams generateDefaultLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.FocusStrategy.CollectionAdapter int size(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.CircularProgressDrawable void draw(android.graphics.Canvas) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ResourceCursorAdapter ResourceCursorAdapter(android.content.Context, int, android.database.Cursor, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback int clampViewPositionHorizontal(android.view.View, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback boolean tryCaptureView(android.view.View, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.SwipeRefreshLayout void setColorSchemeResources(int...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DirectedAcyclicGraph java.util.ArrayList&lt;T&gt; getSortedList()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper android.support.v4.widget.ViewDragHelper create(android.view.ViewGroup, android.support.v4.widget.ViewDragHelper.Callback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout.SavedState SavedState(android.os.Parcelable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SwipeRefreshLayout boolean onTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.util.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setRelativeEdges(float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback int clampViewPositionVertical(android.view.View, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setEdgeType(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.DrawerLayout void openDrawer(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper android.support.v4.widget.ViewDragHelper create(android.view.ViewGroup, float, android.support.v4.widget.ViewDragHelper.Callback) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.FocusStrategy.BoundsAdapter void obtainBounds(T, android.graphics.Rect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout void openDrawer(android.view.View, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SimpleCursorAdapter void setViewText(android.widget.TextView, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setEnabled(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView android.os.Parcelable onSaveInstanceState()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.FocusStrategy.CollectionAdapter V get(T, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView void measureChildWithMargins(android.view.View, int, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout void closeDrawer(android.view.View, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setRampUpDuration(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.DrawerLayout void closeDrawer(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout boolean drawChild(android.graphics.Canvas, android.view.View, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout boolean onInterceptTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView boolean onTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout boolean drawChild(android.graphics.Canvas, android.view.View, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout android.os.Parcelable onSaveInstanceState()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setMaximumEdges(float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout SlidingPaneLayout(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setRampDownDuration(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout boolean drawChild(android.graphics.Canvas, android.view.View, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.util.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setMaximumVelocity(float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setMinimumVelocity(float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView boolean onInterceptTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.view.ViewGroup.LayoutParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout SlidingPaneLayout(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setActivationDelay(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout.LayoutParams LayoutParams(android.support.v4.widget.SlidingPaneLayout.LayoutParams) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SwipeRefreshLayout SwipeRefreshLayout(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout android.view.ViewGroup.LayoutParams generateLayoutParams(android.view.ViewGroup.LayoutParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback void onViewReleased(android.view.View, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper android.support.v4.widget.ViewDragHelper create(android.view.ViewGroup, android.support.v4.widget.ViewDragHelper.Callback)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.DrawerLayout.SavedState CREATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView NestedScrollView(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView boolean requestChildRectangleOnScreen(android.view.View, android.graphics.Rect, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout boolean onInterceptTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewGroupUtils void getDescendantRect(android.view.ViewGroup, android.view.View, android.graphics.Rect) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout boolean isDrawerVisible(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout boolean onTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout boolean drawChild(android.graphics.Canvas, android.view.View, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper.Callback void onViewCaptured(android.view.View, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper void processTouchEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout.LayoutParams LayoutParams(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.DrawerLayout android.os.Parcelable onSaveInstanceState()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout.LayoutParams LayoutParams(android.content.Context, android.util.AttributeSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ExploreByTouchHelper ExploreByTouchHelper(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView NestedScrollView(android.content.Context, android.util.AttributeSet, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper android.support.v4.widget.ViewDragHelper create(android.view.ViewGroup, float, android.support.v4.widget.ViewDragHelper.Callback) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SlidingPaneLayout SlidingPaneLayout(android.content.Context, android.util.AttributeSet, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewDragHelper void captureChildView(android.view.View, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SimpleCursorAdapter void setViewImage(android.widget.ImageView, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.AutoScrollHelper android.support.v4.widget.AutoScrollHelper setRelativeVelocity(float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.SwipeRefreshLayout void onNestedPreScroll(android.view.View, int, int, int[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ExploreByTouchHelper boolean dispatchKeyEvent(android.view.KeyEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.SwipeRefreshLayout void setColorScheme(int...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout.LayoutParams LayoutParams(android.support.v4.widget.DrawerLayout.LayoutParams) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.DrawerLayout int getDrawerLockMode(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView boolean onGenericMotionEvent(android.view.MotionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView boolean requestChildRectangleOnScreen(android.view.View, android.graphics.Rect, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.widget.DrawerLayout boolean isDrawerOpen(android.view.View) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ViewGroupUtils void getDescendantRect(android.view.ViewGroup, android.view.View, android.graphics.Rect) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout android.view.ViewGroup.LayoutParams generateDefaultLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.ResourceCursorAdapter ResourceCursorAdapter(android.content.Context, int, android.database.Cursor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.NestedScrollView void measureChild(android.view.View, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.widget.DrawerLayout.SavedState void writeToParcel(android.os.Parcel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

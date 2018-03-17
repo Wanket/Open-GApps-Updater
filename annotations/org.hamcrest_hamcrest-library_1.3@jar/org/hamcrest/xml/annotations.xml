@@ -1,10 +1,4 @@
 <root>
-    <item name='org.hamcrest.xml.HasXPath org.hamcrest.Matcher&lt;org.w3c.dom.Node&gt; hasXPath(java.lang.String, javax.xml.namespace.NamespaceContext)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.hamcrest.xml.HasXPath org.hamcrest.Matcher&lt;org.w3c.dom.Node&gt; hasXPath(java.lang.String, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='org.hamcrest.xml.HasXPath org.hamcrest.Matcher&lt;org.w3c.dom.Node&gt; hasXPath(java.lang.String, javax.xml.namespace.NamespaceContext, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -12,6 +6,12 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.hamcrest.xml.HasXPath void describeTo(org.hamcrest.Description) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.xml.HasXPath org.hamcrest.Matcher&lt;org.w3c.dom.Node&gt; hasXPath(java.lang.String, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.hamcrest.xml.HasXPath org.hamcrest.Matcher&lt;org.w3c.dom.Node&gt; hasXPath(java.lang.String, javax.xml.namespace.NamespaceContext)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

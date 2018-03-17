@@ -4,7 +4,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearCoordsAny()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -20,19 +20,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location&gt; internalGetValueMap()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location CENTER_LEFT'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder clearButtonState()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -44,11 +44,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setId(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setId(java.lang.String) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setTap(android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -56,19 +56,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearCoordsLocOrCoordsAny()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location BOTTOM_LEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearAdapterViewProtocolClass()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -76,11 +68,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder clearEspressoKey()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -92,19 +88,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.proto.action.ViewActions.PressBackActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsLocValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setTapValue(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setPrecisionValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap getTap()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setAtPosition(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -112,11 +116,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setMetaState(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder clearEspressoKey()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -128,15 +144,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getEndCoordsLoc()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setId(java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -144,32 +152,12 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setPrecision(android.support.test.espresso.proto.action.ViewActions.PressProto.Precision) 0'>
@@ -180,7 +168,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearTap()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap getTap()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -196,15 +188,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearDx()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap getTap()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getLocation()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearEndCoordsLocOrEndCoordsAny()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -212,7 +200,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearSwipe()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setPrecisionValue(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setLocation(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setDataToLoadMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder clearMetaState()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -220,51 +228,43 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setPrecision(android.support.test.espresso.proto.action.ViewActions.PressProto.Precision)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder mergeEndCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe getSwipe()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties parseFrom(byte[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getStartCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.CoordsLocOrCoordsAnyCase COORDSLOCORCOORDSANY_NOT_SET'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder clearKeyCode()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setDx(float)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -276,7 +276,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getCoordsLoc()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder clearTapToFocus()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -288,11 +296,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.proto.action.ViewActions.EditorActionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setDataToLoadMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -300,11 +316,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsLocValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -316,7 +340,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder mergeDataToLoadMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -324,43 +348,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.proto.action.ViewActions.PressBackActionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setLocationValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setTapToFocus(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsLocValue(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearLocation()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -380,10 +388,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder clearStringToBeSet()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.EndCoordsLocOrEndCoordsAnyCase ENDCOORDSANY'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -392,7 +396,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -400,11 +408,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearDataToLoadMatcher()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setDataToLoadMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressProto.Precision android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.PressProto.Precision&gt; internalGetValueMap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -412,39 +416,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getStartCoordsLoc()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setTapToFocus(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -472,12 +456,8 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.PressProto.Precision PINPOINT'>
@@ -488,11 +468,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder mergeCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -504,7 +480,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearStartCoordsLocOrStartCoordsAny()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -512,27 +492,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder setButtonState(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setPrecision(android.support.test.espresso.proto.action.ViewActions.PressProto.Precision)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe getSwipe()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setSwipeValue(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearStartCoordsLoc()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setDy(float)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -540,15 +504,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder setStringToBeSet(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder setInputDevice(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -576,11 +544,31 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setSwipe(android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearDy()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder clearConditional()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -588,11 +576,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearStartCoordsAny()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.proto.action.ViewActions.EditorActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -600,7 +588,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setKeyCode(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap&gt; internalGetValueMap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -616,15 +604,39 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearAtPosition()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getCoordsLoc()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setSwipe(android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe)'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setConditional(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsLocValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -636,7 +648,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearEndCoordsLoc()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setStringToBeTyped(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -644,14 +660,18 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setKeyCode(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setKeyCode(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='android.support.test.espresso.proto.action.ViewActions.PressProto.Precision THUMB'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -663,27 +683,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe&gt; internalGetValueMap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearAdapterViewProtocolClass()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder mergeEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -695,11 +707,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getEndCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getLocation()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -707,11 +723,11 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getLocation()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressProto android.support.test.espresso.proto.action.ViewActions.PressProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -719,11 +735,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe getSwipe()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -739,11 +763,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearPrecision()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder clearStringToBeTyped()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location CENTER_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getEndCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -755,7 +791,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -763,19 +803,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.proto.action.ViewActions.PressBackActionProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsLocValue(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap getTap()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -783,32 +819,20 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder mergeEndCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder clearInputDevice()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setTapValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearCoordsLoc()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
@@ -819,11 +843,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder clearEspressoKey()'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -831,23 +871,35 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setLocation(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setAdapterViewProtocolClass(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getStartCoordsLoc()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getEndCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.EndCoordsLocOrEndCoordsAnyCase ENDCOORDSLOCORENDCOORDSANY_NOT_SET'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -858,11 +910,11 @@
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setTap(android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap)'>
+    <item name='android.support.test.espresso.proto.action.ViewActions.PressProto.Precision FINGER'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='android.support.test.espresso.proto.action.ViewActions.PressProto.Precision FINGER'>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setDx(float)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -870,15 +922,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getStartCoordsLoc()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setMetaState(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearTap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -894,23 +938,39 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.proto.action.ViewActions.PressBackActionProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder mergeEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearStartCoordsLoc()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setAtPosition(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -922,6 +982,14 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -930,35 +998,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearEndCoordsAny()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder clearTapToFocus()'>
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder clearEspressoKey()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearDx()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder clearButtonState()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location&gt; internalGetValueMap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -974,19 +1034,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder clearKeyCode()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe getSwipe()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setLocationValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -998,31 +1050,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setPrecisionValue(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder clearMetaState()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearEndCoordsLocOrEndCoordsAny()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearCoordsLocOrCoordsAny()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1030,11 +1066,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearLocation()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder mergeStartCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearCoordsAny()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1042,11 +1074,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setDataToLoadMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearDataToLoadMatcher()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1054,19 +1090,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder mergeDataToLoadMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder mergeStartCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1082,11 +1114,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1102,23 +1134,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getCoordsLoc()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getLocation()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder clearConditional()'>
+        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder clearAtPosition()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1130,11 +1146,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setPrecision(android.support.test.espresso.proto.action.ViewActions.PressProto.Precision)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getCoordsLoc()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1146,7 +1166,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearStartCoordsLocOrStartCoordsAny()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1154,11 +1178,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearPrecision()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getLocation()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1170,31 +1190,43 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder mergeEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.StartCoordsLocOrStartCoordsAnyCase STARTCOORDSANY'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.StartCoordsLocOrStartCoordsAnyCase STARTCOORDSANY'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearSwipe()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setKeyCode(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getStartCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearEndCoordsAny()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder setInputDevice(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1206,23 +1238,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder setStringToBeSet(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder mergeEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap getTap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder clearDy()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder mergeCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1230,11 +1258,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder setButtonState(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setPrecision(android.support.test.espresso.proto.action.ViewActions.PressProto.Precision)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressProto.Precision android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.PressProto.Precision&gt; internalGetValueMap()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setSwipe(android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setSwipeValue(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1242,7 +1274,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe getSwipe()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1254,27 +1290,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto.Builder setAdapterViewProtocolClass(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setDy(float)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe getSwipe()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getEndCoordsLoc()'>
+        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -1282,7 +1302,15 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setPrecisionValue(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1294,15 +1322,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getLocation()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1310,11 +1330,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto getDefaultInstance()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearEndCoordsLoc()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1322,15 +1338,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap getTap()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1338,15 +1350,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getStartCoordsLoc()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
         name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProto parseFrom(byte[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties.Builder clearInputDevice()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.CloseKeyboardActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1354,15 +1366,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap&gt; internalGetValueMap()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder clearStringToBeSet()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1370,11 +1378,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.proto.action.ViewActions.EditorActionProto parseFrom(byte[]) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsLoc(android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.proto.action.ViewActions.EditorActionProto parseFrom(byte[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1382,15 +1390,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setStartCoordsLocValue(int)'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder setEndCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder clearId()'>
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearStartCoordsAny()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder clearPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1402,27 +1414,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.ReplaceTextActionProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.proto.action.ViewActions.GeneralLocationProto.Location getEndCoordsLoc()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.EndCoordsLocOrEndCoordsAnyCase ENDCOORDSLOC'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder setStringToBeTyped(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1430,19 +1422,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder android.support.test.espresso.proto.action.ViewActions.TranslatedCoordinatesProviderProto.Builder setCoordsAny(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder android.support.test.espresso.proto.action.ViewActions.TypeTextActionProto.Builder clearStringToBeTyped()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.EspressoProperties parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder android.support.test.espresso.proto.action.ViewActions.KeyEventActionProto.Builder setEspressoKey(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressProto android.support.test.espresso.proto.action.ViewActions.PressProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder android.support.test.espresso.proto.action.ViewActions.PressBackActionProto.Builder setConditional(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1450,11 +1442,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.proto.action.ViewActions.PressBackActionProto parseFrom(java.nio.ByteBuffer) 0'>
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.proto.action.ViewActions.EditorActionProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder android.support.test.espresso.proto.action.ViewActions.EspressoKeyProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.proto.action.ViewActions.PressBackActionProto android.support.test.espresso.proto.action.ViewActions.PressBackActionProto parseFrom(java.nio.ByteBuffer) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -1462,7 +1454,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.AdapterDataLoaderActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder android.support.test.espresso.proto.action.ViewActions.EditorActionProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap UNRECOGNIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProtoOrBuilder android.support.test.espresso.proto.action.ViewActions.PressProto.Precision getPrecision()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -1470,12 +1470,12 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.proto.action.ViewActions.ClickViewActionProto.Tap UNRECOGNIZED'>
+        name='android.support.test.espresso.proto.action.ViewActions.TypeTextActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe android.support.test.espresso.core.internal.deps.protobuf.Internal.EnumLiteMap&lt;android.support.test.espresso.proto.action.ViewActions.SwipeViewActionProto.Swipe&gt; internalGetValueMap()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.proto.action.ViewActions.EditorActionProto android.support.test.espresso.proto.action.ViewActions.EditorActionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>

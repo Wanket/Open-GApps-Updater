@@ -1,0 +1,54 @@
+<root>
+    <item
+        name='android.support.v4.content.pm.ShortcutManagerCompat android.content.Intent createShortcutResultIntent(android.content.Context, android.support.v4.content.pm.ShortcutInfoCompat)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setLongLabel(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setIntent(android.content.Intent)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setShortLabel(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setDisabledMessage(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setIcon(android.support.v4.graphics.drawable.IconCompat)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutManagerCompat boolean requestPinShortcut(android.content.Context, android.support.v4.content.pm.ShortcutInfoCompat, android.content.IntentSender) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setAlwaysBadged()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutManagerCompat boolean isRequestPinShortcutSupported(android.content.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setActivity(android.content.ComponentName)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutManagerCompat android.content.Intent createShortcutResultIntent(android.content.Context, android.support.v4.content.pm.ShortcutInfoCompat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.content.pm.ShortcutInfoCompat.Builder android.support.v4.content.pm.ShortcutInfoCompat.Builder setIntents(android.content.Intent[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

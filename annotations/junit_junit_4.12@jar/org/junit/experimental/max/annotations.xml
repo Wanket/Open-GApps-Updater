@@ -1,10 +1,6 @@
 <root>
     <item
-        name='org.junit.experimental.max.MaxCore org.junit.runner.Result run(org.junit.runner.Request, org.junit.runner.JUnitCore)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.experimental.max.MaxCore java.util.List&lt;org.junit.runner.Description&gt; sortedLeavesForTest(org.junit.runner.Request)'>
+        name='org.junit.experimental.max.MaxHistory org.junit.runner.notification.RunListener listener()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -12,15 +8,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.max.MaxCore org.junit.experimental.max.MaxCore storedLocally(java.io.File)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='org.junit.experimental.max.MaxCore org.junit.runner.Request sortRequest(org.junit.runner.Request) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.max.MaxHistory java.util.Comparator&lt;org.junit.runner.Description&gt; testComparator()'>
+        name='org.junit.experimental.max.MaxCore org.junit.experimental.max.MaxCore forFolder(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -28,7 +20,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.max.MaxCore org.junit.runner.Result run(java.lang.Class&lt;?&gt;)'>
+        name='org.junit.experimental.max.MaxCore org.junit.runner.Request sortRequest(org.junit.runner.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.max.MaxHistory java.util.Comparator&lt;org.junit.runner.Description&gt; testComparator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -36,11 +32,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='org.junit.experimental.max.MaxCore org.junit.runner.Result run(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='org.junit.experimental.max.MaxCore org.junit.runner.Result run(org.junit.runner.Request, org.junit.runner.JUnitCore) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.max.MaxCore org.junit.runner.Request sortRequest(org.junit.runner.Request)'>
+        name='org.junit.experimental.max.MaxCore java.util.List&lt;org.junit.runner.Description&gt; sortedLeavesForTest(org.junit.runner.Request)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -52,15 +52,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.max.MaxHistory org.junit.runner.notification.RunListener listener()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='org.junit.experimental.max.MaxHistory org.junit.experimental.max.MaxHistory forFolder(java.io.File) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.experimental.max.MaxCore org.junit.experimental.max.MaxCore forFolder(java.lang.String)'>
+        name='org.junit.experimental.max.MaxCore org.junit.runner.Result run(org.junit.runner.Request, org.junit.runner.JUnitCore)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.experimental.max.MaxCore org.junit.experimental.max.MaxCore storedLocally(java.io.File)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

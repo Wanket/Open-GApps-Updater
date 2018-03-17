@@ -1,22 +1,14 @@
 <root>
     <item
-        name='android.support.test.espresso.web.assertion.WebViewAssertions android.support.test.espresso.web.assertion.WebAssertion&lt;org.w3c.dom.Document&gt; webContent(org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.assertion.WebViewAssertions android.support.test.espresso.web.assertion.WebAssertion&lt;E&gt; webMatches(android.support.test.espresso.web.model.Atom&lt;E&gt;, org.hamcrest.Matcher&lt;E&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.assertion.TagSoupDocumentParser android.support.test.espresso.web.assertion.TagSoupDocumentParser newInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.assertion.WebAssertion android.support.test.espresso.ViewAssertion toViewAssertion(E) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.assertion.CheckResultWebAssertionRemoteMessage FROM'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.assertion.TagSoupDocumentParser android.support.test.espresso.web.assertion.TagSoupDocumentParser newInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -28,7 +20,19 @@
         </annotation>
     </item>
     <item
+        name='android.support.test.espresso.web.assertion.WebAssertion android.support.test.espresso.ViewAssertion toViewAssertion(E)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.assertion.WebViewAssertions android.support.test.espresso.web.assertion.WebAssertion&lt;E&gt; webMatches(android.support.test.espresso.web.model.Atom&lt;E&gt;, org.hamcrest.Matcher&lt;E&gt;, android.support.test.espresso.web.assertion.WebViewAssertions.ResultDescriber&lt;? super E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.assertion.WebAssertion android.support.test.espresso.web.model.Atom&lt;E&gt; getAtom()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.assertion.WebViewAssertions android.support.test.espresso.web.assertion.WebAssertion&lt;E&gt; webMatches(android.support.test.espresso.web.model.Atom&lt;E&gt;, org.hamcrest.Matcher&lt;E&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -56,15 +60,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.assertion.WebAssertion android.support.test.espresso.ViewAssertion toViewAssertion(E)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.assertion.TagSoupDocumentParser org.w3c.dom.Document parse(java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.assertion.WebAssertion android.support.test.espresso.web.model.Atom&lt;E&gt; getAtom()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -73,6 +69,10 @@
     </item>
     <item
         name='android.support.test.espresso.web.assertion.WebViewAssertions android.support.test.espresso.web.assertion.WebAssertion&lt;org.w3c.dom.Document&gt; webContent(org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.assertion.WebViewAssertions android.support.test.espresso.web.assertion.WebAssertion&lt;org.w3c.dom.Document&gt; webContent(org.hamcrest.Matcher&lt;org.w3c.dom.Document&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

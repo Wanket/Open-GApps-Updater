@@ -1,0 +1,66 @@
+<root>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_DESTROY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State STARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.lifecycle.GenericLifecycleObserver void onStateChanged(android.arch.lifecycle.LifecycleOwner, android.arch.lifecycle.Lifecycle.Event) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_RESUME'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_STOP'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_PAUSE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.lifecycle.Lifecycling java.lang.String getAdapterName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State DESTROYED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State INITIALIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_CREATE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.lifecycle.CompositeGeneratedAdaptersObserver void onStateChanged(android.arch.lifecycle.LifecycleOwner, android.arch.lifecycle.Lifecycle.Event) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_ANY'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State RESUMED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.arch.lifecycle.SingleGeneratedAdapterObserver void onStateChanged(android.arch.lifecycle.LifecycleOwner, android.arch.lifecycle.Lifecycle.Event) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.Event ON_START'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.arch.lifecycle.Lifecycle.State CREATED'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -1,5 +1,9 @@
 <root>
     <item
+        name='android.support.constraint.solver.widgets.ConstraintTableLayout java.lang.String getColumnAlignmentRepresentation(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.constraint.solver.widgets.ConstraintWidgetContainer void findVerticalWrapRecursive(android.support.constraint.solver.widgets.ConstraintWidget, boolean[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -31,10 +35,6 @@
     <item name='android.support.constraint.solver.widgets.ConstraintAnchor.Type LEFT'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='android.support.constraint.solver.widgets.ConstraintWidgetContainer java.util.ArrayList&lt;android.support.constraint.solver.widgets.Guideline&gt; getVerticalGuidelines()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='android.support.constraint.solver.widgets.ConstraintWidget.ContentAlignment BEGIN'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -42,19 +42,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.constraint.solver.widgets.ConstraintWidget java.lang.String getType()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
         name='android.support.constraint.solver.widgets.ConstraintWidgetContainer void findHorizontalWrapRecursive(android.support.constraint.solver.widgets.ConstraintWidget, boolean[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.constraint.solver.widgets.WidgetContainer java.util.ArrayList&lt;android.support.constraint.solver.widgets.ConstraintWidget&gt; findWidgets(int, int, int, int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -70,7 +58,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.constraint.solver.widgets.ConstraintWidget java.lang.String getType()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
         name='android.support.constraint.solver.widgets.ConstraintHorizontalLayout.ContentAlignment BOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.constraint.solver.widgets.ConstraintWidgetContainer java.lang.String getType()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -109,7 +109,8 @@
         name='android.support.constraint.solver.widgets.ConstraintWidgetContainer void findWrapSize(java.util.ArrayList&lt;android.support.constraint.solver.widgets.ConstraintWidget&gt;, boolean[]) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='android.support.constraint.solver.widgets.Guideline java.lang.String getType()'>
+    <item
+        name='android.support.constraint.solver.widgets.ConstraintTableLayout java.lang.String getType()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -130,6 +131,10 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.constraint.solver.widgets.ConstraintWidgetContainer java.util.ArrayList&lt;android.support.constraint.solver.widgets.Guideline&gt; getVerticalGuidelines()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.constraint.solver.widgets.ConstraintWidget void immediateConnect(android.support.constraint.solver.widgets.ConstraintAnchor.Type, android.support.constraint.solver.widgets.ConstraintWidget, android.support.constraint.solver.widgets.ConstraintAnchor.Type, int, int) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -143,15 +148,7 @@
     <item name='android.support.constraint.solver.widgets.ConstraintAnchor.Type NONE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='android.support.constraint.solver.widgets.WidgetContainer android.support.constraint.solver.widgets.Rectangle getBounds(java.util.ArrayList&lt;android.support.constraint.solver.widgets.ConstraintWidget&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='android.support.constraint.solver.widgets.ConstraintWidget.ContentAlignment BOTTOM'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.constraint.solver.widgets.ConstraintTableLayout java.lang.String getType()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -180,7 +177,14 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.constraint.solver.widgets.WidgetContainer java.util.ArrayList&lt;android.support.constraint.solver.widgets.ConstraintWidget&gt; findWidgets(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.constraint.solver.widgets.ConstraintWidgetContainer void findWrapSize(java.util.ArrayList&lt;android.support.constraint.solver.widgets.ConstraintWidget&gt;, boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.constraint.solver.widgets.Guideline java.lang.String getType()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -207,6 +211,10 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.constraint.solver.widgets.WidgetContainer android.support.constraint.solver.widgets.Rectangle getBounds(java.util.ArrayList&lt;android.support.constraint.solver.widgets.ConstraintWidget&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.constraint.solver.widgets.ConstraintTableLayout void setColumnAlignment(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -220,23 +228,15 @@
     <item name='android.support.constraint.solver.widgets.ConstraintAnchor.Type RIGHT'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='android.support.constraint.solver.widgets.ConstraintTableLayout java.lang.String getColumnAlignmentRepresentation(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.constraint.solver.widgets.ConstraintWidgetContainer java.lang.String getType()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='android.support.constraint.solver.widgets.ConstraintAnchor.ConnectionType STRICT'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.constraint.solver.widgets.ConstraintWidgetContainer java.util.ArrayList&lt;android.support.constraint.solver.widgets.Guideline&gt; getHorizontalGuidelines()'>
+        name='android.support.constraint.solver.widgets.WidgetContainer void remove(android.support.constraint.solver.widgets.ConstraintWidget) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.constraint.solver.widgets.WidgetContainer void remove(android.support.constraint.solver.widgets.ConstraintWidget) 0'>
+        name='android.support.constraint.solver.widgets.ConstraintWidgetContainer java.util.ArrayList&lt;android.support.constraint.solver.widgets.Guideline&gt; getHorizontalGuidelines()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

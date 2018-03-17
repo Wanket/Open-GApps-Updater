@@ -1,5 +1,9 @@
 <root>
     <item
+        name='android.support.test.espresso.web.action.AtomAction java.util.concurrent.Future&lt;E&gt; getFuture()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.action.AtomAction void perform(android.support.test.espresso.UiController, android.view.View) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -24,11 +28,7 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.web.action.EnableJavascriptAction java.lang.String getDescription()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.action.AtomAction java.util.concurrent.Future&lt;E&gt; getFuture()'>
+        name='android.support.test.espresso.web.action.EnableJavascriptAction org.hamcrest.Matcher&lt;android.view.View&gt; getConstraints()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -39,15 +39,15 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
-    <item name='android.support.test.espresso.web.action.AtomAction java.lang.String getId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
-        name='android.support.test.espresso.web.action.EnableJavascriptAction org.hamcrest.Matcher&lt;android.view.View&gt; getConstraints()'>
+        name='android.support.test.espresso.web.action.EnableJavascriptAction java.lang.String getDescription()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.action.EnableJavascriptAction void perform(android.support.test.espresso.UiController, android.view.View) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.espresso.web.action.AtomAction java.lang.String getId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

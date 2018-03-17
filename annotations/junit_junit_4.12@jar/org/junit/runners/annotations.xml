@@ -6,6 +6,13 @@
     <item name='org.junit.runners.MethodSorters JVM'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='org.junit.runners.ParentRunner java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
     <item
         name='org.junit.runners.Suite org.junit.runner.Description describeChild(java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -18,10 +25,36 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='org.junit.runners.BlockJUnit4ClassRunner java.util.List&lt;org.junit.rules.MethodRule&gt; rules(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.ParentRunner java.util.List&lt;org.junit.rules.TestRule&gt; classRules()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='org.junit.runners.Suite Suite(org.junit.runners.model.RunnerBuilder, java.lang.Class&lt;?&gt;[]) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='org.junit.runners.Suite org.junit.runner.Runner emptySuite()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runners.model.Statement methodBlock(org.junit.runners.model.FrameworkMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
     <item name='org.junit.runners.ParentRunner void sort(org.junit.runner.manipulation.Sorter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='org.junit.runners.ParentRunner void filter(org.junit.runner.manipulation.Filter) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -32,26 +65,18 @@
         name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runner.Description describeChild(org.junit.runners.model.FrameworkMethod)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='org.junit.runners.ParentRunner void filter(org.junit.runner.manipulation.Filter) 0'>
+    <item
+        name='org.junit.runners.Suite Suite(java.lang.Class&lt;?&gt;, org.junit.runners.model.RunnerBuilder) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
+    </item>
+    <item name='org.junit.runners.AllTests AllTests(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runners.model.Statement methodInvoker(org.junit.runners.model.FrameworkMethod, java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='org.junit.runners.Suite Suite(java.lang.Class&lt;?&gt;, org.junit.runners.model.RunnerBuilder) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.runners.ParentRunner org.junit.runners.model.TestClass createTestClass(java.lang.Class&lt;?&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.junit.runners.AllTests AllTests(java.lang.Class&lt;?&gt;) 0'>
+    <item name='org.junit.runners.ParentRunner org.junit.runner.Description getDescription()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -76,8 +101,7 @@
         name='org.junit.runners.Suite Suite(org.junit.runners.model.RunnerBuilder, java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='org.junit.runners.BlockJUnit4ClassRunner java.util.List&lt;org.junit.runners.model.FrameworkMethod&gt; computeTestMethods()'>
+    <item name='org.junit.runners.ParentRunner org.junit.runner.Description describeChild(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -97,27 +121,8 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.runners.ParentRunner java.util.List&lt;org.junit.rules.TestRule&gt; classRules()'>
+        name='org.junit.runners.BlockJUnit4ClassRunner java.util.List&lt;org.junit.rules.TestRule&gt; getTestRules(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.junit.runners.ParentRunner java.lang.String getName()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='org.junit.runners.ParentRunner org.junit.runners.model.Statement childrenInvoker(org.junit.runner.notification.RunNotifier)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.runners.ParentRunner java.lang.annotation.Annotation[] getRunnerAnnotations()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='org.junit.runners.Suite void runChild(org.junit.runner.Runner, org.junit.runner.notification.RunNotifier) 0'>
@@ -135,17 +140,15 @@
         name='org.junit.runners.Suite org.junit.runner.Description describeChild(org.junit.runner.Runner) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='org.junit.runners.ParentRunner org.junit.runner.Description getDescription()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runner.Description describeChild(java.lang.Object)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item name='org.junit.runners.MethodSorters NAME_ASCENDING'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='org.junit.runners.ParentRunner org.junit.runner.Description describeChild(T)'>
+    <item
+        name='org.junit.runners.Suite void runChild(java.lang.Object, org.junit.runner.notification.RunNotifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.junit.runners.BlockJUnit4ClassRunner java.util.List&lt;org.junit.runners.model.FrameworkMethod&gt; computeTestMethods()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -153,11 +156,14 @@
         </annotation>
     </item>
     <item
-        name='org.junit.runners.Suite void runChild(java.lang.Object, org.junit.runner.notification.RunNotifier) 0'>
+        name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runners.model.Statement withPotentialTimeout(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runners.model.Statement withPotentialTimeout(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) 0'>
+        name='org.junit.runners.ParentRunner org.junit.runners.model.TestClass createTestClass(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.junit.runners.ParentRunner org.junit.runners.model.TestClass getTestClass()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -172,14 +178,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.junit.runners.BlockJUnit4ClassRunner java.util.List&lt;org.junit.rules.TestRule&gt; getTestRules(java.lang.Object)'>
+        name='org.junit.runners.ParentRunner org.junit.runners.model.Statement childrenInvoker(org.junit.runner.notification.RunNotifier)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='org.junit.runners.Suite Suite(java.lang.Class&lt;?&gt;, org.junit.runners.model.RunnerBuilder) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='org.junit.runners.ParentRunner org.junit.runners.model.TestClass getTestClass()'>
+    <item
+        name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runner.Description describeChild(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.junit.runners.ParentRunner boolean isIgnored(T) 0'>
@@ -198,22 +205,15 @@
         </annotation>
     </item>
     <item
-        name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runners.model.Statement methodBlock(org.junit.runners.model.FrameworkMethod)'>
+        name='org.junit.runners.ParentRunner java.lang.annotation.Annotation[] getRunnerAnnotations()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
-    <item name='org.junit.runners.Suite org.junit.runner.Runner emptySuite()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='org.junit.runners.BlockJUnit4ClassRunner org.junit.runners.model.Statement possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.junit.runners.BlockJUnit4ClassRunner java.util.List&lt;org.junit.rules.MethodRule&gt; rules(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

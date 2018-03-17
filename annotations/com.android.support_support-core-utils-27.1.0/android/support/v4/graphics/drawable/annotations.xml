@@ -1,0 +1,20 @@
+<root>
+    <item name='android.support.v4.graphics.drawable.RoundedBitmapDrawable android.graphics.Paint getPaint()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory android.support.v4.graphics.drawable.RoundedBitmapDrawable create(android.content.res.Resources, java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.RoundedBitmapDrawable void setTargetDensity(android.util.DisplayMetrics) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory android.support.v4.graphics.drawable.RoundedBitmapDrawable create(android.content.res.Resources, android.graphics.Bitmap)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory android.support.v4.graphics.drawable.RoundedBitmapDrawable create(android.content.res.Resources, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.v4.graphics.drawable.RoundedBitmapDrawable void setTargetDensity(android.graphics.Canvas) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

@@ -2,21 +2,11 @@
     <item name='kotlin.collections.AbstractCollection T[] toArray(T[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.LongIterator java.lang.Long next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
-        name='kotlin.collections.GroupingKt M reduceTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;)'>
+        name='kotlin.collections.GroupingKt java.util.Map&lt;K,S&gt; reduce(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.4 java.lang.Long get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.CollectionsKt___CollectionsKt.asSequence..inlined.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyList java.util.ListIterator listIterator(int)'>
+    <item name='kotlin.collections.DoubleIterator java.lang.Object next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -24,17 +14,37 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.5 java.util.Iterator&lt;java.lang.Long&gt; iterator()'>
+        name='kotlin.collections.IndexedValue kotlin.collections.IndexedValue&lt;T&gt; copy(int, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.BooleanIterator java.lang.Boolean next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.7 java.util.Iterator&lt;java.lang.Double&gt; iterator()'>
+        name='kotlin.collections.AbstractMap java.lang.String access$toString(kotlin.collections.AbstractMap, java.util.Map.Entry)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.AbstractSet Companion'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='kotlin.collections.EmptyList java.util.ListIterator listIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.1 java.lang.Object get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptyList java.lang.Object get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.3 java.util.Iterator&lt;java.lang.Short&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='kotlin.collections.ArraysKt___ArraysKt.asList.6 java.lang.Double get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.1 java.util.Iterator&lt;T&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.Grouping K keyOf(T) 0'>
@@ -48,46 +58,63 @@
         name='kotlin.collections.GroupingKt M aggregateTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractCollection java.lang.String toString()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='kotlin.collections.IndexedValue kotlin.collections.IndexedValue copy$default(kotlin.collections.IndexedValue, int, java.lang.Object, int, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.6 java.util.Iterator&lt;java.lang.Float&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptySet T[] toArray(T[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyList java.lang.Object get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.8 java.lang.Character get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptySet java.lang.String toString()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyList boolean containsAll(java.util.Collection) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.DoubleIterator java.lang.Object next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.5 java.lang.Float get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.groupingBy.1 java.util.Iterator&lt;T&gt; sourceIterator()'>
+    <item name='kotlin.collections.AbstractMap.values.1 java.util.Iterator&lt;V&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.AbstractMap.keys.1 java.util.Iterator&lt;K&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyList java.lang.String toString()'>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.2 java.util.Iterator&lt;java.lang.Byte&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.5 java.lang.Float get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptySet T[] toArray(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.AbstractList java.util.ListIterator&lt;E&gt; listIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.AbstractSet java.util.Iterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.2 java.lang.Object get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.AbstractList java.util.List&lt;E&gt; subList(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.7 java.util.Iterator&lt;java.lang.Double&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.4 java.util.Iterator&lt;java.lang.Integer&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptyList boolean containsAll(java.util.Collection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.LongIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.BooleanIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.CharIterator java.lang.Character next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.AbstractCollection java.lang.String toString()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -97,28 +124,28 @@
     <item name='kotlin.collections.EmptySet boolean containsAll(java.util.Collection) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.IntIterator java.lang.Object next()'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.8 java.lang.Character get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;)'>
+    <item name='kotlin.collections.EmptyList java.util.ListIterator listIterator(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.ByteIterator java.lang.Byte next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;) 2'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractList java.util.List&lt;E&gt; subList(int, int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.3 java.lang.Integer get(int)'>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.5 java.util.Iterator&lt;java.lang.Long&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.AbstractMap java.lang.String access$toString(kotlin.collections.AbstractMap, java.util.Map.Entry)'>
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.9 java.util.Iterator&lt;java.lang.Character&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.BooleanIterator java.lang.Object next()'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.3 java.lang.Integer get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -133,14 +160,14 @@
         name='kotlin.collections.MovingSubList MovingSubList(java.util.List&lt;? extends E&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractIterator.WhenMappings $EnumSwitchMapping$0'>
+    <item name='kotlin.collections.EmptySet java.lang.String toString()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.CollectionsKt___CollectionsKt.groupingBy.1 java.util.Iterator&lt;T&gt; sourceIterator()'>
+        name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.FloatIterator java.lang.Float next()'>
+    <item name='kotlin.collections.AbstractIterator.WhenMappings $EnumSwitchMapping$0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.AbstractMap Companion'>
@@ -150,54 +177,29 @@
         name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;) 3'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.IntIterator java.lang.Integer next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.Grouping java.util.Iterator&lt;T&gt; sourceIterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.SlidingWindowKt java.util.Iterator&lt;java.util.List&lt;T&gt;&gt; windowedIterator(java.util.Iterator&lt;? extends T&gt;, int, int, boolean, boolean)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='kotlin.collections.AbstractList.Companion int orderedHashCode$kotlin_stdlib(java.util.Collection&lt;?&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyIterator java.lang.Void previous()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.AbstractList java.util.ListIterator&lt;E&gt; listIterator()'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.4 java.lang.Object get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.AbstractList.Companion boolean orderedEquals$kotlin_stdlib(java.util.Collection&lt;?&gt;, java.util.Collection&lt;?&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.FloatIterator java.lang.Object next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.8 java.lang.Object get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.2 java.lang.Object get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyList java.lang.Void get(int)'>
+    <item name='kotlin.collections.AbstractMap java.lang.String toString()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.7 java.util.Iterator&lt;java.lang.Double&gt; iterator()'>
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.2 java.util.Iterator&lt;java.lang.Byte&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptySet java.lang.Object[] toArray()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.CharIterator java.lang.Object next()'>
+    <item name='kotlin.collections.IntIterator java.lang.Integer next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.4 java.util.Iterator&lt;java.lang.Integer&gt; iterator()'>
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -208,52 +210,41 @@
         name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyList java.util.ListIterator listIterator()'>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.4 java.util.Iterator&lt;java.lang.Integer&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ByteIterator java.lang.Byte next()'>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.5 java.util.Iterator&lt;java.lang.Long&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.EmptyList int lastIndexOf(java.lang.Void) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; aggregate(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.AbstractList java.util.Iterator&lt;E&gt; iterator()'>
+    <item name='kotlin.collections.EmptySet T[] toArray(T[])'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.IndexingIterable IndexingIterable(kotlin.jvm.functions.Function0&lt;? extends java.util.Iterator&lt;? extends T&gt;&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.6 java.util.Iterator&lt;java.lang.Float&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.1 java.lang.Object get(int)'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.5 java.lang.Object get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.EmptySet INSTANCE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.2 java.util.Iterator&lt;java.lang.Byte&gt; iterator()'>
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.6 java.util.Iterator&lt;java.lang.Float&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractMap java.lang.String toString()'>
+    <item name='kotlin.collections.EmptyIterator java.lang.Void previous()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.IndexingIterable java.util.Iterator&lt;kotlin.collections.IndexedValue&lt;T&gt;&gt; iterator()'>
+    <item name='kotlin.collections.EmptySet java.lang.Object[] toArray()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.BooleanIterator java.lang.Boolean next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.IndexedValue kotlin.collections.IndexedValue copy$default(kotlin.collections.IndexedValue, int, java.lang.Object, int, java.lang.Object)'>
+    <item name='kotlin.collections.FloatIterator java.lang.Object next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -261,67 +252,72 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.SlidingWindowKt kotlin.sequences.Sequence&lt;java.util.List&lt;T&gt;&gt; windowedSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, int, int, boolean, boolean)'>
+        name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyIterator java.lang.Object next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.AbstractSet java.util.Iterator&lt;E&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item
         name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.IndexedValue kotlin.collections.IndexedValue copy$default(kotlin.collections.IndexedValue, int, java.lang.Object, int, java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.EmptyList boolean contains(java.lang.Void) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.3 java.util.Iterator&lt;java.lang.Short&gt; iterator()'>
+        name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; aggregate(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.IndexedValue kotlin.collections.IndexedValue&lt;T&gt; copy(int, T)'>
+    <item name='kotlin.collections.CharIterator java.lang.Object next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractMap.values.1 java.util.Iterator&lt;V&gt; iterator()'>
+    <item name='kotlin.collections.EmptyIterator java.lang.Object next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; aggregate(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptySet java.util.Iterator iterator()'>
+    <item name='kotlin.collections.Grouping java.util.Iterator&lt;T&gt; sourceIterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.SlidingWindowKt java.util.Iterator&lt;java.util.List&lt;T&gt;&gt; windowedIterator(java.util.Iterator&lt;? extends T&gt;, int, int, boolean, boolean) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.7 java.lang.Object get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item
-        name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;)'>
+        name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.IndexingIterable java.util.Iterator&lt;kotlin.collections.IndexedValue&lt;T&gt;&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.EmptyList int indexOf(java.lang.Void) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptySet T[] toArray(T[])'>
+    <item name='kotlin.collections.AbstractList java.util.Iterator&lt;E&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt java.util.Map&lt;K,java.lang.Integer&gt; eachCount(kotlin.collections.Grouping&lt;T,? extends K&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyList java.util.List subList(int, int)'>
+    <item
+        name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.SlidingWindowKt.windowedSequence..inlined.Sequence.1 java.util.Iterator&lt;java.util.List&lt;? extends T&gt;&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.8 java.util.Iterator&lt;java.lang.Boolean&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.CollectionsKt___CollectionsKt.groupingBy.1 K keyOf(T) 0'>
@@ -331,18 +327,18 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
+    <item name='kotlin.collections.AbstractCollection java.util.Iterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item
         name='kotlin.collections.GroupingKt M reduceTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;) 2'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.5 java.lang.Object get(int)'>
+    <item name='kotlin.collections.AbstractCollection java.lang.Object[] toArray()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.AbstractMap.Companion int entryHashCode$kotlin_stdlib(java.util.Map.Entry&lt;?,?&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyList java.util.Iterator iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -353,17 +349,20 @@
         name='kotlin.collections.CollectionsKt__IterablesKt.Iterable.1 java.util.Iterator&lt;T&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractList E get(int)'>
+    <item name='kotlin.collections.EmptySet java.util.Iterator iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
+    </item>
+    <item name='kotlin.collections.EmptyList java.lang.Void get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.SlidingWindowKt kotlin.sequences.Sequence&lt;java.util.List&lt;T&gt;&gt; windowedSequence(kotlin.sequences.Sequence&lt;? extends T&gt;, int, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.EmptySet boolean contains(java.lang.Void) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.1 java.lang.Byte get(int)'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.8 java.lang.Object get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.EmptyIterator INSTANCE'>
@@ -374,45 +373,35 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='kotlin.collections.SlidingWindowKt java.util.Iterator&lt;java.util.List&lt;T&gt;&gt; windowedIterator(java.util.Iterator&lt;? extends T&gt;, int, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;) 2'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractCollection java.util.Iterator&lt;E&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.IndexingIterator java.lang.Object next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.8 java.util.Iterator&lt;java.lang.Boolean&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.4 java.lang.Object get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.7 java.lang.Object get(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.AbstractCollection T[] toArray(T[])'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.9 java.util.Iterator&lt;java.lang.Character&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.9 java.util.Iterator&lt;java.lang.Character&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.EmptyList INSTANCE'>
+        name='kotlin.collections.AbstractMap.Companion java.lang.String entryToString$kotlin_stdlib(java.util.Map.Entry&lt;?,?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.IndexingIterator kotlin.collections.IndexedValue&lt;T&gt; next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.CollectionsKt___CollectionsKt.groupingBy.1 java.util.Iterator&lt;T&gt; sourceIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.1 java.lang.Byte get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptyList java.util.List subList(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.FloatIterator java.lang.Float next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptyList INSTANCE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.collections.ArraysKt___ArraysKt.groupingBy.1 K keyOf(T) 0'>
@@ -427,6 +416,13 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.9 java.util.Iterator&lt;java.lang.Character&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.ShortIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='kotlin.collections.GroupingKt java.util.Map&lt;K,R&gt; fold(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -436,17 +432,15 @@
     <item name='kotlin.collections.DoubleIterator java.lang.Double next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.LongIterator java.lang.Object next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.CharIterator java.lang.Character next()'>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.groupingBy.1 java.util.Iterator&lt;T&gt; sourceIterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function2&lt;? super K,? super T,? extends R&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super R,? super T,? extends R&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyList T[] toArray(T[])'>
+    <item name='kotlin.collections.IntIterator java.lang.Object next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -457,23 +451,25 @@
         name='kotlin.collections.GroupingKt java.util.Map&lt;K,S&gt; reduce(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='kotlin.collections.AbstractCollection T[] toArray(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item
         name='kotlin.collections.AbstractSet.Companion boolean setEquals$kotlin_stdlib(java.util.Set&lt;?&gt;, java.util.Set&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptyList java.lang.String toString()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt M reduceTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ShortIterator java.lang.Object next()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
     <item
         name='kotlin.collections.AbstractMap java.lang.String access$toString(kotlin.collections.AbstractMap, java.util.Map.Entry) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.GroupingKt M aggregateTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;)'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.7 java.lang.Boolean get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -481,14 +477,22 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.GroupingKt java.util.Map&lt;K,java.lang.Integer&gt; eachCount(kotlin.collections.Grouping&lt;T,? extends K&gt;)'>
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.8 java.util.Iterator&lt;java.lang.Boolean&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ByteIterator java.lang.Object next()'>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.3 java.util.Iterator&lt;java.lang.Short&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.7 java.util.Iterator&lt;java.lang.Double&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt M aggregateTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.AbstractList java.util.ListIterator&lt;E&gt; listIterator(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -499,7 +503,27 @@
         name='kotlin.collections.AbstractMap.Companion java.lang.String entryToString$kotlin_stdlib(java.util.Map.Entry&lt;?,?&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='kotlin.collections.EmptyList java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.IndexingIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.collections.GroupingKt java.util.Map&lt;K,java.lang.Integer&gt; eachCount(kotlin.collections.Grouping&lt;T,? extends K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.4 java.lang.Long get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='kotlin.collections.EmptyIterator java.lang.Void next()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='kotlin.collections.EmptyList java.lang.Object[] toArray()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -507,25 +531,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.AbstractCollection java.lang.Object[] toArray()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.8 java.util.Iterator&lt;java.lang.Boolean&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.5 java.util.Iterator&lt;java.lang.Long&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.AbstractMap.Companion java.lang.String entryToString$kotlin_stdlib(java.util.Map.Entry&lt;?,?&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.7 java.lang.Boolean get(int)'>
+        name='kotlin.collections.GroupingKt M reduceTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -537,19 +543,14 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.2 java.util.Iterator&lt;java.lang.Byte&gt; iterator()'>
+        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.6 java.util.Iterator&lt;java.lang.Float&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt M eachCountTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.GroupingKt M foldTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, R, kotlin.jvm.functions.Function2&lt;? super R,? super T,? extends R&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.SlidingWindowKt.windowedSequence..inlined.Sequence.1 java.util.Iterator&lt;java.util.List&lt;? extends T&gt;&gt; iterator()'>
+    <item name='kotlin.collections.ByteIterator java.lang.Object next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -557,21 +558,16 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asIterable..inlined.Iterable.1 java.util.Iterator&lt;T&gt; iterator()'>
+        name='kotlin.collections.CollectionsKt___CollectionsKt.asSequence..inlined.Sequence.1 java.util.Iterator&lt;T&gt; iterator()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyIterator java.lang.Object previous()'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.3 java.lang.Object get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.AbstractList java.util.ListIterator&lt;E&gt; listIterator(int)'>
+    <item name='kotlin.collections.EmptyList T[] toArray(T[])'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.4 java.util.Iterator&lt;java.lang.Integer&gt; iterator()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.collections.GroupingKt java.util.Map&lt;K,S&gt; reduce(kotlin.collections.Grouping&lt;T,? extends K&gt;, kotlin.jvm.functions.Function3&lt;? super K,? super S,? super T,? extends S&gt;)'>
+    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.6 java.lang.Object get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -581,15 +577,20 @@
     <item name='kotlin.collections.EmptyList T[] toArray(T[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.6 java.lang.Object get(int)'>
+    <item
+        name='kotlin.collections.GroupingKt M aggregateTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='kotlin.collections.GroupingKt M aggregateTo(kotlin.collections.Grouping&lt;T,? extends K&gt;, M, kotlin.jvm.functions.Function4&lt;? super K,? super R,? super T,? super java.lang.Boolean,? extends R&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.ArraysKt___ArraysKt.asList.3 java.lang.Object get(int)'>
+    <item name='kotlin.collections.AbstractList E get(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item name='kotlin.collections.ShortIterator java.lang.Short next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -597,11 +598,10 @@
     <item name='kotlin.collections.AbstractList Companion'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='kotlin.collections.ArraysKt___ArraysKt.asSequence..inlined.Sequence.3 java.util.Iterator&lt;java.lang.Short&gt; iterator()'>
+    <item name='kotlin.collections.LongIterator java.lang.Long next()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='kotlin.collections.EmptyList java.lang.Object[] toArray()'>
+    <item name='kotlin.collections.EmptyIterator java.lang.Object previous()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

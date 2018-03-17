@@ -7,19 +7,23 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(int, org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Long&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isEnabled()'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withHint(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withTitle(int)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withResourceName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isChecked()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasTextColor(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -27,35 +31,31 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withTagKey(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(int, org.hamcrest.Matcher&lt;byte[]&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withSummaryText(java.lang.String)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(java.lang.String, java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withInputType(int)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasFocus()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withSummaryText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(int, byte[])'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDisplayed()'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Long&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withKey(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Short&gt;) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasLinks()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -67,11 +67,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasChildCount(int)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(java.lang.String, double)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; isEnabled()'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Float&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDisplayed()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(java.lang.String, short)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -79,11 +87,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.matcher.RemoteRootMatchers void init(android.support.test.espresso.remote.RemoteDescriptorRegistry) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Double&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasContentDescription()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -91,23 +103,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isSystemAlertWindow()'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(int, double)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasImeAction(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isSelected()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasErrorText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withSummaryText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withChild(org.hamcrest.Matcher&lt;android.view.View&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(int, org.hamcrest.Matcher&lt;java.lang.Float&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -119,15 +127,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withHint(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.CursorMatchers.CursorMatcher void describeTo(org.hamcrest.Description) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasDescendant(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(int, org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Double&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -135,7 +147,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
+        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isSystemAlertWindow()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -147,7 +159,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(java.lang.String, org.hamcrest.Matcher&lt;byte[]&gt;)'>
+        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isDialog()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withHint(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -159,23 +175,7 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Long&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(java.lang.String, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isFocusable()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDescendantOfA(org.hamcrest.Matcher&lt;android.view.View&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(java.lang.String, double)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Short&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -183,19 +183,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasTextColor(int)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDescendantOfA(org.hamcrest.Matcher&lt;android.view.View&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withContentDescription(int)'>
+        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; withDecorView(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withText(java.lang.String)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasSibling(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withResourceName(java.lang.String)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(java.lang.String, org.hamcrest.Matcher&lt;byte[]&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasDescendant(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -207,19 +211,43 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(int, org.hamcrest.Matcher&lt;java.lang.Double&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isNotChecked()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.LayoutMatchers org.hamcrest.Matcher hasMultilineText()'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Float&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(java.lang.String, float)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(java.lang.String, long)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Short&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasErrorText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(java.lang.String, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasChildCount(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Double&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isSelected()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withResourceName(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withContentDescription(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -230,22 +258,14 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withText(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(int, double)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasFocus()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasSibling(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isFocusable()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='android.support.test.espresso.matcher.ViewMatchers.Visibility INVISIBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withSpinnerText(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -261,7 +281,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withKey(java.lang.String)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withId(org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -269,15 +289,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withTitleText(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withId(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(int, byte[])'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -285,23 +297,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(int, long)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasImeAction(org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isJavascriptEnabled()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(java.lang.String, short)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(java.lang.String, java.lang.String)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withAlpha(float)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -313,51 +313,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;byte[]&gt;)'>
+        name='android.support.test.espresso.matcher.LayoutMatchers org.hamcrest.Matcher hasEllipsizedText()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(java.lang.String, long)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withHint(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withContentDescription(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withChild(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;byte[]&gt;) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withKey(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(int, short)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(java.lang.String, byte[])'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Float&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasImeAction(org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(java.lang.String, int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -365,7 +325,47 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(int, short)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;byte[]&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;byte[]&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withKey(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(int, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withInputType(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withSummaryText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withChild(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.matcher.RemoteHamcrestCoreMatchers13 void init(android.support.test.espresso.remote.RemoteDescriptorRegistry) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withContentDescription(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withHint(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -373,35 +373,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.LayoutMatchers org.hamcrest.Matcher hasEllipsizedText()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(java.lang.String, org.hamcrest.Matcher&lt;java.lang.String&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withAlpha(float)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withEffectiveVisibility(android.support.test.espresso.matcher.ViewMatchers.Visibility)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(int, java.lang.String)'>
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withSummary(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isClickable()'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isJavascriptEnabled()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Short&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers.CursorMatcher android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withStrictColumnChecks(boolean)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withTagValue(org.hamcrest.Matcher&lt;java.lang.Object&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -409,7 +397,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasMinimumChildCount(int)'>
+        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isTouchable()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; hasWindowLayoutParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isCompletelyDisplayed()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -420,23 +416,35 @@
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;byte[]&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasBackground(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withTitleText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='android.support.test.espresso.matcher.ViewMatchers.Visibility VISIBLE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(java.lang.String, int)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasErrorText(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withResourceName(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        name='android.support.test.espresso.matcher.LayoutMatchers org.hamcrest.Matcher hasMultilineText()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Long&gt;)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(int, int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withParent(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(java.lang.String, float)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -448,23 +456,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(int, org.hamcrest.Matcher&lt;byte[]&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withText(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Double&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withContentDescription(org.hamcrest.Matcher&lt;? extends java.lang.CharSequence&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withEffectiveVisibility(android.support.test.espresso.matcher.ViewMatchers.Visibility)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withSpinnerText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isAssignableFrom(java.lang.Class&lt;? extends android.view.View&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -472,23 +472,35 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withSummary(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Double&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasErrorText(java.lang.String)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowShort(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Short&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isCompletelyDisplayed()'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withSpinnerText(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withClassName(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowDouble(int, org.hamcrest.Matcher&lt;java.lang.Double&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isClickable()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isFocusable()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withId(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -500,27 +512,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withSpinnerText(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isNotChecked()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(int, int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowInt(int, org.hamcrest.Matcher&lt;java.lang.Integer&gt;) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isTouchable()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withId(org.hamcrest.Matcher&lt;java.lang.Integer&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -528,11 +520,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; hasWindowLayoutParams()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withHint(int)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isRoot()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -540,7 +528,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withTagValue(org.hamcrest.Matcher&lt;java.lang.Object&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withSpinnerText(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -548,7 +536,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withContentDescription(org.hamcrest.Matcher&lt;? extends java.lang.CharSequence&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; supportsInputMethods()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withClassName(org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -556,11 +548,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(int, org.hamcrest.Matcher&lt;java.lang.Float&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isFocusable()'>
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; isEnabled()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -572,7 +560,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(int, org.hamcrest.Matcher&lt;java.lang.Long&gt;)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(java.lang.String, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -580,11 +568,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; isDialog()'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowBlob(int, org.hamcrest.Matcher&lt;byte[]&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; supportsInputMethods()'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(org.hamcrest.Matcher&lt;java.lang.String&gt;, org.hamcrest.Matcher&lt;java.lang.Long&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -596,11 +584,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasContentDescription()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.RootMatchers org.hamcrest.Matcher&lt;android.support.test.espresso.Root&gt; withDecorView(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasLinks()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -608,23 +592,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withParentIndex(int)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.matcher.BoundedMatcher BoundedMatcher(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;...) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(java.lang.String, org.hamcrest.Matcher&lt;java.lang.Float&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withParentIndex(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isRoot()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(int, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withTagKey(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -632,15 +608,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isAssignableFrom(java.lang.Class&lt;? extends android.view.View&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowFloat(int, org.hamcrest.Matcher&lt;java.lang.Float&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withSpinnerText(int)'>
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowString(int, org.hamcrest.Matcher&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasImeAction(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withTagValue(org.hamcrest.Matcher&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isEnabled()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -656,7 +644,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isChecked()'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDescendantOfA(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.CursorMatchers android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withRowLong(int, org.hamcrest.Matcher&lt;java.lang.Long&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDisplayingAtLeast(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -664,11 +660,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isAssignableFrom(java.lang.Class&lt;? extends android.view.View&gt;) 0'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; withParent(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDisplayingAtLeast(int)'>
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isAssignableFrom(java.lang.Class&lt;? extends android.view.View&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -680,11 +676,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasBackground(int)'>
+        name='android.support.test.espresso.matcher.CursorMatchers.CursorMatcher android.support.test.espresso.matcher.CursorMatchers.CursorMatcher withStrictColumnChecks(boolean)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; isDescendantOfA(org.hamcrest.Matcher&lt;android.view.View&gt;)'>
+        name='android.support.test.espresso.matcher.PreferenceMatchers org.hamcrest.Matcher&lt;android.preference.Preference&gt; withTitle(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.matcher.ViewMatchers org.hamcrest.Matcher&lt;android.view.View&gt; hasMinimumChildCount(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

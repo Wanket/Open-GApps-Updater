@@ -1,5 +1,9 @@
 <root>
     <item
+        name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaObjectType(kotlin.reflect.KClass&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaClass(kotlin.reflect.KClass&lt;T&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -7,19 +11,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaClass(kotlin.reflect.KClass&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.jvm.JvmClassMappingKt kotlin.reflect.KClass&lt;? extends T&gt; getAnnotationClass(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaPrimitiveType(kotlin.reflect.KClass&lt;T&gt;) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaObjectType(kotlin.reflect.KClass&lt;T&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.jvm.JvmClassMappingKt kotlin.reflect.KClass&lt;T&gt; getKotlinClass(java.lang.Class&lt;T&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;kotlin.reflect.KClass&lt;T&gt;&gt; getRuntimeClassOfKClassInstance(kotlin.reflect.KClass&lt;T&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -31,15 +31,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaClass(kotlin.reflect.KClass&lt;T&gt;)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;kotlin.reflect.KClass&lt;T&gt;&gt; getRuntimeClassOfKClassInstance(kotlin.reflect.KClass&lt;T&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='kotlin.jvm.JvmClassMappingKt kotlin.reflect.KClass&lt;? extends T&gt; getAnnotationClass(T)'>
+        name='kotlin.jvm.JvmClassMappingKt kotlin.reflect.KClass&lt;T&gt; getKotlinClass(java.lang.Class&lt;T&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -47,6 +43,10 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;T&gt; getJavaClass(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='kotlin.jvm.JvmClassMappingKt java.lang.Class&lt;kotlin.reflect.KClass&lt;T&gt;&gt; getRuntimeClassOfKClassInstance(kotlin.reflect.KClass&lt;T&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

@@ -4,15 +4,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.core.internal.deps.dagger.internal.DoubleCheck javax.inject.Provider&lt;T&gt; provider(javax.inject.Provider&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.core.internal.deps.dagger.internal.Preconditions T checkNotNull(T, java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.core.internal.deps.dagger.internal.Preconditions T checkNotNull(T) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.dagger.internal.DoubleCheck javax.inject.Provider&lt;T&gt; provider(javax.inject.Provider&lt;T&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

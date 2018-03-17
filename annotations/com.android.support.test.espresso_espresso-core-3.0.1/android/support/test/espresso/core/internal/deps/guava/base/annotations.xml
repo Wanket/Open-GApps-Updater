@@ -3,6 +3,10 @@
         name='android.support.test.espresso.core.internal.deps.guava.base.Ascii java.lang.String toLowerCase(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.StringBuilder appendTo(java.lang.StringBuilder, java.util.Iterator&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='android.support.test.espresso.core.internal.deps.guava.base.Optional T or(T) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -14,15 +18,8 @@
         name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.String join(java.util.Iterator&lt;?&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='android.support.test.espresso.core.internal.deps.guava.base.Supplier T get()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Optional android.support.test.espresso.core.internal.deps.guava.base.Optional&lt;T&gt; of(T)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Optional android.support.test.espresso.core.internal.deps.guava.base.Optional&lt;T&gt; absent()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -37,7 +34,7 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner A appendTo(A, java.util.Iterator&lt;?&gt;)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.StringBuilder appendTo(java.lang.StringBuilder, java.lang.Iterable&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -45,19 +42,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Optional android.support.test.espresso.core.internal.deps.guava.base.Optional&lt;T&gt; fromNullable(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.core.internal.deps.guava.base.Joiner A appendTo(A, java.util.Iterator&lt;?&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Ticker android.support.test.espresso.core.internal.deps.guava.base.Ticker systemTicker()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, float)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, int)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Equivalence android.support.test.espresso.core.internal.deps.guava.base.Equivalence&lt;java.lang.Object&gt; equals()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -72,15 +65,8 @@
         name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item name='android.support.test.espresso.core.internal.deps.guava.base.Function T apply(F)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Equivalence android.support.test.espresso.core.internal.deps.guava.base.Equivalence&lt;java.lang.Object&gt; equals()'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, boolean)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -88,19 +74,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Stopwatch android.support.test.espresso.core.internal.deps.guava.base.Stopwatch createUnstarted()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper toStringHelper(java.lang.Object)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner A appendTo(A, java.util.Iterator&lt;?&gt;) 0'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Ticker android.support.test.espresso.core.internal.deps.guava.base.Ticker systemTicker()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -108,7 +82,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T, java.lang.Object)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Equivalence android.support.test.espresso.core.internal.deps.guava.base.Equivalence&lt;java.lang.Object&gt; identity()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T, java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner A appendTo(A, java.util.Iterator&lt;?&gt;) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -124,19 +110,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T, java.lang.String, java.lang.Object)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper toStringHelper(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, java.lang.Object)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T, java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.StringBuilder appendTo(java.lang.StringBuilder, java.lang.Iterable&lt;?&gt;)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner A appendTo(A, java.util.Iterator&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -145,6 +135,21 @@
     </item>
     <item
         name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.StringBuilder appendTo(java.lang.StringBuilder, java.util.Iterator&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='android.support.test.espresso.core.internal.deps.guava.base.Optional T or(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Stopwatch android.support.test.espresso.core.internal.deps.guava.base.Stopwatch start()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.Stopwatch android.support.test.espresso.core.internal.deps.guava.base.Stopwatch createUnstarted()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -163,12 +168,27 @@
         name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper toStringHelper(java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item name='android.support.test.espresso.core.internal.deps.guava.base.Function T apply(F)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
     <item
         name='android.support.test.espresso.core.internal.deps.guava.base.Stopwatch long elapsed(java.util.concurrent.TimeUnit) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, boolean)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects T firstNonNull(T, T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -184,34 +204,14 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Equivalence android.support.test.espresso.core.internal.deps.guava.base.Equivalence&lt;java.lang.Object&gt; identity()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.core.internal.deps.guava.base.Throwables void throwIfUnchecked(java.lang.Throwable) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.StringBuilder appendTo(java.lang.StringBuilder, java.util.Iterator&lt;?&gt;)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.core.internal.deps.guava.base.Joiner java.lang.StringBuilder appendTo(java.lang.StringBuilder, java.util.Iterator&lt;?&gt;) 1'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, long)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Stopwatch android.support.test.espresso.core.internal.deps.guava.base.Stopwatch start()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T, java.lang.Object) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='android.support.test.espresso.core.internal.deps.guava.base.Optional T or(T)'>
+    <item name='android.support.test.espresso.core.internal.deps.guava.base.Supplier T get()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -219,7 +219,7 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper addValue(java.lang.Object)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Preconditions T checkNotNull(T, java.lang.Object) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -235,15 +235,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects T firstNonNull(T, T)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.Optional android.support.test.espresso.core.internal.deps.guava.base.Optional&lt;T&gt; of(T)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Optional android.support.test.espresso.core.internal.deps.guava.base.Optional&lt;T&gt; fromNullable(T)'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper addValue(java.lang.Object)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.core.internal.deps.guava.base.Optional android.support.test.espresso.core.internal.deps.guava.base.Optional&lt;T&gt; absent()'>
+        name='android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper android.support.test.espresso.core.internal.deps.guava.base.MoreObjects.ToStringHelper add(java.lang.String, long)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

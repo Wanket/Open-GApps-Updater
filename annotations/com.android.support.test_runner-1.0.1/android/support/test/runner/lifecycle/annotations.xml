@@ -7,6 +7,14 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
+    <item
+        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor java.util.Collection&lt;android.app.Activity&gt; getActivitiesInStage(android.support.test.runner.lifecycle.Stage)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
     <item name='android.support.test.runner.lifecycle.Stage STARTED'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -23,14 +31,6 @@
     </item>
     <item name='android.support.test.runner.lifecycle.Stage RESUMED'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.runner.lifecycle.ActivityLifecycleMonitor java.util.Collection&lt;android.app.Activity&gt; getActivitiesInStage(android.support.test.runner.lifecycle.Stage)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
     <item name='android.support.test.runner.lifecycle.Stage RESTARTED'>
         <annotation name='org.jetbrains.annotations.NotNull' />

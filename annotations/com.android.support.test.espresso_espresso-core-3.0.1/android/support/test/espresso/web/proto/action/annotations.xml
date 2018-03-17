@@ -1,50 +1,10 @@
 <root>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearElement()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.web.proto.action.WebActions.AtomActionProto parseFrom(byte[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setWindow(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder mergeElement(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setElement(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setId(java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.web.proto.action.WebActions.AtomActionProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder mergeAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setElement(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.web.proto.action.WebActions.AtomActionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -52,11 +12,51 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setId(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearAtom()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder mergeAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder mergeElement(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.web.proto.action.WebActions.AtomActionProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.web.proto.action.WebActions.AtomActionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearWindow()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setElement(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setWindow(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -68,23 +68,27 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearWindow()'>
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearElement()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setWindow(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setAtom(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearAtom()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -108,10 +112,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder mergeWindow(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -120,7 +120,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setElement(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -132,11 +136,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder android.support.test.espresso.web.proto.action.WebActions.AtomActionProto.Builder setElement(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
 </root>

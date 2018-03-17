@@ -4,19 +4,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.listeners.result.TestIdentifier java.lang.String getTestName()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.orchestrator.listeners.result.TestResult.TestStatus INCOMPLETE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.orchestrator.listeners.result.TestIdentifier TestIdentifier(java.lang.String, java.lang.String) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.orchestrator.listeners.result.TestResult android.support.test.orchestrator.listeners.result.TestResult setStatus(android.support.test.orchestrator.listeners.result.TestResult.TestStatus)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='android.support.test.orchestrator.listeners.result.TestResult.TestStatus PASSED'>
@@ -26,11 +18,19 @@
         name='android.support.test.orchestrator.listeners.result.TestRunResult int getNumTestsInState(android.support.test.orchestrator.listeners.result.TestResult.TestStatus) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
+    <item
+        name='android.support.test.orchestrator.listeners.result.TestIdentifier java.lang.String getClassName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='android.support.test.orchestrator.listeners.result.TestResult.TestStatus FAILURE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.listeners.result.TestIdentifier java.lang.String getClassName()'>
+        name='android.support.test.orchestrator.listeners.result.TestIdentifier java.lang.String getTestName()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.result.TestRunResult java.util.Set&lt;android.support.test.orchestrator.listeners.result.TestIdentifier&gt; getCompletedTests()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -41,7 +41,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.listeners.result.TestRunResult java.util.Set&lt;android.support.test.orchestrator.listeners.result.TestIdentifier&gt; getCompletedTests()'>
+        name='android.support.test.orchestrator.listeners.result.TestResult android.support.test.orchestrator.listeners.result.TestResult setStatus(android.support.test.orchestrator.listeners.result.TestResult.TestStatus)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

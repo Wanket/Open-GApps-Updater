@@ -15,10 +15,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromDescription(org.junit.runner.Description)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.orchestrator.junit.ParcelableResult ParcelableResult(org.junit.runner.Result) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -26,15 +22,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.orchestrator.junit.ParcelableResult java.util.List&lt;android.support.test.orchestrator.junit.ParcelableFailure&gt; getFailures()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.orchestrator.junit.ParcelableDescription void writeToParcel(android.os.Parcel, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromResult(org.junit.runner.Result)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromThrowable(org.junit.runner.Description, java.lang.Throwable)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -42,11 +34,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromDescription(org.junit.runner.Description) 0'>
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromFailure(org.junit.runner.notification.Failure)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromFailure(org.junit.runner.notification.Failure)'>
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromDescription(org.junit.runner.Description) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -82,11 +74,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.junit.ParcelableResult java.util.List&lt;android.support.test.orchestrator.junit.ParcelableFailure&gt; getFailures()'>
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromResult(org.junit.runner.Result)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.orchestrator.junit.ParcelableFailure ParcelableFailure(android.support.test.orchestrator.junit.ParcelableDescription, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromDescription(org.junit.runner.Description)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.junit.BundleJUnitUtils android.os.Bundle getBundleFromThrowable(org.junit.runner.Description, java.lang.Throwable)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='android.support.test.orchestrator.junit.ParcelableFailure CREATOR'>

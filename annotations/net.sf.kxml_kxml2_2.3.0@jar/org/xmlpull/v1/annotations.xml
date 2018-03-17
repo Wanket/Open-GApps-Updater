@@ -1,12 +1,4 @@
 <root>
-    <item
-        name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer endTag(java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
     <item name='org.xmlpull.v1.XmlSerializer void ignorableWhitespace(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -37,7 +29,15 @@
         </annotation>
     </item>
     <item
-        name='org.xmlpull.v1.XmlPullParserFactory org.xmlpull.v1.XmlPullParserFactory newInstance()'>
+        name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer attribute(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='org.xmlpull.v1.XmlPullParserFactory org.xmlpull.v1.XmlPullParserFactory newInstance(java.lang.String, java.lang.Class)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer text(java.lang.String) 0'>
@@ -55,6 +55,17 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
+    <item
+        name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer startTag(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item name='org.xmlpull.v1.XmlPullParser FEATURE_REPORT_NAMESPACE_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer text(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -68,9 +79,6 @@
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
-    </item>
-    <item name='org.xmlpull.v1.XmlPullParser FEATURE_REPORT_NAMESPACE_ATTRIBUTES'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.xmlpull.v1.XmlPullParser TYPES'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -87,7 +95,7 @@
         </annotation>
     </item>
     <item
-        name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer attribute(java.lang.String, java.lang.String, java.lang.String)'>
+        name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer endTag(java.lang.String, java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -105,9 +113,12 @@
     <item name='org.xmlpull.v1.XmlPullParserFactory PROPERTY_NAME'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
-    <item
-        name='org.xmlpull.v1.XmlPullParserFactory org.xmlpull.v1.XmlPullParserFactory newInstance(java.lang.String, java.lang.Class)'>
+    <item name='org.xmlpull.v1.XmlPullParser java.lang.String getAttributeType(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item name='org.xmlpull.v1.XmlPullParser java.lang.Object getProperty(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
@@ -133,7 +144,7 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
-    <item name='org.xmlpull.v1.XmlPullParser java.lang.String getAttributeType(int)'>
+    <item name='org.xmlpull.v1.XmlSerializer void cdsect(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -141,18 +152,7 @@
         </annotation>
     </item>
     <item
-        name='org.xmlpull.v1.XmlSerializer org.xmlpull.v1.XmlSerializer startTag(java.lang.String, java.lang.String)'>
+        name='org.xmlpull.v1.XmlPullParserFactory org.xmlpull.v1.XmlPullParserFactory newInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item name='org.xmlpull.v1.XmlSerializer void cdsect(java.lang.String) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
     </item>
 </root>

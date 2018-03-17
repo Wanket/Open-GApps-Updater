@@ -1,10 +1,14 @@
 <root>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -12,27 +16,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearResult()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearId()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder mergeResultMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -40,11 +28,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -68,39 +60,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto getDefaultInstance()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto parseFrom(java.nio.ByteBuffer) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -112,11 +72,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
@@ -124,15 +80,43 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearWebAssertion()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setSerialisableResult(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto parseFrom(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -140,15 +124,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto parseFrom(java.nio.ByteBuffer) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearResultDescriber()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder mergeWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultDescriber(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -156,15 +140,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder clearId()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearAnyResult()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -176,7 +160,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto getDefaultInstance()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -184,11 +172,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearResultDescriber()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder mergeResultDescriber(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -196,11 +192,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setId(java.lang.String)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -208,11 +204,7 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder mergeResultDescriber(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -228,23 +220,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setId(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -256,15 +236,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearDocumentResult()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearResultMatcher()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultDescriber(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -272,11 +248,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultDescriber(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder setId(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -284,23 +264,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
-            <val name="value"
-                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
-        </annotation>
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto parseFrom(java.nio.ByteBuffer) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder mergeWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -308,23 +276,47 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearDocumentResult()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setSerialisableResult(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value"
+                val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
+        </annotation>
     </item>
     <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto parseFrom(byte[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearAnyResult()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setAnyResult(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto parseFrom(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -336,23 +328,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearId()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder mergeAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setAnyResult(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setWebAssertion(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -368,12 +348,28 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder mergeAtom(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProtoOrBuilder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setSerialisableResult(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearId()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto java.lang.Object dynamicMethod(android.support.test.espresso.core.internal.deps.protobuf.GeneratedMessageLite.MethodToInvoke, java.lang.Object, java.lang.Object) 0'>
@@ -384,15 +380,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder mergeAnyResult(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.ResultCase ANYRESULT'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearWebAssertion()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.ResultCase SERIALISABLERESULT'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.ResultCase SERIALISABLERESULT'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearAtom()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -404,7 +408,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearId()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -416,19 +424,15 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearResult()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto parseFrom(byte[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearSerialisableResult()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearResultMatcher()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setAnyResult(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.DocumentParserAtomProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -436,19 +440,19 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder clearAtom()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder mergeAnyResult(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder setId(java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder mergeResultMatcher(android.support.test.espresso.core.internal.deps.protobuf.Any)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setAnyResult(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -456,19 +460,23 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.core.internal.deps.protobuf.ByteString getIdBytes()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto getDefaultInstance()'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setDocumentResult(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto parseFrom(byte[], android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder clearSerialisableResult()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -488,19 +496,11 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ToStringResultDescriberProto.Builder setIdBytes(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto parseFrom(java.nio.ByteBuffer, android.support.test.espresso.core.internal.deps.protobuf.ExtensionRegistryLite) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.CheckResultAssertionProto.Builder setDocumentResult(android.support.test.espresso.core.internal.deps.protobuf.ByteString)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder android.support.test.espresso.web.proto.assertion.WebAssertions.ResultCheckingWebAssertionProto.Builder setResultDescriber(android.support.test.espresso.core.internal.deps.protobuf.Any.Builder)'>
+        name='android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto android.support.test.espresso.web.proto.assertion.WebAssertions.WebContentResultDescriberProto getDefaultInstance()'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>

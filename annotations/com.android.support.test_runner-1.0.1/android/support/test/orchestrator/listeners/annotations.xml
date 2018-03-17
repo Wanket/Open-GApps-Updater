@@ -4,10 +4,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.lang.String getTestName(android.support.test.orchestrator.listeners.result.TestIdentifier)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.orchestrator.listeners.TextListener void printFooter(android.support.test.orchestrator.listeners.OrchestrationResult) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -60,10 +56,6 @@
         </annotation>
     </item>
     <item
-        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.io.File getResultFile(java.io.File)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.orchestrator.listeners.OrchestrationListenerManager.TestEvent TEST_FAILURE'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -104,6 +96,10 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
+        name='android.support.test.orchestrator.listeners.OrchestrationResult.Builder android.support.test.orchestrator.listeners.OrchestrationResult build()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
         name='android.support.test.orchestrator.listeners.OrchestrationRunListener void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -141,6 +137,10 @@
     </item>
     <item
         name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter void testIgnored(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.lang.String getTestName(android.support.test.orchestrator.listeners.result.TestIdentifier)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -196,10 +196,6 @@
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='android.support.test.orchestrator.listeners.OrchestrationResult.Builder android.support.test.orchestrator.listeners.OrchestrationResult build()'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
         name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener void testFinished(android.support.test.orchestrator.junit.ParcelableDescription) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
@@ -213,6 +209,10 @@
     </item>
     <item
         name='android.support.test.orchestrator.listeners.OrchestrationResultPrinter REPORT_VALUE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.test.orchestrator.listeners.OrchestrationXmlTestRunListener java.io.File getResultFile(java.io.File)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item

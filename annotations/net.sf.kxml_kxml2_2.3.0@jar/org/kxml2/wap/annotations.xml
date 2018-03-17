@@ -22,23 +22,24 @@
         </annotation>
     </item>
     <item
-        name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer startTag(java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer text(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer text(char[], int, int)'>
+        name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer attribute(java.lang.String, java.lang.String, java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
-        name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer attribute(java.lang.String, java.lang.String, java.lang.String)'>
+        name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer startTag(java.lang.String, java.lang.String)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.WbxmlParser char[] getTextCharacters(int[]) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.WbxmlSerializer void setAttrValueTable(int, java.lang.String[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer endTag(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item name='org.kxml2.wap.WbxmlParser java.lang.String getAttributeType(int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item
@@ -63,6 +64,9 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
+    <item name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer text(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
     <item name='org.kxml2.wap.WbxmlParser java.lang.Object getProperty(java.lang.String) 0'>
         <annotation name='org.jetbrains.annotations.NotNull' />
         <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
@@ -70,7 +74,7 @@
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
     </item>
-    <item name='org.kxml2.wap.WbxmlParser java.lang.String getAttributeType(int)'>
+    <item name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer text(char[], int, int)'>
         <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
     <item name='org.kxml2.wap.WbxmlParser void setInput(java.io.InputStream, java.lang.String) 0'>
@@ -93,9 +97,5 @@
             <val name="value"
                 val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}" />
         </annotation>
-    </item>
-    <item
-        name='org.kxml2.wap.WbxmlSerializer org.xmlpull.v1.XmlSerializer endTag(java.lang.String, java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
     </item>
 </root>
