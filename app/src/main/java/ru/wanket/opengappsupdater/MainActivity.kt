@@ -16,21 +16,17 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
-import com.android.volley.Request
 import com.android.volley.Response
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
+import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.console.RootConsole
-
+import ru.wanket.opengappsupdater.network.GitHubGApps
 
 class MainActivity : AppCompatActivity() {
     companion object {
         private const val gAppsNotFound = "GAppsNotFound"
         private const val networkError = "Network not working"
-
-        private const val urlUpdates = "https://api.github.com/repos/opengapps/arm64/releases/latest"
 
         private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
             return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
@@ -38,7 +34,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val rootConsole = RootConsole()
-    private val root = Root(rootConsole)
     private var downloadId = -1L
     private lateinit var downloadManager: DownloadManager
     private lateinit var gAppsInfo: GAppsInfo
@@ -47,12 +42,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        updateRoot()
         getPermissions()
         updateGAppsInfoOnUI()
         setupListeners()
 
         downloadManager = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
+    }
+
+    //Permissions
+    private fun getPermissions() {
+        updateRoot()
+
+        val permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+
+        if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), 0)
+        }
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
@@ -67,16 +72,57 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun updateRoot() {
+        if (!Root.checkRoot()) {
+            toast(getString(R.string.root_not_found))
+            finish()
+        }
+
+        toast(getString(R.string.root_found))
+    }
+    //EndPermissions
+
+    //GApps
+    private fun updateGAppsInfoOnUI() {
+        try {
+            gAppsInfo = GAppsInfo.getCurrentGAppsInfo()
+
+            archTextView.text = gAppsInfo.arch
+            platformVersionTextView.text = gAppsInfo.platform
+            typeTextView.text = gAppsInfo.type
+            currentVersionTextView.text = gAppsInfo.version.toString()
+
+        } catch (e: Exception) {
+            Log.w(gAppsNotFound, e)
+
+            archTextView.text = gAppsNotFound
+            platformVersionTextView.text = gAppsNotFound
+            typeTextView.text = gAppsNotFound
+            currentVersionTextView.text = gAppsNotFound
+
+            checkUpdateButton.visibility = Button.INVISIBLE
+            tvlv.visibility = Button.INVISIBLE
+            lastVersionTextView.visibility = Button.INVISIBLE
+        }
+    }
+    //EndGApps
+
+    //UIListeners
     private fun setupListeners() {
         checkUpdateButton.setOnClickListener { onCheckUpdateButtonClick() }
         downloadButton.setOnClickListener { onDownloadButtonClick() }
         installButton.setOnClickListener { onInstallButtonClick() }
     }
 
-    private fun onInstallButtonClick() {
-        rootConsole.exec("su -c echo 'boot-recovery ' > /cache/recovery/command").waitFor()
-        rootConsole.exec("su -c echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n").waitFor()
-        rootConsole.exec("su -c reboot recovery").waitFor()
+    private fun onCheckUpdateButtonClick() {
+        GitHubGApps(this).getInfoGApps(
+                Response.Listener { response ->
+                    onResponseCheckUpdate(response)
+                },
+                Response.ErrorListener {
+                    Log.w(MainActivity.networkError, it)
+                    toast(MainActivity.networkError)
+                })
     }
 
     private fun onDownloadButtonClick() {
@@ -98,6 +144,13 @@ class MainActivity : AppCompatActivity() {
         registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
     }
 
+    private fun onInstallButtonClick() {
+        rootConsole.exec("su -c echo 'boot-recovery ' > /cache/recovery/command")
+        rootConsole.exec("su -c echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
+        rootConsole.exec("su -c reboot recovery")
+    }
+    //EndUIListeners
+
     private var onComplete: BroadcastReceiver = object : BroadcastReceiver() {
         override fun onReceive(ctxt: Context, intent: Intent) {
             installButton.visibility = Button.VISIBLE
@@ -107,65 +160,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
-    private fun getPermissions() {
-        val permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
-
-        if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), 0)
-        }
-    }
-
-    private fun updateRoot() {
-        if (!root.checkRoot()) {
-            toast(getString(R.string.root_not_found))
-            finish()
-        }
-
-        root.setupRoot()
-        toast(getString(R.string.root_found))
-    }
-
-    private fun updateGAppsInfoOnUI() {
-        try {
-            gAppsInfo = GAppsInfo.getCurrentGAppsInfo()
-
-            archTextView.text = gAppsInfo.arch
-            platformVersionTextView.text = gAppsInfo.platform
-            typeTextView.text = gAppsInfo.type
-            currentVersionTextView.text = gAppsInfo.version.toString()
-
-        } catch (e: Exception) {
-            Log.w(gAppsNotFound, e)
-
-            archTextView.text = gAppsNotFound
-            platformVersionTextView.text = gAppsNotFound
-            typeTextView.text = gAppsNotFound
-            currentVersionTextView.text = gAppsNotFound
-        }
-    }
-
     private fun toast(message: CharSequence) {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show()
     }
 
-    private fun onCheckUpdateButtonClick() {
-        val queue = Volley.newRequestQueue(this)
-        getPermissions()
-        val stringRequest = StringRequest(Request.Method.GET, urlUpdates,
-                Response.Listener<String> { response ->
-                    onResponseCheckUpdate(response)
-                },
-                Response.ErrorListener {
-                    Log.w(networkError, it)
-                    toast(networkError)
-                })
-
-        queue.add(stringRequest)
-        queue.start()
-    }
-
-    private fun onResponseCheckUpdate(response: String?) {
+    private fun onResponseCheckUpdate(response: String) {
         val json = JSONObject(response)
         val version = json.getInt("tag_name")
 

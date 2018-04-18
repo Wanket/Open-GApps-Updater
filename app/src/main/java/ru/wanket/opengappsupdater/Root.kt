@@ -2,18 +2,9 @@ package ru.wanket.opengappsupdater
 
 import ru.wanket.opengappsupdater.console.RootConsole
 
-class Root(private val rootConsole: RootConsole) {
-    private var rootActive = false
-
+object Root {
     fun checkRoot(): Boolean {
-        val process = rootConsole.exec("su -c true")
-        return process.waitFor() == 0
-    }
-
-    fun setupRoot() {
-        if (!rootActive) {
-            rootConsole.exec("su")
-            rootActive = true
-        }
+        val console = RootConsole()
+        return console.exec("su -c true") == 0
     }
 }

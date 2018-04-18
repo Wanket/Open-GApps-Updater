@@ -1,6 +1,0 @@
-<root>
-    <item
-        name='android.support.test.internal.runner.junit4.statement.UiThreadStatement boolean shouldRunOnUiThread(org.junit.runners.model.FrameworkMethod) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-</root>

@@ -1,6 +1,0 @@
-<root>
-    <item
-        name='android.support.v4.app.ActionBarDrawerToggle ActionBarDrawerToggle(android.app.Activity, android.support.v4.widget.DrawerLayout, int, int, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-</root>

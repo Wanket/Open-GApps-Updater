@@ -1,9 +1,0 @@
-<root>
-    <item name='org.hamcrest.JMock1Matchers org.jmock.core.Constraint equalTo(java.lang.String)'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-    <item
-        name='org.hamcrest.JavaLangMatcherAssert boolean that(T, org.hamcrest.Matcher&lt;? super T&gt;) 1'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-</root>
