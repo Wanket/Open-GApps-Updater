@@ -27,6 +27,6 @@ class GAppsIntentService : IntentService("GAppsIntentService") {
 
     private fun handleActionCheckUpdate() {
         //TODO Основная логика проверки обновлений здесь
-        Log.d("handleActionCheckUpdate", "handleActionCheckUpdate()")
+
     }
 }

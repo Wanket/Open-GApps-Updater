@@ -14,4 +14,12 @@ class Settings(private val context: Context) {
     set(value) {
         preferences.edit().putLong("checkUpdateTime", value).apply()
     }
+
+    var isFirstLaunch: Boolean
+    get() {
+        return preferences.getBoolean("isFirstLaunch", false)
+    }
+    set(value) {
+        return preferences.edit().putBoolean("isFirstLaunch", value).apply()
+    }
 }

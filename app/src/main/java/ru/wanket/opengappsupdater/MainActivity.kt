@@ -19,6 +19,7 @@ import android.widget.Toast
 import com.android.volley.Response
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
+import ru.wanket.opengappsupdater.background.GAppsRequestsReceiver
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.network.GitHubGApps
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private const val gAppsNotFound = "GAppsNotFound"
         private const val networkError = "Network not working"
+        const val FIRST_LAUNCH_ACTION = "ru.wanket.opengappsupdater.android.action.FIRST_LAUNCH"
 
         private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
             return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
@@ -45,8 +47,22 @@ class MainActivity : AppCompatActivity() {
         getPermissions()
         updateGAppsInfoOnUI()
         setupListeners()
+        setupBackgroundTasks()
 
         downloadManager = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
+    }
+
+    private fun setupBackgroundTasks() {
+        val settings = Settings(this)
+        if (true/*!settings.isFirstLaunch*/) {
+
+            val filter = IntentFilter(FIRST_LAUNCH_ACTION)
+            registerReceiver(GAppsRequestsReceiver(), filter)
+            val intent = Intent(FIRST_LAUNCH_ACTION)
+            sendBroadcast(intent)
+
+            settings.isFirstLaunch = true
+        }
     }
 
     //Permissions
