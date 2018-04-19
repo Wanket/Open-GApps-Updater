@@ -21,12 +21,12 @@
         </activity>
 
         <service
-            android:name=".background.GAppsIntentService"
+            android:name=".background.update.GAppsIntentService"
             android:exported="false">
         </service>
 
         <receiver
-            android:name=".background.GAppsRequestsReceiver"
+            android:name=".background.update.GAppsRequestsReceiver"
             android:enabled="true"
             android:exported="true"
             android:permission="ru.wanket.opengappsupdater.action.ACTION_CHECK_UPDATE">
@@ -37,7 +37,7 @@
         </receiver>
 
         <service
-            android:name=".background.GAppsJobService"
+            android:name=".background.update.GAppsJobService"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE">

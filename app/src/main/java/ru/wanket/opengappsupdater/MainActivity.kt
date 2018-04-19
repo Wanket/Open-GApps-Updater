@@ -2,8 +2,6 @@ package ru.wanket.opengappsupdater
 
 import android.Manifest
 import android.app.DownloadManager
-import android.content.BroadcastReceiver
-import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.content.pm.PackageManager
@@ -19,7 +17,8 @@ import android.widget.Toast
 import com.android.volley.Response
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
-import ru.wanket.opengappsupdater.background.GAppsRequestsReceiver
+import ru.wanket.opengappsupdater.background.download.Downloader
+import ru.wanket.opengappsupdater.background.update.GAppsRequestsReceiver
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.network.GitHubGApps
@@ -30,9 +29,7 @@ class MainActivity : AppCompatActivity() {
         private const val networkError = "Network not working"
         const val FIRST_LAUNCH_ACTION = "ru.wanket.opengappsupdater.android.action.FIRST_LAUNCH"
 
-        private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
-            return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
-        }
+
     }
 
     private val rootConsole = RootConsole()
@@ -48,8 +45,6 @@ class MainActivity : AppCompatActivity() {
         updateGAppsInfoOnUI()
         setupListeners()
         setupBackgroundTasks()
-
-        downloadManager = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
     }
 
     private fun setupBackgroundTasks() {
@@ -142,22 +137,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onDownloadButtonClick() {
-        synchronized(downloadId) {
-            if (downloadId != -1L) {
-                return
-            }
-        }
-
-        installButton.visibility = Button.INVISIBLE
-
-        val url = generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text, gAppsInfo.platform, gAppsInfo.type)
-        DownloadManager.Request(Uri.parse(url)).apply {
-            setTitle("Open GApps")
-            setDescription("Download Open GApps")
-            setDestinationUri(Uri.parse("file://${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads/update.zip"))
-        }.let { downloadId = downloadManager.enqueue(it) }
-
-        registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
+        val destination = "file://${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads/update.zip"
+        Downloader(this).download(Uri.parse(destination),
+                gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
     }
 
     private fun onInstallButtonClick() {
@@ -167,15 +149,6 @@ class MainActivity : AppCompatActivity() {
     }
     //EndUIListeners
 
-    private var onComplete: BroadcastReceiver = object : BroadcastReceiver() {
-        override fun onReceive(ctxt: Context, intent: Intent) {
-            installButton.visibility = Button.VISIBLE
-            synchronized(downloadId) {
-                downloadId = -1L
-            }
-        }
-    }
-
     private fun toast(message: CharSequence) {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show()
     }
@@ -184,10 +157,10 @@ class MainActivity : AppCompatActivity() {
         val json = JSONObject(response)
         val version = json.getInt("tag_name")
 
-        if (version <= gAppsInfo.version) {
-            toast(getString(R.string.update_not_required))
-            return
-        }
+//        if (version <= gAppsInfo.version) {
+//            toast(getString(R.string.update_not_required))
+//            return
+//        }
 
         lastVersionTextView.text = version.toString()
         downloadButton.visibility = Button.VISIBLE

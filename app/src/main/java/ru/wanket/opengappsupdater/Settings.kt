@@ -20,6 +20,17 @@ class Settings(private val context: Context) {
         return preferences.getBoolean("isFirstLaunch", false)
     }
     set(value) {
-        return preferences.edit().putBoolean("isFirstLaunch", value).apply()
+        preferences.edit().putBoolean("isFirstLaunch", value).apply()
+    }
+
+    var downloadInfo: DownloadInfo
+    get() {
+        return DownloadInfo(
+                preferences.getInt("downloadInfo.version", -1),
+                preferences.getBoolean("downloadInfo.isDownloaded", false))
+    }
+    set(value) {
+        preferences.edit().putInt("downloadInfo.version", value.version).apply()
+        preferences.edit().putBoolean("downloadInfo.isDownloaded", value.isDownloaded).apply()
     }
 }
