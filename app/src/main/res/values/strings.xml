@@ -12,4 +12,5 @@
     <string name="click_check_update_button">Click Check updatebutton</string>
     <string name="download">Download</string>
     <string name="install">Install</string>
+    <string name="update_aviable">Update available</string>
 </resources>

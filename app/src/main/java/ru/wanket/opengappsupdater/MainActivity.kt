@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupBackgroundTasks() {
         val settings = Settings(this)
-        if (true/*!settings.isFirstLaunch*/) {
+        if (settings.isFirstLaunch) {
 
             val filter = IntentFilter(FIRST_LAUNCH_ACTION)
             registerReceiver(GAppsRequestsReceiver(), filter)

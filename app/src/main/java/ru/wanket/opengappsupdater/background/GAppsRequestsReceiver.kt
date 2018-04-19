@@ -30,8 +30,8 @@ class GAppsRequestsReceiver : BroadcastReceiver() {
             setRequiresDeviceIdle(false)
             setRequiresCharging(false)
             setBackoffCriteria(TimeUnit.SECONDS.toMillis(settings.checkUpdateTime), JobInfo.BACKOFF_POLICY_LINEAR)
-            //setPeriodic(settings.checkUpdateTime)
-            setOverrideDeadline(settings.checkUpdateTime)
+            setPeriodic(settings.checkUpdateTime)
+            //setOverrideDeadline(settings.checkUpdateTime) use for fast debug
         }.let {
             (context.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(it.build())
         }
