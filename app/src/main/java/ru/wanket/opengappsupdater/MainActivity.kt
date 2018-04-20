@@ -1,11 +1,9 @@
 package ru.wanket.opengappsupdater
 
 import android.Manifest
-import android.app.DownloadManager
 import android.content.Intent
 import android.content.IntentFilter
 import android.content.pm.PackageManager
-import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
 import android.support.v4.app.ActivityCompat
@@ -13,15 +11,17 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Button
+import android.widget.ProgressBar
 import android.widget.Toast
 import com.android.volley.Response
+import com.downloader.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
-import ru.wanket.opengappsupdater.background.download.Downloader
 import ru.wanket.opengappsupdater.background.update.GAppsRequestsReceiver
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.network.GitHubGApps
+
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -29,18 +29,20 @@ class MainActivity : AppCompatActivity() {
         private const val networkError = "Network not working"
         const val FIRST_LAUNCH_ACTION = "ru.wanket.opengappsupdater.android.action.FIRST_LAUNCH"
 
-
+        private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
+            return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
+        }
     }
 
     private val rootConsole = RootConsole()
-    private var downloadId = -1L
-    private lateinit var downloadManager: DownloadManager
     private lateinit var gAppsInfo: GAppsInfo
+    private var downloadId = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        PRDownloader.initialize(applicationContext)
         getPermissions()
         updateGAppsInfoOnUI()
         setupListeners()
@@ -76,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         when (requestCode) {
             0 -> {
                 if (grantResults.isEmpty() || grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                    toast("No permission to write to storage, exit from program")
+                    toast("No permission on write to storage, exit from program")
                     finish()
                 }
             }
@@ -123,6 +125,21 @@ class MainActivity : AppCompatActivity() {
         checkUpdateButton.setOnClickListener { onCheckUpdateButtonClick() }
         downloadButton.setOnClickListener { onDownloadButtonClick() }
         installButton.setOnClickListener { onInstallButtonClick() }
+        pauseButton.setOnClickListener {
+            if (PRDownloader.getStatus(downloadId) == Status.PAUSED)
+            {
+                PRDownloader.resume(downloadId)
+            }
+
+            PRDownloader.pause(downloadId)
+            pauseButton.text = "Resume"
+        }
+        cancelButton.setOnClickListener {
+            PRDownloader.cancel(downloadId)
+            downloadProgressBar.visibility = Button.INVISIBLE
+            pauseButton.visibility = Button.INVISIBLE
+            cancelButton.visibility = Button.INVISIBLE
+        }
     }
 
     private fun onCheckUpdateButtonClick() {
@@ -137,15 +154,41 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onDownloadButtonClick() {
-        val destination = "file://${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads/update.zip"
-        Downloader(this).download(Uri.parse(destination),
-                gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
+        val destination = "/${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
+        val url = generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
+
+        downloadId = PRDownloader.download(url, destination, "update.zip")
+                .build()
+                .setOnStartOrResumeListener { }
+                .setOnPauseListener { }
+                .setOnCancelListener { }
+                .setOnProgressListener {
+                    Log.d("PRDownloader", "totalBytes: ${it.totalBytes}; currentBytes: ${it.currentBytes}")
+                    downloadProgressBar.progress = (it.currentBytes * 100 / it.totalBytes).toInt()
+                }
+                .start(object : OnDownloadListener {
+                    override fun onDownloadComplete() {
+                        installButton.visibility = Button.VISIBLE
+                        downloadProgressBar.visibility = Button.INVISIBLE
+                        pauseButton.visibility = Button.INVISIBLE
+                        cancelButton.visibility = Button.INVISIBLE
+                    }
+
+                    override fun onError(error: Error) { }
+                })
+
+        downloadProgressBar.progress = 0
+        downloadProgressBar.visibility = ProgressBar.VISIBLE
+        pauseButton.visibility = Button.VISIBLE
+        cancelButton.visibility = Button.VISIBLE
     }
 
     private fun onInstallButtonClick() {
-        rootConsole.exec("su -c echo 'boot-recovery ' > /cache/recovery/command")
-        rootConsole.exec("su -c echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
-        rootConsole.exec("su -c reboot recovery")
+        rootConsole.apply {
+            exec("echo 'boot-recovery ' > /cache/recovery/command")
+            exec("echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
+            exec("reboot recovery")
+        }
     }
     //EndUIListeners
 
@@ -157,10 +200,10 @@ class MainActivity : AppCompatActivity() {
         val json = JSONObject(response)
         val version = json.getInt("tag_name")
 
-//        if (version <= gAppsInfo.version) {
-//            toast(getString(R.string.update_not_required))
-//            return
-//        }
+        if (version <= gAppsInfo.version) {
+            toast(getString(R.string.update_not_required))
+            return
+        }
 
         lastVersionTextView.text = version.toString()
         downloadButton.visibility = Button.VISIBLE
