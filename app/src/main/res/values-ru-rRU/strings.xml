@@ -22,4 +22,5 @@
     <string name="platform_version">Версия платформы</string>
     <string name="no_perm_rw_storage">Нет прав на запись во внутреннюю память, выход из программы</string>
     <string name="update_aviable">Есть обновление</string>
+    <string name="auto_check_update">Автоматическая проверка обновлений</string>
 </resources>

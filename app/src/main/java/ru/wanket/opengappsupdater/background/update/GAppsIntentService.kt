@@ -15,6 +15,7 @@ import android.app.NotificationManager
 import android.os.Build
 import android.app.PendingIntent
 import ru.wanket.opengappsupdater.MainActivity
+import ru.wanket.opengappsupdater.Settings
 
 
 class GAppsIntentService : IntentService("GAppsIntentService") {
@@ -48,6 +49,10 @@ class GAppsIntentService : IntentService("GAppsIntentService") {
     }
 
     private fun checkUpdate(response: String) {
+        if (!Settings(applicationContext).autoCheckUpdate) {
+            return
+        }
+
         val json = JSONObject(response)
         val version = json.getInt("tag_name")
         val gAppsInfo = GAppsInfo.getCurrentGAppsInfo()

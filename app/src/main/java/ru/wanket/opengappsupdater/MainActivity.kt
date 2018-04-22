@@ -9,10 +9,6 @@ import android.os.Environment
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
-import android.widget.Button
-import android.widget.ProgressBar
-import android.widget.TextView
-import android.widget.Toast
 import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
@@ -26,6 +22,11 @@ import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.network.GitHubGApps
 import java.io.File
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.widget.*
+
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -45,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        getSettings()
         setProperties()
         PRDownloader.initialize(applicationContext)
         getPermissions()
@@ -53,13 +55,36 @@ class MainActivity : AppCompatActivity() {
         setupBackgroundTasks()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        val item = menu.findItem(R.id.checkUpdateItem)
+        item.isChecked = Settings(this).autoCheckUpdate
+        return true
+    }
+
+    fun onAutoCheckUpdateClick(item: MenuItem) {
+        item.isChecked = !item.isChecked
+        val settings = Settings(this)
+        settings.autoCheckUpdate = item.isChecked
+    }
+
+    private fun getSettings() {
+        val settings = Settings(this)
+        if (settings.lastVersion != -1) {
+            installButton.visibility = Button.VISIBLE
+            lastVersionTextView.text = settings.lastVersion.toString()
+            lastVersionTextView.visibility = TextView.VISIBLE
+            tvlv.visibility = TextView.VISIBLE
+        }
+    }
+
     private fun setProperties() {
         gAppsNotFound = getString(R.string.gapps_not_found)
     }
 
     private fun setupBackgroundTasks() {
         val settings = Settings(this)
-        if (!settings.isFirstLaunch) {
+        if (settings.isFirstLaunch) {
 
             val filter = IntentFilter(FIRST_LAUNCH_ACTION)
             registerReceiver(GAppsRequestsReceiver(), filter)
@@ -181,6 +206,9 @@ class MainActivity : AppCompatActivity() {
                         pauseButton.visibility = Button.INVISIBLE
                         cancelButton.visibility = Button.INVISIBLE
                         progressTextView.visibility = Button.INVISIBLE
+
+                        val settings = Settings(applicationContext)
+                        settings.lastVersion = lastVersionTextView.text.toString().toInt()
                     }
 
                     override fun onError(error: Error) {}
@@ -233,10 +261,10 @@ class MainActivity : AppCompatActivity() {
         val json = JSONObject(response)
         val version = json.getInt("tag_name")
 
-//        if (version <= gAppsInfo.version) {
-//            toast(getString(R.string.update_not_required))
-//            return
-//        }
+        if (false/*version <= gAppsInfo.version*/) {
+            toast(getString(R.string.update_not_required))
+            return
+        }
 
         lastVersionTextView.text = version.toString()
         lastVersionTextView.visibility = TextView.VISIBLE
@@ -244,4 +272,3 @@ class MainActivity : AppCompatActivity() {
         downloadButton.visibility = Button.VISIBLE
     }
 }
-

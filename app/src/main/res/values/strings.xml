@@ -22,4 +22,5 @@
     <string name="md5_check_error">MD5 check error</string>
     <string name="check_md5_and_reboot">Check md5 and reboot</string>
     <string name="cancel">Cancel</string>
+    <string name="auto_check_update">Auto Check Update</string>
 </resources>
