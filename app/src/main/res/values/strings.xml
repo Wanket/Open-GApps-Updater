@@ -9,8 +9,17 @@
     <string name="check_update">Check Update</string>
     <string name="update_not_required">Update is not required</string>
     <string name="last_version">Last Version</string>
-    <string name="click_check_update_button">Click Check updatebutton</string>
+    <string name="click_check_update_button">Click \"Check Update\" button</string>
     <string name="download">Download</string>
-    <string name="install">Install</string>
+    <string name="install">Reboot and install</string>
     <string name="update_aviable">Update available</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="no_perm_rw_storage">No permission on write to storage, exit from program</string>
+    <string name="start_download_mbytes">0.0/0.0 MBytes</string>
+    <string name="mbytes">MBytes</string>
+    <string name="gapps_not_found">GAppsNotFound</string>
+    <string name="md5_check_error">MD5 check error</string>
+    <string name="check_md5_and_reboot">Check md5 and reboot</string>
+    <string name="cancel">Cancel</string>
 </resources>

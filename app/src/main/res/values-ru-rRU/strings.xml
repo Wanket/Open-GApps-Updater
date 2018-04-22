@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_version">Текущая версия</string>
+    <string name="architecture">Архитектура</string>
+    <string name="update_not_required">Обновление не требуется</string>
+    <string name="last_version">Последняя версия</string>
+    <string name="download">Скачать</string>
+    <string name="install">Перезагрузить в recovery и установить</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="start_download_mbytes">0.0/0.0 МБайт</string>
+    <string name="mbytes">МБайт</string>
+    <string name="gapps_not_found">GApps не найден</string>
+    <string name="md5_check_error">MD5 не совпадают</string>
+    <string name="check_md5_and_reboot">Проверка MD5 и перезагрузка</string>
+    <string name="cancel">Отмена</string>
+    <string name="root_found">Рут найден, продолжаем</string>
+    <string name="root_not_found">Рут не найден</string>
+    <string name="check_update">Проверить обновления</string>
+    <string name="click_check_update_button">Нажмите кнопку проверки обновлений</string>
+    <string name="type">Тип</string>
+    <string name="platform_version">Версия платформы</string>
+    <string name="no_perm_rw_storage">Нет прав на запись во внутреннюю память, выход из программы</string>
+    <string name="update_aviable">Есть обновление</string>
+</resources>

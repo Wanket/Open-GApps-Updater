@@ -9,11 +9,15 @@ import android.os.Environment
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.widget.Button
 import android.widget.ProgressBar
+import android.widget.TextView
 import android.widget.Toast
+import com.android.volley.Request
 import com.android.volley.Response
+import com.android.volley.toolbox.StringRequest
+import com.android.volley.toolbox.Volley
+import com.cyanogenmod.updater.utils.MD5
 import com.downloader.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
@@ -21,12 +25,10 @@ import ru.wanket.opengappsupdater.background.update.GAppsRequestsReceiver
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.network.GitHubGApps
-
+import java.io.File
 
 class MainActivity : AppCompatActivity() {
     companion object {
-        private const val gAppsNotFound = "GAppsNotFound"
-        private const val networkError = "Network not working"
         const val FIRST_LAUNCH_ACTION = "ru.wanket.opengappsupdater.android.action.FIRST_LAUNCH"
 
         private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
@@ -37,11 +39,13 @@ class MainActivity : AppCompatActivity() {
     private val rootConsole = RootConsole()
     private lateinit var gAppsInfo: GAppsInfo
     private var downloadId = -1
+    private lateinit var gAppsNotFound: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        setProperties()
         PRDownloader.initialize(applicationContext)
         getPermissions()
         updateGAppsInfoOnUI()
@@ -49,16 +53,20 @@ class MainActivity : AppCompatActivity() {
         setupBackgroundTasks()
     }
 
+    private fun setProperties() {
+        gAppsNotFound = getString(R.string.gapps_not_found)
+    }
+
     private fun setupBackgroundTasks() {
         val settings = Settings(this)
-        if (settings.isFirstLaunch) {
+        if (!settings.isFirstLaunch) {
 
             val filter = IntentFilter(FIRST_LAUNCH_ACTION)
             registerReceiver(GAppsRequestsReceiver(), filter)
             val intent = Intent(FIRST_LAUNCH_ACTION)
             sendBroadcast(intent)
 
-            settings.isFirstLaunch = true
+            settings.isFirstLaunch = false
         }
     }
 
@@ -78,7 +86,7 @@ class MainActivity : AppCompatActivity() {
         when (requestCode) {
             0 -> {
                 if (grantResults.isEmpty() || grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                    toast("No permission on write to storage, exit from program")
+                    toast(getString(R.string.no_perm_rw_storage))
                     finish()
                 }
             }
@@ -106,7 +114,6 @@ class MainActivity : AppCompatActivity() {
             currentVersionTextView.text = gAppsInfo.version.toString()
 
         } catch (e: Exception) {
-            Log.w(gAppsNotFound, e)
 
             archTextView.text = gAppsNotFound
             platformVersionTextView.text = gAppsNotFound
@@ -126,19 +133,20 @@ class MainActivity : AppCompatActivity() {
         downloadButton.setOnClickListener { onDownloadButtonClick() }
         installButton.setOnClickListener { onInstallButtonClick() }
         pauseButton.setOnClickListener {
-            if (PRDownloader.getStatus(downloadId) == Status.PAUSED)
-            {
+            if (PRDownloader.getStatus(downloadId) == Status.PAUSED) {
                 PRDownloader.resume(downloadId)
+                pauseButton.text = getString(R.string.pause)
             }
 
             PRDownloader.pause(downloadId)
-            pauseButton.text = "Resume"
+            pauseButton.text = getString(R.string.resume)
         }
         cancelButton.setOnClickListener {
             PRDownloader.cancel(downloadId)
             downloadProgressBar.visibility = Button.INVISIBLE
             pauseButton.visibility = Button.INVISIBLE
             cancelButton.visibility = Button.INVISIBLE
+            progressTextView.visibility = Button.INVISIBLE
         }
     }
 
@@ -147,10 +155,7 @@ class MainActivity : AppCompatActivity() {
                 Response.Listener { response ->
                     onResponseCheckUpdate(response)
                 },
-                Response.ErrorListener {
-                    Log.w(MainActivity.networkError, it)
-                    toast(MainActivity.networkError)
-                })
+                Response.ErrorListener {})
     }
 
     private fun onDownloadButtonClick() {
@@ -163,7 +168,10 @@ class MainActivity : AppCompatActivity() {
                 .setOnPauseListener { }
                 .setOnCancelListener { }
                 .setOnProgressListener {
-                    Log.d("PRDownloader", "totalBytes: ${it.totalBytes}; currentBytes: ${it.currentBytes}")
+                    val mBytes = 1024 * 1024 / 10
+                    val current = it.currentBytes / mBytes / 10.0
+                    val total = it.totalBytes / mBytes / 10.0
+                    progressTextView.text = "$current/$total ${getString(R.string.mbytes)}"
                     downloadProgressBar.progress = (it.currentBytes * 100 / it.totalBytes).toInt()
                 }
                 .start(object : OnDownloadListener {
@@ -172,22 +180,47 @@ class MainActivity : AppCompatActivity() {
                         downloadProgressBar.visibility = Button.INVISIBLE
                         pauseButton.visibility = Button.INVISIBLE
                         cancelButton.visibility = Button.INVISIBLE
+                        progressTextView.visibility = Button.INVISIBLE
                     }
 
-                    override fun onError(error: Error) { }
+                    override fun onError(error: Error) {}
                 })
 
         downloadProgressBar.progress = 0
+        progressTextView.text = getString(R.string.start_download_mbytes)
         downloadProgressBar.visibility = ProgressBar.VISIBLE
         pauseButton.visibility = Button.VISIBLE
         cancelButton.visibility = Button.VISIBLE
     }
 
     private fun onInstallButtonClick() {
-        rootConsole.apply {
-            exec("echo 'boot-recovery ' > /cache/recovery/command")
-            exec("echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
-            exec("reboot recovery")
+        checkMD5()
+    }
+
+    private fun checkMD5() {
+        val url = "${generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)}.md5"
+        val queue = Volley.newRequestQueue(this)
+
+        val stringRequest = StringRequest(Request.Method.GET, url,
+                Response.Listener<String> { response ->
+                    onCheckMD5(response)
+                },
+                Response.ErrorListener { })
+
+        queue.add(stringRequest)
+    }
+
+    private fun onCheckMD5(response: String) {
+        val path = "${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads/update.zip"
+        toast(getString(R.string.check_md5_and_reboot))
+        if (MD5.checkMD5(response.split(" ")[0], File(path))) {
+            rootConsole.apply {
+                exec("echo 'boot-recovery ' > /cache/recovery/command")
+                exec("echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
+                exec("reboot recovery")
+            }
+        } else {
+            toast(getString(R.string.md5_check_error))
         }
     }
     //EndUIListeners
@@ -200,12 +233,14 @@ class MainActivity : AppCompatActivity() {
         val json = JSONObject(response)
         val version = json.getInt("tag_name")
 
-        if (version <= gAppsInfo.version) {
-            toast(getString(R.string.update_not_required))
-            return
-        }
+//        if (version <= gAppsInfo.version) {
+//            toast(getString(R.string.update_not_required))
+//            return
+//        }
 
         lastVersionTextView.text = version.toString()
+        lastVersionTextView.visibility = TextView.VISIBLE
+        tvlv.visibility = TextView.VISIBLE
         downloadButton.visibility = Button.VISIBLE
     }
 }
