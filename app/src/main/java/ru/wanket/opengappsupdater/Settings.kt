@@ -9,7 +9,7 @@ class Settings(context: Context) {
 
     var checkUpdateTime: Long
         get() {
-            return preferences.getLong("checkUpdateTime", dayInSeconds)
+            return preferences.getLong("checkUpdateTime", 10)//dayInSeconds)
         }
         set(value) {
             preferences.edit().putLong("checkUpdateTime", value).apply()

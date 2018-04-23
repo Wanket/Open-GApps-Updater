@@ -6,10 +6,9 @@ import android.content.BroadcastReceiver
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import ru.wanket.opengappsupdater.MainActivity
+import ru.wanket.opengappsupdater.activity.MainActivity
 import ru.wanket.opengappsupdater.Settings
 import java.util.concurrent.TimeUnit
-
 
 class GAppsRequestsReceiver : BroadcastReceiver() {
     private var sJobId = 1
@@ -31,7 +30,8 @@ class GAppsRequestsReceiver : BroadcastReceiver() {
             setRequiresCharging(false)
             setBackoffCriteria(TimeUnit.SECONDS.toMillis(settings.checkUpdateTime), JobInfo.BACKOFF_POLICY_LINEAR)
             setPeriodic(settings.checkUpdateTime)
-            //setOverrideDeadline(settings.checkUpdateTime) use for fast debug
+            //setOverrideDeadline(TimeUnit.SECONDS.toMillis(settings.checkUpdateTime)) //use for fast debug
+            // TODO: Как то странно оно шедулиться
         }.let {
             (context.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(it.build())
         }

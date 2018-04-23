@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Open GApps Updater</string>
+    <string name="app_name" translatable="false">Open GApps Updater</string>
     <string name="root_not_found">Root is not aviable</string>
     <string name="root_found">Root found, continue</string>
     <string name="current_version">Current Version</string>

@@ -14,15 +14,14 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.os.Build
 import android.app.PendingIntent
-import ru.wanket.opengappsupdater.MainActivity
+import ru.wanket.opengappsupdater.activity.MainActivity
 import ru.wanket.opengappsupdater.Settings
-
 
 class GAppsIntentService : IntentService("GAppsIntentService") {
     companion object {
-        private val ACTION_CHECK_UPDATE = "ru.wanket.opengappsupdater.action.ACTION_CHECK_UPDATE"
-        private val CHANNEL_ID = "UPDATE_CHANNEL"
-        private val UpdateNotificationID = 0
+        private const val ACTION_CHECK_UPDATE = "ru.wanket.opengappsupdater.action.ACTION_CHECK_UPDATE"
+        private const val CHANNEL_ID = "UPDATE_CHANNEL"
+        private const val UpdateNotificationID = 0
 
         fun startActionCheckUpdate(context: Context) {
             val intent = Intent(context, GAppsIntentService::class.java)
@@ -30,6 +29,8 @@ class GAppsIntentService : IntentService("GAppsIntentService") {
             context.startService(intent)
         }
     }
+
+    private val currentGAppsInfo = GAppsInfo.getCurrentGAppsInfo()
 
     override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
@@ -41,10 +42,8 @@ class GAppsIntentService : IntentService("GAppsIntentService") {
     }
 
     private fun handleActionCheckUpdate() {
-        GitHubGApps(this).getInfoGApps(
-                Response.Listener { response ->
-                    checkUpdate(response)
-                },
+        GitHubGApps(this, currentGAppsInfo.arch).getInfoGApps(
+                Response.Listener { response -> checkUpdate(response) },
                 Response.ErrorListener {})
     }
 
@@ -53,19 +52,16 @@ class GAppsIntentService : IntentService("GAppsIntentService") {
             return
         }
 
-        val json = JSONObject(response)
-        val version = json.getInt("tag_name")
-        val gAppsInfo = GAppsInfo.getCurrentGAppsInfo()
+        val version = JSONObject(response).getInt("tag_name")
 
-        if (version > gAppsInfo.version) {
-            setChannelId()
+        if (version > currentGAppsInfo.version) {
+            setupChannelId()
+            val intent = Intent(applicationContext, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+
             NotificationCompat.Builder(this, CHANNEL_ID).apply {
-                val intent = Intent(applicationContext, MainActivity::class.java)
-                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                val pendingIntent = PendingIntent.getActivity(applicationContext, 0, intent, 0)
-
                 setAutoCancel(true)
-                setContentIntent(pendingIntent)
+                setContentIntent(PendingIntent.getActivity(applicationContext, 0, intent, 0))
                 setSmallIcon(R.mipmap.ic_launcher)
                 setContentText("${getString(R.string.update_aviable)} $version")
             }.let {
@@ -74,16 +70,17 @@ class GAppsIntentService : IntentService("GAppsIntentService") {
         }
     }
 
-    private fun setChannelId() {
+    private fun setupChannelId() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            // Create the NotificationChannel, but only on API 26+ because
-            // the NotificationChannel class is new and not in the support library
-            val name = "Updates"
-            val importance = NotificationManagerCompat.IMPORTANCE_DEFAULT
-            val channel = NotificationChannel(CHANNEL_ID, name, importance)
+            val channel = NotificationChannel(CHANNEL_ID, "Updates", NotificationManager.IMPORTANCE_DEFAULT)
             channel.description = "Check Update"
-            // Register the channel with the system
             val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            notificationManager.notificationChannels.find {
+                if (it == channel) {
+                    return
+                }
+                return@find false
+            }
             notificationManager.createNotificationChannel(channel)
         }
     }
