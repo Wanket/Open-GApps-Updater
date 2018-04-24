@@ -24,6 +24,7 @@ class GAppsRequestsReceiver : BroadcastReceiver() {
 
         JobInfo.Builder(CHECK_UPDATE_JOB_ID, ComponentName(context, GAppsJobService::class.java)).apply {
             setPeriodic(settings.checkUpdateTime)
+            setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
             setPersisted(true)
             //setOverrideDeadline(1) //use for fast debug
         }.let {

@@ -23,4 +23,9 @@
     <string name="check_md5_and_reboot">Check md5 and reboot</string>
     <string name="cancel">Cancel</string>
     <string name="auto_check_update">Auto Check Update</string>
+    <string name="network_error">Network error</string>
+    <string name="error_parse_json">Error parse result from server</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="error_check_md5">Error check md5, try download file again</string>
 </resources>

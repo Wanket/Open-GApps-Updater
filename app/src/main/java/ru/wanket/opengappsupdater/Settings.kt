@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit
 
 class Settings(context: Context) {
     private val preferences = PreferenceManager.getDefaultSharedPreferences(context)
-    private val dayTime = TimeUnit.DAYS.toMillis(1)
+    private val dayTime = if (BuildConfig.DEBUG) TimeUnit.MINUTES.toMillis(15) else TimeUnit.DAYS.toMillis(1)
 
     var checkUpdateTime: Long
         get() {
@@ -34,7 +34,7 @@ class Settings(context: Context) {
 
     var autoCheckUpdate: Boolean
         get() {
-            return preferences.getBoolean("autoCheckUpdate", true)
+            return preferences.getBoolean("autoCheckUpdate", false)
         }
         set(value) {
             preferences.edit().putBoolean("autoCheckUpdate", value).apply()

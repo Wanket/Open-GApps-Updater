@@ -6,6 +6,7 @@ import android.content.IntentFilter
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Environment
+import android.util.Log
 import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
@@ -141,22 +142,31 @@ class MainActivity : PermissionActivity() {
     private fun onCheckUpdateButtonClick() {
         GitHubGApps(this, gAppsInfo.arch).getInfoGApps(
                 Response.Listener { response -> onResponseCheckUpdate(response) },
-                Response.ErrorListener {})
+                Response.ErrorListener {
+                    Log.e("onCheckUpdateButtonClk", it.message)
+                    Toast.show(this, getString(R.string.network_error))
+                })
     }
 
     private fun onResponseCheckUpdate(response: String) {
-        val json = JSONObject(response)
-        val version = json.getInt("tag_name")
+        try {
+            val json = JSONObject(response)
+            val version = json.getInt("tag_name")
 
-        if (version <= gAppsInfo.version) {
-            Toast.show(this, getString(R.string.update_not_required))
-            return
+            if (version <= gAppsInfo.version) {
+                Toast.show(this, getString(R.string.update_not_required))
+                return
+            }
+
+            lastVersionTextView.text = version.toString()
+            lastVersionTextView.visibility = TextView.VISIBLE
+            tvlv.visibility = TextView.VISIBLE
+            downloadButton.visibility = Button.VISIBLE
+
+        } catch (e: Exception) {
+            Log.e("onResponseCheckUpdate", e.message)
+            Toast.show(this, getString(R.string.error_parse_json))
         }
-
-        lastVersionTextView.text = version.toString()
-        lastVersionTextView.visibility = TextView.VISIBLE
-        tvlv.visibility = TextView.VISIBLE
-        downloadButton.visibility = Button.VISIBLE
     }
 
     private fun onDownloadButtonClick() {
@@ -171,7 +181,10 @@ class MainActivity : PermissionActivity() {
                         this@MainActivity.onDownloadComplete()
                     }
 
-                    override fun onError(error: Error) {}
+                    override fun onError(error: Error) {
+                        Log.e("onDownloadError", if (error.isConnectionError) "Connection Error" else "Server Error")
+                        Toast.show(applicationContext, if (error.isConnectionError) getString(R.string.connection_error) else getString(R.string.server_error))
+                    }
                 })
 
         downloadUIProgressVisible = Button.VISIBLE
@@ -205,7 +218,10 @@ class MainActivity : PermissionActivity() {
 
         val stringRequest = StringRequest(Request.Method.GET, url,
                 Response.Listener<String> { response -> onCheckMD5(response) },
-                Response.ErrorListener { })
+                Response.ErrorListener {
+                    Log.e("checkMD5", it.message)
+                    Toast.show(this, getString(R.string.network_error))
+                })
 
         queue.add(stringRequest)
     }
@@ -224,14 +240,20 @@ class MainActivity : PermissionActivity() {
     }
 
     private fun asyncCheckMD5(response: String, path: String) {
-        if (MD5.checkMD5(response.split(" ")[0], File(path))) {
-            rootConsole.apply {
-                exec("echo 'boot-recovery ' > /cache/recovery/command")
-                exec("echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
-                exec("reboot recovery")
+        try {
+            if (MD5.checkMD5(response.split(" ")[0], File(path))) {
+                rootConsole.apply {
+                    exec("echo 'boot-recovery ' > /cache/recovery/command")
+                    exec("echo '--update_package=/sdcard/Open GApps Updater/Downloads/update.zip' >> /cache/recovery/command\n")
+                    exec("reboot recovery")
+                }
+            } else {
+                Toast.show(applicationContext, getString(R.string.md5_check_error))
             }
-        } else {
-            Toast.show(applicationContext, getString(R.string.md5_check_error))
+
+        } catch (e: Exception) {
+            Log.e("asyncCheckMD5", e.message)
+            Toast.show(this, getString(R.string.error_check_md5))
         }
     }
 

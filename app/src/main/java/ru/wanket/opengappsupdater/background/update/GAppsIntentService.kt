@@ -12,6 +12,7 @@ import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.network.GitHubGApps
 import android.os.Build
 import android.support.v4.app.JobIntentService
+import android.util.Log
 import ru.wanket.opengappsupdater.activity.MainActivity
 import ru.wanket.opengappsupdater.Settings
 
@@ -43,7 +44,9 @@ class GAppsIntentService : JobIntentService() {
     private fun handleActionCheckUpdate() {
         GitHubGApps(this, currentGAppsInfo.arch).getInfoGApps(
                 Response.Listener { response -> checkUpdate(response) },
-                Response.ErrorListener {})
+                Response.ErrorListener {
+                    Log.e("handleActionCheckUpdate", it.message)
+                })
     }
 
     private fun checkUpdate(response: String) {
@@ -51,21 +54,25 @@ class GAppsIntentService : JobIntentService() {
             return
         }
 
-        val version = JSONObject(response).getInt("tag_name")
+        try {
+            val version = JSONObject(response).getInt("tag_name")
 
-        if (version > currentGAppsInfo.version) {
-            setupChannelId()
-            val intent = Intent(applicationContext, MainActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            if (version > currentGAppsInfo.version) {
+                setupChannelId()
+                val intent = Intent(applicationContext, MainActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 
-            NotificationCompat.Builder(this, CHANNEL_ID).apply {
-                setAutoCancel(true)
-                setContentIntent(PendingIntent.getActivity(applicationContext, 0, intent, 0))
-                setSmallIcon(R.mipmap.ic_launcher)
-                setContentText("${getString(R.string.update_aviable)} $version")
-            }.let {
-                NotificationManagerCompat.from(this).notify(UpdateNotificationID, it.build())
+                NotificationCompat.Builder(this, CHANNEL_ID).apply {
+                    setAutoCancel(true)
+                    setContentIntent(PendingIntent.getActivity(applicationContext, 0, intent, 0))
+                    setSmallIcon(R.mipmap.ic_launcher)
+                    setContentText("${getString(R.string.update_aviable)} $version")
+                }.let {
+                    NotificationManagerCompat.from(this).notify(UpdateNotificationID, it.build())
+                }
             }
+        } catch (e: Exception) {
+            Log.e("checkUpdateBackground", e.message)
         }
     }
 
