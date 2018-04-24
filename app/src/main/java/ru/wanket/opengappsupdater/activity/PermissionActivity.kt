@@ -3,7 +3,6 @@ package ru.wanket.opengappsupdater.activity
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
@@ -17,8 +16,8 @@ abstract class PermissionActivity : AppCompatActivity() {
         const val WRITE_STORAGE = 0
     }
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setPermissions()
     }
 

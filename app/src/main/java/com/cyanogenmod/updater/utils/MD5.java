@@ -9,6 +9,8 @@
 
 package com.cyanogenmod.updater.utils;
 
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -24,7 +26,7 @@ import java.security.NoSuchAlgorithmException;
 public class MD5 {
     private static final String TAG = "MD5";
 
-    public static boolean checkMD5(String md5, File updateFile) {
+    public static boolean checkMD5(String md5, @Nullable File updateFile) {
         if (TextUtils.isEmpty(md5) || updateFile == null) {
             Log.e(TAG, "MD5 string empty or updateFile null");
             return false;
@@ -42,7 +44,7 @@ public class MD5 {
         return calculatedDigest.equalsIgnoreCase(md5);
     }
 
-    public static String calculateMD5(File updateFile) {
+    public static String calculateMD5(@NonNull File updateFile) {
         MessageDigest digest;
         try {
             digest = MessageDigest.getInstance("MD5");

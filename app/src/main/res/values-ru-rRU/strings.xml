@@ -23,4 +23,9 @@
     <string name="no_perm_rw_storage">Нет прав на запись во внутреннюю память, выход из программы</string>
     <string name="update_aviable">Есть обновление</string>
     <string name="auto_check_update">Автоматическая проверка обновлений</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="error_parse_json">Ошибка во время обработки ответа от сервера</string>
+    <string name="connection_error">Ошибка подключения</string>
+    <string name="server_error">Ошибка на стороне сервера</string>
+    <string name="error_check_md5">Ошибка во время проверки md5 суммы, попробуйте перекачать файл</string>
 </resources>

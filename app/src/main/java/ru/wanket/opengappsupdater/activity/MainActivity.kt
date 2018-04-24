@@ -1,12 +1,19 @@
 package ru.wanket.opengappsupdater.activity
 
 import android.annotation.SuppressLint
-import android.content.Intent
-import android.content.IntentFilter
+import android.app.job.JobInfo
+import android.app.job.JobScheduler
+import android.content.ComponentName
+import android.content.Context
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Environment
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.widget.Button
+import android.widget.TextView
 import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
@@ -15,22 +22,19 @@ import com.cyanogenmod.updater.utils.MD5
 import com.downloader.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
-import ru.wanket.opengappsupdater.background.update.GAppsRequestsReceiver
-import ru.wanket.opengappsupdater.gapps.GAppsInfo
-import ru.wanket.opengappsupdater.console.RootConsole
-import ru.wanket.opengappsupdater.network.GitHubGApps
-import java.io.File
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.*
 import ru.wanket.opengappsupdater.R
 import ru.wanket.opengappsupdater.Settings
 import ru.wanket.opengappsupdater.Toast
+import ru.wanket.opengappsupdater.background.update.GAppsJobService
+import ru.wanket.opengappsupdater.console.RootConsole
+import ru.wanket.opengappsupdater.gapps.GAppsInfo
+import ru.wanket.opengappsupdater.network.GitHubGApps
+import java.io.File
 
 class MainActivity : PermissionActivity() {
 
     companion object {
-        const val FIRST_LAUNCH_ACTION = "ru.wanket.opengappsupdater.android.action.FIRST_LAUNCH"
+        private const val checkUpdateJobID = 1
 
         private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
             return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
@@ -114,10 +118,14 @@ class MainActivity : PermissionActivity() {
     private fun setupBackgroundTasks() {
         if (settings.isFirstLaunch) {
 
-            val filter = IntentFilter(FIRST_LAUNCH_ACTION)
-            registerReceiver(GAppsRequestsReceiver(), filter)
-            val intent = Intent(FIRST_LAUNCH_ACTION)
-            sendBroadcast(intent)
+            JobInfo.Builder(checkUpdateJobID, ComponentName(this, GAppsJobService::class.java)).apply {
+                setPeriodic(settings.checkUpdateTime)
+                setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
+                setPersisted(true)
+                //setOverrideDeadline(1) //use for fast debug
+            }.let {
+                (this.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(it.build())
+            }
 
             settings.isFirstLaunch = false
         }
@@ -170,7 +178,11 @@ class MainActivity : PermissionActivity() {
     }
 
     private fun onDownloadButtonClick() {
-        val destination = "/${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
+        if (PRDownloader.getStatus(downloadId) != Status.UNKNOWN) {
+            return
+        }
+
+        val destination = "${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
         val url = generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
 
         downloadId = PRDownloader.download(url, destination, "update.zip")
@@ -184,6 +196,7 @@ class MainActivity : PermissionActivity() {
                     override fun onError(error: Error) {
                         Log.e("onDownloadError", if (error.isConnectionError) "Connection Error" else "Server Error")
                         Toast.show(applicationContext, if (error.isConnectionError) getString(R.string.connection_error) else getString(R.string.server_error))
+                        downloadUIProgressVisible = View.INVISIBLE
                     }
                 })
 

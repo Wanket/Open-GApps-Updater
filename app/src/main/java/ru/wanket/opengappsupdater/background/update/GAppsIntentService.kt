@@ -1,20 +1,22 @@
 package ru.wanket.opengappsupdater.background.update
 
-import android.app.*
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.os.Build
+import android.support.v4.app.JobIntentService
 import android.support.v4.app.NotificationCompat
 import android.support.v4.app.NotificationManagerCompat
+import android.util.Log
 import com.android.volley.Response
 import org.json.JSONObject
 import ru.wanket.opengappsupdater.R
+import ru.wanket.opengappsupdater.Settings
+import ru.wanket.opengappsupdater.activity.MainActivity
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.network.GitHubGApps
-import android.os.Build
-import android.support.v4.app.JobIntentService
-import android.util.Log
-import ru.wanket.opengappsupdater.activity.MainActivity
-import ru.wanket.opengappsupdater.Settings
 
 
 class GAppsIntentService : JobIntentService() {
@@ -23,13 +25,13 @@ class GAppsIntentService : JobIntentService() {
         private const val CHANNEL_ID = "UPDATE_CHANNEL"
         private const val UpdateNotificationID = 0
 
-        private val SERVISE_CHECK_UPDATE_JOB_ID = 2
+        private const val SERVICE_CHECK_UPDATE_JOB_ID = 2
 
         fun startActionCheckUpdate(context: Context) {
             val intent = Intent()
             intent.action = ACTION_CHECK_UPDATE
 
-            JobIntentService.enqueueWork(context, GAppsIntentService::class.java, SERVISE_CHECK_UPDATE_JOB_ID, intent)
+            JobIntentService.enqueueWork(context, GAppsIntentService::class.java, SERVICE_CHECK_UPDATE_JOB_ID, intent)
         }
     }
 
