@@ -20,11 +20,6 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".background.update.GAppsIntentService"
-            android:exported="false">
-        </service>
-
         <receiver
             android:name=".background.update.GAppsRequestsReceiver"
             android:enabled="true"
@@ -40,8 +35,12 @@
             android:name=".background.update.GAppsJobService"
             android:enabled="true"
             android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE">
-        </service>
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <service
+            android:name=".background.update.GAppsIntentService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
 
     </application>
 

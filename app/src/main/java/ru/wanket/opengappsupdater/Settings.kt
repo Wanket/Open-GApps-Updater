@@ -2,14 +2,15 @@ package ru.wanket.opengappsupdater
 
 import android.content.Context
 import android.preference.PreferenceManager
+import java.util.concurrent.TimeUnit
 
 class Settings(context: Context) {
     private val preferences = PreferenceManager.getDefaultSharedPreferences(context)
-    private val dayInSeconds = 86400L // day = 86400 sec
+    private val dayTime = TimeUnit.DAYS.toMillis(1)
 
     var checkUpdateTime: Long
         get() {
-            return preferences.getLong("checkUpdateTime", 10)//dayInSeconds)
+            return preferences.getLong("checkUpdateTime", dayTime)
         }
         set(value) {
             preferences.edit().putLong("checkUpdateTime", value).apply()
@@ -33,7 +34,7 @@ class Settings(context: Context) {
 
     var autoCheckUpdate: Boolean
         get() {
-            return preferences.getBoolean("autoCheckUpdate", false)
+            return preferences.getBoolean("autoCheckUpdate", true)
         }
         set(value) {
             preferences.edit().putBoolean("autoCheckUpdate", value).apply()

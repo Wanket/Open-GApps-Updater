@@ -1,6 +1,6 @@
 package ru.wanket.opengappsupdater.background.update
 
-import android.app.IntentService
+import android.app.*
 import android.content.Context
 import android.content.Intent
 import android.support.v4.app.NotificationCompat
@@ -10,34 +10,33 @@ import org.json.JSONObject
 import ru.wanket.opengappsupdater.R
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.network.GitHubGApps
-import android.app.NotificationChannel
-import android.app.NotificationManager
 import android.os.Build
-import android.app.PendingIntent
+import android.support.v4.app.JobIntentService
 import ru.wanket.opengappsupdater.activity.MainActivity
 import ru.wanket.opengappsupdater.Settings
 
-class GAppsIntentService : IntentService("GAppsIntentService") {
+
+class GAppsIntentService : JobIntentService() {
     companion object {
         private const val ACTION_CHECK_UPDATE = "ru.wanket.opengappsupdater.action.ACTION_CHECK_UPDATE"
         private const val CHANNEL_ID = "UPDATE_CHANNEL"
         private const val UpdateNotificationID = 0
 
+        private val SERVISE_CHECK_UPDATE_JOB_ID = 2
+
         fun startActionCheckUpdate(context: Context) {
-            val intent = Intent(context, GAppsIntentService::class.java)
+            val intent = Intent()
             intent.action = ACTION_CHECK_UPDATE
-            context.startService(intent)
+
+            JobIntentService.enqueueWork(context, GAppsIntentService::class.java, SERVISE_CHECK_UPDATE_JOB_ID, intent)
         }
     }
 
     private val currentGAppsInfo = GAppsInfo.getCurrentGAppsInfo()
 
-    override fun onHandleIntent(intent: Intent?) {
-        if (intent != null) {
-            val action = intent.action
-            if (ACTION_CHECK_UPDATE == action) {
-                handleActionCheckUpdate()
-            }
+    override fun onHandleWork(intent: Intent) {
+        if (ACTION_CHECK_UPDATE == intent.action) {
+            handleActionCheckUpdate()
         }
     }
 

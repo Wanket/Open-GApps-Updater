@@ -60,7 +60,6 @@ class MainActivity : PermissionActivity() {
         setProperties()
         getSettings()
         PRDownloader.initialize(applicationContext)
-        setPermissions()
         updateGAppsInfoOnUI()
         setupListeners()
         setupBackgroundTasks()

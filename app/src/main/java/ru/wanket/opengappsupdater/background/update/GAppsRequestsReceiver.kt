@@ -8,14 +8,12 @@ import android.content.Context
 import android.content.Intent
 import ru.wanket.opengappsupdater.activity.MainActivity
 import ru.wanket.opengappsupdater.Settings
-import java.util.concurrent.TimeUnit
 
 class GAppsRequestsReceiver : BroadcastReceiver() {
-    private var sJobId = 1
+    private var CHECK_UPDATE_JOB_ID = 1
 
     override fun onReceive(context: Context, intent: Intent) {
         when (intent.action) {
-            Intent.ACTION_BOOT_COMPLETED,
             MainActivity.FIRST_LAUNCH_ACTION-> scheduleJob(context)
             else -> throw IllegalArgumentException("Unknown action.")
         }
@@ -24,14 +22,10 @@ class GAppsRequestsReceiver : BroadcastReceiver() {
     private fun scheduleJob(context: Context) {
         val settings = Settings(context)
 
-        JobInfo.Builder(sJobId++, ComponentName(context, GAppsJobService::class.java)).apply {
-            setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED)
-            setRequiresDeviceIdle(false)
-            setRequiresCharging(false)
-            setBackoffCriteria(TimeUnit.SECONDS.toMillis(settings.checkUpdateTime), JobInfo.BACKOFF_POLICY_LINEAR)
+        JobInfo.Builder(CHECK_UPDATE_JOB_ID, ComponentName(context, GAppsJobService::class.java)).apply {
             setPeriodic(settings.checkUpdateTime)
-            //setOverrideDeadline(TimeUnit.SECONDS.toMillis(settings.checkUpdateTime)) //use for fast debug
-            // TODO: Как то странно оно шедулиться
+            setPersisted(true)
+            //setOverrideDeadline(1) //use for fast debug
         }.let {
             (context.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(it.build())
         }
