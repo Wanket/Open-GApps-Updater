@@ -16,14 +16,6 @@ class Settings(context: Context) {
             preferences.edit().putLong("checkUpdateTime", value).apply()
         }
 
-    var isFirstLaunch: Boolean
-        get() {
-            return preferences.getBoolean("isFirstLaunch", true)
-        }
-        set(value) {
-            preferences.edit().putBoolean("isFirstLaunch", value).apply()
-        }
-
     var lastVersion: Int
         get() {
             return preferences.getInt("lastVersion", -1)

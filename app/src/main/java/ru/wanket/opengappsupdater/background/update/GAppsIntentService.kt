@@ -68,7 +68,7 @@ class GAppsIntentService : JobIntentService() {
                     setAutoCancel(true)
                     setContentIntent(PendingIntent.getActivity(applicationContext, 0, intent, 0))
                     setSmallIcon(R.mipmap.ic_launcher)
-                    setContentText("${getString(R.string.update_aviable)} $version")
+                    setContentText("${getString(R.string.update_available)} $version")
                 }.let {
                     NotificationManagerCompat.from(this).notify(UpdateNotificationID, it.build())
                 }

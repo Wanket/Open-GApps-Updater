@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
+import ru.wanket.opengappsupdater.Application
 import ru.wanket.opengappsupdater.R
 import ru.wanket.opengappsupdater.Root
 import ru.wanket.opengappsupdater.Toast
@@ -18,7 +19,9 @@ abstract class PermissionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setPermissions()
+        if ((application as Application).mainView == null) {
+            setPermissions()
+        }
     }
 
     private fun setPermissions() {

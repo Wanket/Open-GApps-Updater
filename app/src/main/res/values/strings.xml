@@ -1,31 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Open GApps Updater</string>
-    <string name="root_not_found">Root is not aviable</string>
-    <string name="root_found">Root found, continue</string>
-    <string name="current_version">Current Version</string>
+    <string name="current_version">Current version</string>
     <string name="architecture">Architecture</string>
-    <string name="platform_version">Platform version</string>
-    <string name="type">Type</string>
-    <string name="check_update">Check Update</string>
-    <string name="update_not_required">Update is not required</string>
-    <string name="last_version">Last Version</string>
-    <string name="click_check_update_button">Click \"Check Update\" button</string>
+    <string name="update_not_required">No update required</string>
+    <string name="last_version">The latest version</string>
     <string name="download">Download</string>
-    <string name="install">Reboot and install</string>
-    <string name="update_aviable">Update available</string>
+    <string name="install">Reboot to recovery and install</string>
     <string name="pause">Pause</string>
-    <string name="resume">Resume</string>
-    <string name="no_perm_rw_storage">No permission on write to storage, exit from program</string>
-    <string name="start_download_mbytes">0.0/0.0 MBytes</string>
-    <string name="mbytes">MBytes</string>
-    <string name="gapps_not_found">GAppsNotFound</string>
-    <string name="md5_check_error">MD5 check error</string>
-    <string name="check_md5_and_reboot">Check md5 and reboot</string>
+    <string name="resume">Continue</string>
+    <string name="start_download_mbytes">0.0 / 0.0 MB</string>
+    <string name="mbytes">MByte</string>
+    <string name="gapps_not_found">​GApps not found</string>
+    <string name="md5_check_error">MD5 does not match</string>
+    <string name="check_md5_and_reboot">MD5 check and reboot</string>
     <string name="cancel">Cancel</string>
-    <string name="auto_check_update">Auto Check Update</string>
+    <string name="root_found">Root received, continue</string>
+    <string name="root_not_found">Root not available</string>
+    <string name="check_update">Check for updates</string>
+    <string name="type">Type</string>
+    <string name="platform_version">Platform version</string>
+    <string name="no_perm_rw_storage">No write access to the internal memory, exit the program</string>
+    <string name="update_available">There is an update</string>
+    <string name="auto_check_update">Auto-check for updates</string>
     <string name="network_error">Network error</string>
-    <string name="error_parse_json">Error parse result from server</string>
-    <string name="connection_error">Connection Error</string>
-    <string name="server_error">Server Error</string>
-    <string name="error_check_md5">Error check md5, try download file again</string>
+    <string name="error_parse_json">Error while processing response from server</string>
+    <string name="connection_error">Connection error</string>
+    <string name="server_error">Server-side error</string>
+    <string name="error_check_md5">Error while checking md5 sum, try to download the file</string>
 </resources>

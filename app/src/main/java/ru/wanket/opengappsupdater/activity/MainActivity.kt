@@ -12,6 +12,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import com.android.volley.Request
@@ -22,6 +23,7 @@ import com.cyanogenmod.updater.utils.MD5
 import com.downloader.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
+import ru.wanket.opengappsupdater.Application
 import ru.wanket.opengappsupdater.R
 import ru.wanket.opengappsupdater.Settings
 import ru.wanket.opengappsupdater.Toast
@@ -53,6 +55,10 @@ class MainActivity : PermissionActivity() {
             pauseButton.visibility = value
             cancelButton.visibility = value
             progressTextView.visibility = value
+
+            if (value == Button.INVISIBLE) {
+                pauseButton.text = getString(R.string.pause)
+            }
         }
         get() {
             return downloadProgressBar.visibility
@@ -60,6 +66,9 @@ class MainActivity : PermissionActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        if (setupSavedState()) return
+
         setContentView(R.layout.activity_main)
 
         setProperties()
@@ -69,6 +78,37 @@ class MainActivity : PermissionActivity() {
         setupListeners()
         setupBackgroundTasks()
     }
+
+    //SaveState
+    private fun setupSavedState(): Boolean {
+        val app = (application as Application)
+        if (app.mainView != null) {
+            setContentView(app.mainView)
+            downloadId = app.downloadId
+            gAppsInfo = app.gAppsInfo
+            gAppsNotFound = app.gAppsNotFound
+            settings = app.settings
+            return true
+        }
+        return false
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        saveState()
+    }
+
+    private fun saveState() {
+        (mainView.parent as ViewGroup).removeView(mainView)
+
+        val app = (application as Application)
+        app.mainView = mainView
+        app.downloadId = downloadId
+        app.gAppsInfo = gAppsInfo
+        app.gAppsNotFound = gAppsNotFound
+        app.settings = settings
+    }
+    //EndSaveState
 
     //onCreateSetups
     private fun setProperties() {
@@ -116,19 +156,21 @@ class MainActivity : PermissionActivity() {
     }
 
     private fun setupBackgroundTasks() {
-        if (settings.isFirstLaunch) {
-
-            JobInfo.Builder(checkUpdateJobID, ComponentName(this, GAppsJobService::class.java)).apply {
-                setPeriodic(settings.checkUpdateTime)
-                setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
-                setPersisted(true)
-                //setOverrideDeadline(1) //use for fast debug
-            }.let {
-                (this.getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler).schedule(it.build())
+        val scheduler = getSystemService(Context.JOB_SCHEDULER_SERVICE) as JobScheduler
+        scheduler.allPendingJobs.find {
+            if (it.id == checkUpdateJobID) {
+                return
+            } else {
+                return@find false
             }
-
-            settings.isFirstLaunch = false
         }
+
+        JobInfo.Builder(checkUpdateJobID, ComponentName(this, GAppsJobService::class.java)).apply {
+            setPeriodic(settings.checkUpdateTime)
+            setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
+            setPersisted(true)
+            //setOverrideDeadline(1) //use for fast debug
+        }.let { scheduler.schedule(it.build()) }
     }
     //EndOnCreateSetups
 
@@ -210,7 +252,7 @@ class MainActivity : PermissionActivity() {
         val mBytes = 1024 * 1024 / 10
         val current = progress.currentBytes / mBytes / 10.0
         val total = progress.totalBytes / mBytes / 10.0
-        progressTextView.text = "$current/$total ${getString(R.string.mbytes)}"
+        progressTextView.text = "$current / $total ${getString(R.string.mbytes)}"
         downloadProgressBar.progress = (progress.currentBytes * 100 / progress.totalBytes).toInt()
     }
 
