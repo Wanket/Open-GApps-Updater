@@ -4,15 +4,19 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+static def getTimestamp() {
+    def date = new Date()
+    return date.format('yyyyMMdd').toInteger()
+}
+
 android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "ru.wanket.opengappsupdater"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode getTimestamp()
+        versionName "1.0-RC1"
     }
     buildTypes {
         release {
@@ -29,4 +33,5 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation 'com.android.volley:volley:1.1.0'
     implementation 'com.mindorks.android:prdownloader:0.3.0'
+    implementation 'com.github.medyo:android-about-page:1.2.4'
 }

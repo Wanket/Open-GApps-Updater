@@ -8,4 +8,9 @@
         android:title="@string/auto_check_update"
         app:actionViewClass="android.widget.CheckBox"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/aboutItem"
+        android:onClick="onAboutItemClick"
+        android:title="@string/about"
+        app:showAsAction="never" />
 </menu>

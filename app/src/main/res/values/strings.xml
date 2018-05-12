@@ -10,7 +10,7 @@
     <string name="pause">Pause</string>
     <string name="resume">Continue</string>
     <string name="start_download_mbytes">0.0 / 0.0 MB</string>
-    <string name="mbytes">MByte</string>
+    <string name="mbytes">MB</string>
     <string name="gapps_not_found">​GApps not found</string>
     <string name="md5_check_error">MD5 does not match</string>
     <string name="check_md5_and_reboot">MD5 check and reboot</string>
@@ -28,4 +28,18 @@
     <string name="connection_error">Connection error</string>
     <string name="server_error">Server-side error</string>
     <string name="error_check_md5">Error while checking md5 sum, try to download the file</string>
+    <string name="about">About</string>
+    <string name="version_name">Version</string>
+    <string name="version_code">Version code</string>
+    <string name="about_4PDA">Topic of the application on the forum</string>
+
+    <string name="description">
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+    </string>
 </resources>

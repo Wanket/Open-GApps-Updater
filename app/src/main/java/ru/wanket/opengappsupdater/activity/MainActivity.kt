@@ -5,6 +5,7 @@ import android.app.job.JobInfo
 import android.app.job.JobScheduler
 import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Environment
@@ -185,6 +186,11 @@ class MainActivity : PermissionActivity() {
     fun onAutoCheckUpdateClick(item: MenuItem) {
         item.isChecked = !item.isChecked
         settings.autoCheckUpdate = item.isChecked
+    }
+
+    fun onAboutItemClick(item: MenuItem) {
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
     }
     //EndMenu
 

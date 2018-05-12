@@ -2,4 +2,5 @@
     <style name="AppTheme" parent="Theme.AppCompat">
         <item name="colorAccent">@android:color/holo_blue_dark</item>
     </style>
+    <color name="about_4pda_color">#2f5697</color>
 </resources>
