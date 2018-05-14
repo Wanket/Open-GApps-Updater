@@ -35,7 +35,15 @@ class GAppsIntentService : JobIntentService() {
         }
     }
 
-    private val currentGAppsInfo = GAppsInfo.getCurrentGAppsInfo()
+    private lateinit var currentGAppsInfo: GAppsInfo
+
+    init {
+        try {
+            currentGAppsInfo = GAppsInfo.getCurrentGAppsInfo()
+        } catch (e: Exception) {
+            Log.e("init GAppsIntentService", e.message)
+        }
+    }
 
     override fun onHandleWork(intent: Intent) {
         if (ACTION_CHECK_UPDATE == intent.action) {

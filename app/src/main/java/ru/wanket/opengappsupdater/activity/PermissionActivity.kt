@@ -1,6 +1,7 @@
 package ru.wanket.opengappsupdater.activity
 
 import android.Manifest
+import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat
@@ -19,7 +20,8 @@ abstract class PermissionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if ((application as Application).mainView == null) {
+        val app = (application as Application)
+        if (!app.isRoot) {
             setPermissions()
         }
     }
@@ -44,9 +46,12 @@ abstract class PermissionActivity : AppCompatActivity() {
     }
 
     private fun updateRoot() {
-        if (!Root.checkRoot()) {
+        val app = application as Application
+        app.isRoot = Root.checkRoot()
+        if (!app.isRoot) {
             Toast.show(this, getString(R.string.root_not_found))
             finish()
+            return
         }
 
         Toast.show(this, getString(R.string.root_found))

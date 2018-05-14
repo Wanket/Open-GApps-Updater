@@ -9,4 +9,5 @@ class Application: android.app.Application() {
     lateinit var gAppsInfo: GAppsInfo
     lateinit var gAppsNotFound: String
     lateinit var settings: Settings
+    var isRoot = false
 }

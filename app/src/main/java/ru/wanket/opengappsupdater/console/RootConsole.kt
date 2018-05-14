@@ -1,7 +1,9 @@
 package ru.wanket.opengappsupdater.console
 
-class RootConsole : Console() {
-    override fun exec(command: String): Int {
-        return super.exec("su -c $command")
+import com.jaredrummler.android.shell.Shell
+
+class RootConsole {
+    fun exec(command: String): Int {
+        return Shell.SU.run(command).exitCode
     }
 }

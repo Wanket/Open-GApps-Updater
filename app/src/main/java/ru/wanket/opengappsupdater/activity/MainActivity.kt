@@ -83,13 +83,19 @@ class MainActivity : PermissionActivity() {
     //SaveState
     private fun setupSavedState(): Boolean {
         val app = (application as Application)
-        if (app.mainView != null) {
-            setContentView(app.mainView)
-            downloadId = app.downloadId
-            gAppsInfo = app.gAppsInfo
-            gAppsNotFound = app.gAppsNotFound
-            settings = app.settings
-            return true
+        try {
+            if (app.mainView != null) {
+                setContentView(app.mainView)
+                downloadId = app.downloadId
+                gAppsInfo = app.gAppsInfo
+                gAppsNotFound = app.gAppsNotFound
+                settings = app.settings
+                return true
+            }
+        } catch (e: kotlin.UninitializedPropertyAccessException) {
+            Log.w("setupSavedState", "Error while load saved ${e.message?.split(" ")?.get(2)} state.")
+        } catch (e: Exception) {
+            Log.e("setupSavedState", "Error while load saved state program. ${e.message}")
         }
         return false
     }
@@ -100,14 +106,20 @@ class MainActivity : PermissionActivity() {
     }
 
     private fun saveState() {
-        (mainView.parent as ViewGroup).removeView(mainView)
+        try {
+            (mainView.parent as ViewGroup).removeView(mainView)
 
-        val app = (application as Application)
-        app.mainView = mainView
-        app.downloadId = downloadId
-        app.gAppsInfo = gAppsInfo
-        app.gAppsNotFound = gAppsNotFound
-        app.settings = settings
+            val app = (application as Application)
+            app.mainView = mainView
+            app.downloadId = downloadId
+            app.gAppsInfo = gAppsInfo
+            app.gAppsNotFound = gAppsNotFound
+            app.settings = settings
+        } catch (e: kotlin.UninitializedPropertyAccessException) {
+            Log.w("saveState", "Error while save ${e.message?.split(" ")?.get(2)} state.")
+        } catch (e: Exception) {
+            Log.e("saveState", "Error while save state program. ${e.message}")
+        }
     }
     //EndSaveState
 
