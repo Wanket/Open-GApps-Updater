@@ -41,7 +41,7 @@ class GAppsIntentService : JobIntentService() {
         try {
             currentGAppsInfo = GAppsInfo.getCurrentGAppsInfo()
         } catch (e: Exception) {
-            Log.e("init GAppsIntentService", e.message)
+            Log.w("init GAppsIntentService", e.message)
         }
     }
 
@@ -52,11 +52,15 @@ class GAppsIntentService : JobIntentService() {
     }
 
     private fun handleActionCheckUpdate() {
-        GitHubGApps(this, currentGAppsInfo.arch).getInfoGApps(
-                Response.Listener { response -> checkUpdate(response) },
-                Response.ErrorListener {
-                    Log.e("handleActionCheckUpdate", it.message)
-                })
+        try {
+            GitHubGApps(this, currentGAppsInfo.arch).getInfoGApps(
+                    Response.Listener { response -> checkUpdate(response) },
+                    Response.ErrorListener {
+                        Log.e("handleActionCheckUpdate", it.message)
+                    })
+        } catch (e: Exception) {
+            Log.w("handleActionCheckUpdate", e.message)
+        }
     }
 
     private fun checkUpdate(response: String) {
