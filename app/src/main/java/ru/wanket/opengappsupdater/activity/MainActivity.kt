@@ -33,6 +33,7 @@ import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.network.GitHubGApps
 import java.io.File
+import java.nio.charset.Charset
 
 class MainActivity : PermissionActivity() {
 
@@ -211,7 +212,7 @@ class MainActivity : PermissionActivity() {
         GitHubGApps(this, gAppsInfo.arch).getInfoGApps(
                 Response.Listener { response -> onResponseCheckUpdate(response) },
                 Response.ErrorListener {
-                    Log.e("onCheckUpdateButtonClk", it.message)
+                    Log.e("onCheckUpdateButtonClk", "${it.message}")
                     Toast.show(this, getString(R.string.network_error))
                 })
     }
@@ -292,7 +293,7 @@ class MainActivity : PermissionActivity() {
         val stringRequest = StringRequest(Request.Method.GET, url,
                 Response.Listener<String> { response -> onCheckMD5(response) },
                 Response.ErrorListener {
-                    Log.e("checkMD5", it.message)
+                    Log.e("checkMD5", "${it.message}")
                     Toast.show(this, getString(R.string.network_error))
                 })
 

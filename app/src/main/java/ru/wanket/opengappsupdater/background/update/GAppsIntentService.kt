@@ -56,7 +56,7 @@ class GAppsIntentService : JobIntentService() {
             GitHubGApps(this, currentGAppsInfo.arch).getInfoGApps(
                     Response.Listener { response -> checkUpdate(response) },
                     Response.ErrorListener {
-                        Log.e("handleActionCheckUpdate", it.message)
+                        Log.e("handleActionCheckUpdate", "${it.message}")
                     })
         } catch (e: Exception) {
             Log.w("handleActionCheckUpdate", e.message)

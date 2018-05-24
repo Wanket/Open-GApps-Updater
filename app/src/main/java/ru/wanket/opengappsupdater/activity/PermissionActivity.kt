@@ -1,7 +1,6 @@
 package ru.wanket.opengappsupdater.activity
 
 import android.Manifest
-import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat
@@ -20,14 +19,14 @@ abstract class PermissionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val app = (application as Application)
-        if (!app.isRoot) {
-            setPermissions()
-        }
+        setPermissions()
     }
 
     private fun setPermissions() {
-        updateRoot()
+        val app = (application as Application)
+        if (!app.isRoot) {
+            updateRoot()
+        }
 
         val permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
 

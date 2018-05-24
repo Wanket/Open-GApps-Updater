@@ -10,7 +10,7 @@ import ru.wanket.opengappsupdater.about.AboutPage
 class AboutActivity : AppCompatActivity() {
     companion object {
         const val gitHub = "Wanket/Open-GApps-Updater"
-        const val forPDA = "http://4pda.ru/forum/index.php?showtopic=XXX" //TODO: добавить после создания топика
+        //const val forPDA = "http://4pda.ru/forum/index.php?showtopic=XXX" //TODO: добавить после создания топика
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,8 +26,10 @@ class AboutActivity : AppCompatActivity() {
             setImage(R.mipmap.ic_launcher_round)
             setDescription(description)
 
-            add4PDA(forPDA)
+            addPlayStore("ru.wanket.opengappsupdater")
+            //add4PDA(forPDA)
             addGitHub(gitHub)
+            addEmail("wanket.yandex.ru")
             addItems(items)
 
             if (BuildConfig.DEBUG) {
