@@ -11,7 +11,7 @@
     <string name="start_download_mbytes">0.0 / 0.0 МБайт</string>
     <string name="mbytes">МБайт</string>
     <string name="gapps_not_found">GApps не найден</string>
-    <string name="md5_check_error">MD5 не совпадают</string>
+    <string name="md5_check_error">"MD5 не совпадают, попробуйте снова загрузить файл"</string>
     <string name="check_md5_and_reboot">Проверка MD5 и перезагрузка</string>
     <string name="cancel">Отмена</string>
     <string name="root_found">Рут получен, продолжаем</string>
@@ -26,7 +26,7 @@
     <string name="error_parse_json">Ошибка во время обработки ответа от сервера</string>
     <string name="connection_error">Ошибка подключения</string>
     <string name="server_error">Ошибка на стороне сервера</string>
-    <string name="error_check_md5">Ошибка во время проверки md5 суммы, попробуйте перекачать файл</string>
+    <string name="error_check_md5">Ошибка при проверке суммы MD5, попробуйте снова загрузить файл</string>
     <string name="about">О программе</string>
     <string name="version_name">Версия</string>
     <string name="version_code">Код версии</string>

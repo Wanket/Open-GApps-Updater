@@ -29,7 +29,7 @@ class AboutActivity : AppCompatActivity() {
             addPlayStore("ru.wanket.opengappsupdater")
             //add4PDA(forPDA)
             addGitHub(gitHub)
-            addEmail("wanket.yandex.ru")
+            addEmail("wanket@yandex.ru")
             addItems(items)
 
             if (BuildConfig.DEBUG) {

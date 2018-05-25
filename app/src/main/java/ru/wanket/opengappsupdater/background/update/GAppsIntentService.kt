@@ -9,7 +9,7 @@ import android.os.Build
 import android.support.v4.app.JobIntentService
 import android.support.v4.app.NotificationCompat
 import android.support.v4.app.NotificationManagerCompat
-import android.util.Log
+import ru.wanket.opengappsupdater.Log
 import com.android.volley.Response
 import org.json.JSONObject
 import ru.wanket.opengappsupdater.R
@@ -56,7 +56,7 @@ class GAppsIntentService : JobIntentService() {
             GitHubGApps(this, currentGAppsInfo.arch).getInfoGApps(
                     Response.Listener { response -> checkUpdate(response) },
                     Response.ErrorListener {
-                        Log.e("handleActionCheckUpdate", "${it.message}")
+                        Log.e("handleActionCheckUpdate", it.message)
                     })
         } catch (e: Exception) {
             Log.w("handleActionCheckUpdate", e.message)

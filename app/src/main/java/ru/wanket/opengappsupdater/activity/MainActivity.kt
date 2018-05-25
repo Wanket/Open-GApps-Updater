@@ -9,7 +9,7 @@ import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Environment
-import android.util.Log
+import ru.wanket.opengappsupdater.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -33,7 +33,6 @@ import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.network.GitHubGApps
 import java.io.File
-import java.nio.charset.Charset
 
 class MainActivity : PermissionActivity() {
 
@@ -212,7 +211,7 @@ class MainActivity : PermissionActivity() {
         GitHubGApps(this, gAppsInfo.arch).getInfoGApps(
                 Response.Listener { response -> onResponseCheckUpdate(response) },
                 Response.ErrorListener {
-                    Log.e("onCheckUpdateButtonClk", "${it.message}")
+                    Log.e("onCheckUpdateButtonClk", it.message)
                     Toast.show(this, getString(R.string.network_error))
                 })
     }
@@ -293,7 +292,7 @@ class MainActivity : PermissionActivity() {
         val stringRequest = StringRequest(Request.Method.GET, url,
                 Response.Listener<String> { response -> onCheckMD5(response) },
                 Response.ErrorListener {
-                    Log.e("checkMD5", "${it.message}")
+                    Log.e("checkMD5", it.message)
                     Toast.show(this, getString(R.string.network_error))
                 })
 
@@ -322,12 +321,12 @@ class MainActivity : PermissionActivity() {
                     exec("reboot recovery")
                 }
             } else {
-                Toast.show(applicationContext, getString(R.string.md5_check_error))
+                Toast.onNonUIThreadShow(this, getString(R.string.md5_check_error))
             }
 
         } catch (e: Exception) {
             Log.e("asyncCheckMD5", e.message)
-            Toast.show(this, getString(R.string.error_check_md5))
+            Toast.onNonUIThreadShow(this, getString(R.string.error_check_md5))
         }
     }
 
