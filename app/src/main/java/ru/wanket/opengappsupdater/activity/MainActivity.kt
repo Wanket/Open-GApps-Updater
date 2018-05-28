@@ -72,6 +72,7 @@ class MainActivity : PermissionActivity() {
 
         setContentView(R.layout.activity_main)
 
+        heatingUIHash()
         setProperties()
         getSettings()
         PRDownloader.initialize(applicationContext)
@@ -90,6 +91,9 @@ class MainActivity : PermissionActivity() {
                 gAppsInfo = app.gAppsInfo
                 gAppsNotFound = app.gAppsNotFound
                 settings = app.settings
+
+                javaClass.getDeclaredField("_${'$'}_findViewCache").set(this, app.findViewCache)
+
                 return true
             }
         } catch (e: kotlin.UninitializedPropertyAccessException) {
@@ -115,11 +119,21 @@ class MainActivity : PermissionActivity() {
             app.gAppsInfo = gAppsInfo
             app.gAppsNotFound = gAppsNotFound
             app.settings = settings
+
+            app.findViewCache = javaClass.getDeclaredField("_${'$'}_findViewCache").get(this)
         } catch (e: kotlin.UninitializedPropertyAccessException) {
             Log.w("saveState", "Error while save ${e.message?.split(" ")?.get(2)} state.")
         } catch (e: Exception) {
             Log.e("saveState", "Error while save state program. ${e.message}")
         }
+    }
+
+    private fun heatingUIHash() {
+        downloadUIProgressVisible = downloadUIProgressVisible
+        downloadButton.visibility = downloadButton.visibility
+        tvlv.visibility = tvlv.visibility
+        lastVersionTextView.visibility = lastVersionTextView.visibility
+        installButton.visibility = installButton.visibility
     }
     //EndSaveState
 

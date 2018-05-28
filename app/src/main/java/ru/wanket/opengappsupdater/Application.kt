@@ -6,8 +6,9 @@ import ru.wanket.opengappsupdater.gapps.GAppsInfo
 class Application: android.app.Application() {
     var mainView: ConstraintLayout? = null
     var downloadId = -1
+    var isRoot = false
     lateinit var gAppsInfo: GAppsInfo
     lateinit var gAppsNotFound: String
     lateinit var settings: Settings
-    var isRoot = false
+    var findViewCache: Any? = null
 }
