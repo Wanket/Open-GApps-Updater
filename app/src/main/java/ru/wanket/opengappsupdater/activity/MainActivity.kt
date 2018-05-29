@@ -257,7 +257,7 @@ class MainActivity : PermissionActivity() {
 
             private var progress: Progress? = null
 
-            private val frameTime = (1000 / (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay.refreshRate).toLong()
+            private val frameTime = (2000 / (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay.refreshRate).toLong() // Обновляем каждый второй кадр
 
             init {
                 val destination = "${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
@@ -294,7 +294,9 @@ class MainActivity : PermissionActivity() {
                     downloadProgressBar.progress = (lProgress.currentBytes * 100 / lProgress.totalBytes).toInt()
                 }
 
-                handler.postDelayed(this, frameTime)
+                if (PRDownloader.getStatus(downloadId) != Status.UNKNOWN) {
+                    handler.postDelayed(this, frameTime)
+                }
             }
         })
     }
@@ -364,10 +366,10 @@ class MainActivity : PermissionActivity() {
         if (PRDownloader.getStatus(downloadId) == Status.PAUSED) {
             PRDownloader.resume(downloadId)
             pauseButton.text = getString(R.string.pause)
+        } else {
+            PRDownloader.pause(downloadId)
+            pauseButton.text = getString(R.string.resume)
         }
-
-        PRDownloader.pause(downloadId)
-        pauseButton.text = getString(R.string.resume)
     }
     //EndUIListeners
 }
