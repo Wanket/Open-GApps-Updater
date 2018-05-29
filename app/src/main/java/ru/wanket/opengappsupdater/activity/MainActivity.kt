@@ -9,11 +9,8 @@ import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
 import android.os.Environment
-import ru.wanket.opengappsupdater.Log
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
-import android.view.ViewGroup
+import android.os.Handler
+import android.view.*
 import android.widget.Button
 import android.widget.TextView
 import com.android.volley.Request
@@ -24,10 +21,8 @@ import com.cyanogenmod.updater.utils.MD5
 import com.downloader.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
-import ru.wanket.opengappsupdater.Application
+import ru.wanket.opengappsupdater.*
 import ru.wanket.opengappsupdater.R
-import ru.wanket.opengappsupdater.Settings
-import ru.wanket.opengappsupdater.Toast
 import ru.wanket.opengappsupdater.background.update.GAppsJobService
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
@@ -38,6 +33,7 @@ class MainActivity : PermissionActivity() {
 
     companion object {
         private const val checkUpdateJobID = 1
+        private const val mBytes = 1024 * 1024 / 10
 
         private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
             return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
@@ -256,36 +252,51 @@ class MainActivity : PermissionActivity() {
             return
         }
 
-        val destination = "${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
-        val url = generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
+        val handler = Handler()
+        handler.post(object : Runnable {
 
-        downloadId = PRDownloader.download(url, destination, "update.zip")
-                .build()
-                .setOnProgressListener { onProgressDownload(it) }
-                .start(object : OnDownloadListener {
-                    override fun onDownloadComplete() {
-                        this@MainActivity.onDownloadComplete()
-                    }
+            private var progress: Progress? = null
 
-                    override fun onError(error: Error) {
-                        Log.e("onDownloadError", if (error.isConnectionError) "Connection Error" else "Server Error")
-                        Toast.show(applicationContext, if (error.isConnectionError) getString(R.string.connection_error) else getString(R.string.server_error))
-                        downloadUIProgressVisible = View.INVISIBLE
-                    }
-                })
+            private val frameTime = (1000 / (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay.refreshRate).toLong()
 
-        downloadUIProgressVisible = Button.VISIBLE
-        downloadProgressBar.progress = 0
-        progressTextView.text = getString(R.string.start_download_mbytes)
-    }
+            init {
+                val destination = "${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
+                val url = generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
 
-    @SuppressLint("SetTextI18n")
-    private fun onProgressDownload(progress: Progress) {
-        val mBytes = 1024 * 1024 / 10
-        val current = progress.currentBytes / mBytes / 10.0
-        val total = progress.totalBytes / mBytes / 10.0
-        progressTextView.text = "$current / $total ${getString(R.string.mbytes)}"
-        downloadProgressBar.progress = (progress.currentBytes * 100 / progress.totalBytes).toInt()
+                downloadId = PRDownloader.download(url, destination, "update.zip")
+                        .build()
+                        .setOnProgressListener { progress = it }
+                        .start(object : OnDownloadListener {
+                            override fun onDownloadComplete() {
+                                this@MainActivity.onDownloadComplete()
+                            }
+
+                            override fun onError(error: Error) {
+                                Log.e("onDownloadError", if (error.isConnectionError) "Connection Error" else "Server Error")
+                                Toast.show(applicationContext, if (error.isConnectionError) getString(R.string.connection_error) else getString(R.string.server_error))
+                                downloadUIProgressVisible = View.INVISIBLE
+                            }
+                        })
+
+                downloadUIProgressVisible = Button.VISIBLE
+                downloadProgressBar.progress = 0
+                progressTextView.text = getString(R.string.start_download_mbytes)
+            }
+
+            @SuppressLint("SetTextI18n")
+            override fun run() {
+                val lProgress = progress
+
+                if (lProgress != null) {
+                    val current = lProgress.currentBytes / mBytes / 10.0
+                    val total = lProgress.totalBytes / mBytes / 10.0
+                    progressTextView.text = "$current / $total ${getString(R.string.mbytes)}"
+                    downloadProgressBar.progress = (lProgress.currentBytes * 100 / lProgress.totalBytes).toInt()
+                }
+
+                handler.postDelayed(this, frameTime)
+            }
+        })
     }
 
     fun onDownloadComplete() {
