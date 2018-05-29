@@ -16,7 +16,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 27
         versionCode getTimestamp()
-        versionName "1.2"
+        versionName "1.3"
     }
     buildTypes {
         release {
