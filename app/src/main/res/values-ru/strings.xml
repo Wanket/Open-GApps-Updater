@@ -26,11 +26,12 @@
     <string name="error_parse_json">Ошибка во время обработки ответа от сервера</string>
     <string name="connection_error">Ошибка подключения</string>
     <string name="server_error">Ошибка на стороне сервера</string>
-    <string name="error_check_md5">Ошибка при проверке суммы MD5, попробуйте снова загрузить файл</string>
+    <string name="error_check_md5">Ошибка при проверке MD5 суммы, попробуйте снова загрузить файл</string>
     <string name="about">О программе</string>
     <string name="version_name">Версия</string>
     <string name="version_code">Код версии</string>
     <string name="about_4PDA">Тема приложения на форуме</string>
+    <string name="error_check_md5_ErrorInSetupSavedState">Ошибка при проверке MD5 суммы, попробуйте перезапустить приложение и снова загрузить файл</string>
 
     <string name="description">
         ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ,

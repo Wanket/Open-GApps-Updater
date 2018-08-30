@@ -32,6 +32,7 @@
     <string name="version_name">Version</string>
     <string name="version_code">Version code</string>
     <string name="about_4PDA">Topic of the application on the forum</string>
+    <string name="error_check_md5_ErrorInSetupSavedState">Error checking MD5 sum, try restarting the application and downloading the file again</string>
 
     <string name="description">
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR

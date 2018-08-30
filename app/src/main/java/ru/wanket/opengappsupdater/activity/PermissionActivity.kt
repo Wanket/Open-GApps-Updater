@@ -6,10 +6,7 @@ import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
-import ru.wanket.opengappsupdater.Application
-import ru.wanket.opengappsupdater.R
-import ru.wanket.opengappsupdater.Root
-import ru.wanket.opengappsupdater.Toast
+import ru.wanket.opengappsupdater.*
 
 abstract class PermissionActivity : AppCompatActivity() {
 
@@ -23,7 +20,8 @@ abstract class PermissionActivity : AppCompatActivity() {
     }
 
     private fun setPermissions() {
-        val app = (application as Application)
+        val app = Application.checkApp(application, "setPermissions")
+
         if (!app.isRoot) {
             updateRoot()
         }
@@ -45,7 +43,7 @@ abstract class PermissionActivity : AppCompatActivity() {
     }
 
     private fun updateRoot() {
-        val app = application as Application
+        val app = Application.checkApp(application, "updateRoot")
         app.isRoot = Root.checkRoot()
         if (!app.isRoot) {
             Toast.show(this, getString(R.string.root_not_found))

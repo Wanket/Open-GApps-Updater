@@ -79,7 +79,7 @@ class MainActivity : PermissionActivity() {
 
     //SaveState
     private fun setupSavedState(): Boolean {
-        val app = (application as Application)
+        val app = Application.checkApp(application, "setupSavedState")
         try {
             if (app.mainView != null) {
                 setContentView(app.mainView)
@@ -109,7 +109,7 @@ class MainActivity : PermissionActivity() {
         try {
             (mainView.parent as ViewGroup).removeView(mainView)
 
-            val app = (application as Application)
+            val app = Application.checkApp(application, "saveState")
             app.mainView = mainView
             app.downloadId = downloadId
             app.gAppsInfo = gAppsInfo
@@ -313,9 +313,20 @@ class MainActivity : PermissionActivity() {
     }
 
     private fun checkMD5() {
-        val url = "${generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)}.md5"
-        val queue = Volley.newRequestQueue(this)
+        val url = try {
+            "${generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)}.md5"
+        } catch (e: UninitializedPropertyAccessException) {
+            Log.w("checkMD5", "Error while load saved ${e.message?.split(" ")?.get(2)} state.")
+            if (setupSavedState()) {
+                "${generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)}.md5"
+            } else {
+                Log.e("checkMD5", "Error while generate download link in checkMD5")
+                Toast.show(this, getString(R.string.error_check_md5_ErrorInSetupSavedState))
+                return@checkMD5
+            }
+        }
 
+        val queue = Volley.newRequestQueue(this)
         val stringRequest = StringRequest(Request.Method.GET, url,
                 Response.Listener<String> { response -> onCheckMD5(response) },
                 Response.ErrorListener {
