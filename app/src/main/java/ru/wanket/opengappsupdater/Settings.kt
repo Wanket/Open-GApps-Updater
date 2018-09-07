@@ -6,14 +6,13 @@ import java.util.concurrent.TimeUnit
 
 class Settings(context: Context) {
     private val preferences = PreferenceManager.getDefaultSharedPreferences(context)
-    private val dayTime = if (BuildConfig.DEBUG) TimeUnit.MINUTES.toMillis(15) else TimeUnit.DAYS.toMillis(1)
 
-    var checkUpdateTime: Long
+    var checkUpdateTime: Int
         get() {
-            return preferences.getLong("checkUpdateTime", dayTime)
+            return preferences.getInt("checkUpdateTime", 1)
         }
         set(value) {
-            preferences.edit().putLong("checkUpdateTime", value).apply()
+            preferences.edit().putInt("checkUpdateTime", value).apply()
         }
 
     var lastVersion: Int
@@ -30,5 +29,13 @@ class Settings(context: Context) {
         }
         set(value) {
             preferences.edit().putBoolean("autoCheckUpdate", value).apply()
+        }
+
+    var externalDownload: Boolean
+        get() {
+            return preferences.getBoolean("externalDownload", false)
+        }
+        set(value) {
+            preferences.edit().putBoolean("externalDownload", value).apply()
         }
 }

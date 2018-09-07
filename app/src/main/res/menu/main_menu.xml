@@ -2,11 +2,9 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/checkUpdateItem"
-        android:checkable="true"
-        android:onClick="onAutoCheckUpdateClick"
-        android:title="@string/auto_check_update"
-        app:actionViewClass="android.widget.CheckBox"
+        android:id="@+id/settingsItem"
+        android:onClick="onSettingsClick"
+        android:title="@string/settings"
         app:showAsAction="never" />
     <item
         android:id="@+id/aboutItem"

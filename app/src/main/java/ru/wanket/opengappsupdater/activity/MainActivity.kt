@@ -22,12 +22,14 @@ import com.downloader.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
 import ru.wanket.opengappsupdater.*
+import ru.wanket.opengappsupdater.BuildConfig
 import ru.wanket.opengappsupdater.R
 import ru.wanket.opengappsupdater.background.update.GAppsJobService
 import ru.wanket.opengappsupdater.console.RootConsole
 import ru.wanket.opengappsupdater.gapps.GAppsInfo
 import ru.wanket.opengappsupdater.network.GitHubGApps
 import java.io.File
+import java.util.concurrent.TimeUnit
 
 class MainActivity : PermissionActivity() {
 
@@ -189,7 +191,7 @@ class MainActivity : PermissionActivity() {
         }
 
         JobInfo.Builder(checkUpdateJobID, ComponentName(this, GAppsJobService::class.java)).apply {
-            setPeriodic(settings.checkUpdateTime)
+            setPeriodic(TimeUnit.DAYS.toMillis(settings.checkUpdateTime.toLong()))
             setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
             setPersisted(true)
             //setOverrideDeadline(1) //use for fast debug
@@ -200,14 +202,12 @@ class MainActivity : PermissionActivity() {
     //Menu
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
-        val item = menu.findItem(R.id.checkUpdateItem)
-        item.isChecked = settings.autoCheckUpdate
         return true
     }
 
-    fun onAutoCheckUpdateClick(item: MenuItem) {
-        item.isChecked = !item.isChecked
-        settings.autoCheckUpdate = item.isChecked
+    fun onSettingsClick(item: MenuItem) {
+        val intent = Intent(this, SettingsActivity::class.java)
+        startActivity(intent)
     }
 
     fun onAboutItemClick(item: MenuItem) {
@@ -231,7 +231,7 @@ class MainActivity : PermissionActivity() {
             val json = JSONObject(response)
             val version = json.getInt("tag_name")
 
-            if (version <= gAppsInfo.version) {
+            if (version <= gAppsInfo.version && !BuildConfig.DEBUG) {
                 Toast.show(this, getString(R.string.update_not_required))
                 return
             }
@@ -260,7 +260,15 @@ class MainActivity : PermissionActivity() {
             private val frameTime = (2000 / (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay.refreshRate).toLong() // Обновляем каждый второй кадр
 
             init {
-                val destination = "${Environment.getExternalStorageDirectory().path}/Open GApps Updater/Downloads"
+                val storages = ExternalStorage.getAllStorageLocations()
+                var storagePath = if (settings.externalDownload) storages[ExternalStorage.EXTERNAL_SD_CARD] else storages[ExternalStorage.SD_CARD]
+
+                if (storagePath == null) {
+                    Toast.show(applicationContext, getString(R.string.external_memory_error))
+                    storagePath = storages[ExternalStorage.SD_CARD]
+                }
+
+                val destination = "${storagePath!!.path}/Open GApps Updater/Downloads"
                 val url = generateDownloadLink(gAppsInfo.arch, lastVersionTextView.text.toString(), gAppsInfo.platform, gAppsInfo.type)
 
                 downloadId = PRDownloader.download(url, destination, "update.zip")
