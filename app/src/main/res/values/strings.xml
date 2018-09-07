@@ -34,7 +34,7 @@
     <string name="about_4PDA">Topic of the application on the forum</string>
     <string name="error_check_md5_ErrorInSetupSavedState">Error checking MD5 sum, try restarting the application and downloading the file again</string>
     <string name="settings">Settings</string>
-    <string name="external_download_enable">Download update file in external memory</string>
+    <string name="external_download_enable">Use external memory for downloads</string>
     <string name="external_memory_error">External memory is not available, use internal memory.</string>
     <string name="update_period">Check period for updates in days</string>
 

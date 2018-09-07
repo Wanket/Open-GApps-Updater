@@ -30,6 +30,8 @@ class AboutPage(private val context: Context) : mehdi.sakout.aboutpage.AboutPage
                 addCategory(Intent.CATEGORY_BROWSABLE)
                 data = Uri.parse(url)
             }
-        }.let { addItem(it) }
+
+            addItem(this)
+        }
     }
 }

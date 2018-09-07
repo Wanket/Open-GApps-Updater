@@ -1,13 +1,14 @@
 package ru.wanket.opengappsupdater.activity
 
+import android.content.DialogInterface
 import android.support.v14.preference.SwitchPreference
+import android.support.v7.app.AlertDialog
 import android.support.v7.preference.PreferenceFragmentCompat
-import de.mrapp.android.preference.activity.NavigationListener
+import android.widget.NumberPicker
 import de.mrapp.android.preference.activity.NavigationPreference
 import de.mrapp.android.preference.activity.PreferenceActivity
 import ru.wanket.opengappsupdater.R
 import ru.wanket.opengappsupdater.Settings
-
 
 
 class SettingsActivity : PreferenceActivity() {
@@ -16,6 +17,7 @@ class SettingsActivity : PreferenceActivity() {
 
     private lateinit var autoCheckUpdateCheckBox: SwitchPreference
     private lateinit var externalDownloadCheckBox: SwitchPreference
+    private lateinit var updatePeriodNavigationPreference : NavigationPreference
 
     override fun onCreateNavigation(fragment: PreferenceFragmentCompat) {
         super.onCreateNavigation(fragment)
@@ -31,6 +33,7 @@ class SettingsActivity : PreferenceActivity() {
     private fun setupProperties(fragment: PreferenceFragmentCompat) {
         autoCheckUpdateCheckBox = fragment.findPreference("autoCheckUpdateCheckBox") as SwitchPreference
         externalDownloadCheckBox = fragment.findPreference("externalDownloadCheckBox") as SwitchPreference
+        updatePeriodNavigationPreference = fragment.findPreference("updatePeriodNavigationPreference") as NavigationPreference
     }
 
     private fun setupOnClickListeners() {
@@ -43,11 +46,17 @@ class SettingsActivity : PreferenceActivity() {
             preference ->  onExternalDownloadCheckBoxClicked(preference as SwitchPreference)
             true
         }
+
+        updatePeriodNavigationPreference.setOnPreferenceClickListener {
+            buildNumberSelector().show()
+            true
+        }
     }
 
     private fun setupUI() {
         autoCheckUpdateCheckBox.isChecked = settings.autoCheckUpdate
         externalDownloadCheckBox.isChecked = settings.externalDownload
+        updatePeriodNavigationPreference.summary = settings.checkUpdateTime.toString()
     }
 
     private fun onAutoCheckUpdateCheckBoxClicked(autoCheckUpdateCheckBox: SwitchPreference) {
@@ -56,5 +65,25 @@ class SettingsActivity : PreferenceActivity() {
 
     private fun onExternalDownloadCheckBoxClicked(externalDownloadCheckBox: SwitchPreference) {
         settings.externalDownload = externalDownloadCheckBox.isChecked
+    }
+
+    private fun buildNumberSelector(): AlertDialog {
+        return AlertDialog.Builder(this).apply {
+
+            val numberPicker = NumberPicker(this@SettingsActivity).apply {
+                maxValue = 366
+                minValue = 1
+                value = settings.checkUpdateTime
+            }
+            setView(numberPicker)
+
+            setTitle(getString(R.string.update_period))
+            setCancelable(true)
+            setPositiveButton("OK") { _: DialogInterface, _: Int ->
+                settings.checkUpdateTime = numberPicker.value
+                setupUI()
+            }
+            setNegativeButton(getString(R.string.cancel), null)
+        }.create()
     }
 }

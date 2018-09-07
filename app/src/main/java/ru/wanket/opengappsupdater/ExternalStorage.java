@@ -22,19 +22,6 @@ public class ExternalStorage {
         return Environment.MEDIA_MOUNTED.equals(state) || Environment.MEDIA_MOUNTED_READ_ONLY.equals(state);
     }
 
-    public static String getSdCardPath() {
-        return Environment.getExternalStorageDirectory().getPath() + "/";
-    }
-
-    /**
-     * @return True if the external storage is writable. False otherwise.
-     */
-    public static boolean isWritable() {
-        String state = Environment.getExternalStorageState();
-        return Environment.MEDIA_MOUNTED.equals(state);
-
-    }
-
     /**
      * @return A map of all storage locations available
      */
@@ -102,21 +89,21 @@ public class ExternalStorage {
             File root = new File(mount);
             if (root.exists() && root.isDirectory() && root.canWrite()) {
                 File[] list = root.listFiles();
-                String hash = "[";
+                StringBuilder hash = new StringBuilder("[");
                 if(list!=null){
                     for(File f : list){
-                        hash += f.getName().hashCode()+":"+f.length()+", ";
+                        hash.append(f.getName().hashCode()).append(":").append(f.length()).append(", ");
                     }
                 }
-                hash += "]";
-                if(!mountHash.contains(hash)){
+                hash.append("]");
+                if(!mountHash.contains(hash.toString())){
                     String key = SD_CARD + "_" + map.size();
                     if (map.size() == 0) {
                         key = SD_CARD;
                     } else if (map.size() == 1) {
                         key = EXTERNAL_SD_CARD;
                     }
-                    mountHash.add(hash);
+                    mountHash.add(hash.toString());
                     map.put(key, root);
                 }
             }

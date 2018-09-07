@@ -2,7 +2,6 @@ package ru.wanket.opengappsupdater
 
 import android.content.Context
 import android.preference.PreferenceManager
-import java.util.concurrent.TimeUnit
 
 class Settings(context: Context) {
     private val preferences = PreferenceManager.getDefaultSharedPreferences(context)

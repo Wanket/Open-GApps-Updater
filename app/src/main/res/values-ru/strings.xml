@@ -33,7 +33,7 @@
     <string name="about_4PDA">Тема приложения на форуме</string>
     <string name="error_check_md5_ErrorInSetupSavedState">Ошибка при проверке MD5 суммы, попробуйте перезапустить приложение и снова загрузить файл</string>
     <string name="settings">Настойки</string>
-    <string name="external_download_enable">Скачивать файл обновления во вневшюю память</string>
+    <string name="external_download_enable">Использовать внешнюю память для загрузок</string>
     <string name="external_memory_error">Внешняя память недоступна, использование внутренней.</string>
     <string name="update_period">Период проверки обновлений в днях</string>
 

@@ -27,7 +27,7 @@ class AboutActivity : AppCompatActivity() {
             setDescription(description)
 
             addPlayStore("ru.wanket.opengappsupdater")
-            //add4PDA(forPDA)
+            add4PDA("https://4pda.ru/forum/index.php?showtopic=911382")
             addGitHub(gitHub)
             addEmail("wanket@yandex.ru")
             addItems(items)
@@ -36,8 +36,7 @@ class AboutActivity : AppCompatActivity() {
                 addItem(Element("DEBUG BUILD", null))
             }
 
-        }.let {
-            setContentView(it.create())
+            setContentView(create())
         }
     }
 }
