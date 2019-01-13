@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Open GApps 更新工具</string>
+    <string name="current_version">当前版本</string>
+    <string name="architecture">架构</string>
+    <string name="update_not_required">无需更新</string>
+    <string name="last_version">最新版本</string>
+    <string name="download">下载</string>
+    <string name="install">重启到恢复模式并安装</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="start_download_mbytes">0.0 / 0.0 MB</string>
+    <string name="mbytes">MB</string>
+    <string name="gapps_not_found">​未找到GApps</string>
+    <string name="md5_check_error">MD5不匹配，请重新下载文件</string>
+    <string name="check_md5_and_reboot">检查MD5并重启</string>
+    <string name="cancel">取消</string>
+    <string name="root_found">Root已接受，继续</string>
+    <string name="root_not_found">Root不可用</string>
+    <string name="check_update">检查更新</string>
+    <string name="type">类型</string>
+    <string name="platform_version">平台版本</string>
+    <string name="no_perm_rw_storage">没有赋予内部存储的写入权限，退出程序</string>
+    <string name="update_available">有更新</string>
+    <string name="auto_check_update">自动检查更新</string>
+    <string name="network_error">网络错误</string>
+    <string name="error_parse_json">处理来自服务器的响应时出错</string>
+    <string name="connection_error">连接错误</string>
+    <string name="server_error">服务器端错误</string>
+    <string name="error_check_md5">检查MD5总和时出错，请重新下载文件</string>
+    <string name="about">关于</string>
+    <string name="version_name">版本</string>
+    <string name="version_code">版本代码</string>
+    <string name="about_4PDA">论坛上的应用程序主题</string>
+    <string name="error_check_md5_ErrorInSetupSavedState">检查MD5总和时出错，请重新启动应用程序并重新下载文件</string>
+    <string name="settings">设置</string>
+    <string name="external_download_enable">使用外部存储进行下载</string>
+    <string name="external_memory_error">外部存储不可用，请使用内部存储。</string>
+    <string name="update_period">检查更新天数</string>
+
+    <string name="description">
+        本软件按“原样”提供，不作任何明示或暗示的担保，包括但不限于对适销性、针对特殊用途的适用性和不侵权的担保。
+        在任何情况下，无论是由本软件、软件使用或与本软件有关的其他交易引起或与之相关的合同、侵权或其他方面的诉讼，
+        作者或版权所有者均不对任何索赔、损害或其他赔偿负责。
+    </string>
+</resources>
