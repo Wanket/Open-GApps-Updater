@@ -205,11 +205,13 @@ class MainActivity : PermissionActivity() {
         return true
     }
 
+    @Suppress("UNUSED_PARAMETER")
     fun onSettingsClick(item: MenuItem) {
         val intent = Intent(this, SettingsActivity::class.java)
         startActivity(intent)
     }
 
+    @Suppress("UNUSED_PARAMETER")
     fun onAboutItemClick(item: MenuItem) {
         val intent = Intent(this, AboutActivity::class.java)
         startActivity(intent)
@@ -257,7 +259,7 @@ class MainActivity : PermissionActivity() {
 
             private var progress: Progress? = null
 
-            private val frameTime = (2000 / (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay.refreshRate).toLong() // Обновляем каждый второй кадр
+            private val frameTime = (2000 / (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay.refreshRate).toLong() // Обновляем каждый второй кадр (update every second frame)
 
             init {
                 val storages = ExternalStorage.getAllStorageLocations()

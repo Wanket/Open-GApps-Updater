@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Open GApps Updater</string>
+    <string name="app_name">Open GApps Updater</string>
     <string name="current_version">Current version</string>
     <string name="architecture">Architecture</string>
     <string name="update_not_required">No update required</string>

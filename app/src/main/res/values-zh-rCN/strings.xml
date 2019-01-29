@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Open GApps 更新工具</string>
+    <string name="app_name">Open GApps 更新工具</string>
     <string name="current_version">当前版本</string>
     <string name="architecture">架构</string>
     <string name="update_not_required">无需更新</string>
