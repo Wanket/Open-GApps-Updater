@@ -38,7 +38,7 @@ class MainActivity : PermissionActivity() {
         private const val mBytes = 1024 * 1024 / 10
 
         private fun generateDownloadLink(arch: CharSequence, version: CharSequence, androidVersion: CharSequence, type: CharSequence): String {
-            return "https://github.com/opengapps/$arch/releases/download/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
+            return "https://netix.dl.sourceforge.net/project/opengapps/$arch/$version/open_gapps-$arch-$androidVersion-$type-$version.zip"
         }
     }
 
